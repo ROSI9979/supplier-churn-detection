@@ -1,0 +1,9 @@
+customer_id,churn_risk_score,risk_level,days_until_churn,predicted_churn_date,purchase_cycle,clv,avg_spending,retention_roi,recommended_discount_pct,action
+Customer_000,81.23620356542088,High Risk,38,2026-02-25,30,219879,74732,12284,12,URGENT: Call customer today
+Customer_001,83.37498258560774,High Risk,32,2026-02-21,30,474871,74131,17023,12,URGENT: Call customer today
+Customer_002,70.61753482887407,High Risk,11,2026-03-06,31,427069,32433,6311,15,URGENT: Call customer today
+Customer_003,75.50213529560301,High Risk,21,2026-03-08,41,358795,57480,9666,12,URGENT: Call customer today
+Customer_004,81.99582915145767,High Risk,37,2026-03-10,35,165725,49118,4005,12,URGENT: Call customer today
+Customer_005,81.47385973801488,High Risk,29,2026-03-07,22,431236,33890,9838,8,URGENT: Call customer today
+Customer_006,83.51497755908629,High Risk,27,2026-02-14,44,339931,73021,9433,10,URGENT: Call customer today
+Customer_007,79.13841307520111,High Risk,30,2026-02-12,39,351995,53483,16787,8,URGENT: Call customer today
