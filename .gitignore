@@ -1,0 +1,4 @@
+# Allow data files
+!churn_report.json
+!reports/
+!supplier_churn.db
