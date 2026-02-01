@@ -1,6 +1,6 @@
 """
 Main orchestration file for Supplier Churn Detection System
-Coordinates data generation, analysis, database, and reporting
+Includes Real-Time Alerts (Feature 3)
 """
 
 import os
@@ -14,6 +14,7 @@ from data_generator import DataGenerator
 from churn_detection import ChurnDetectionSystem
 from database import DatabaseManager
 from report_generator import ReportGenerator
+from alert_system import AlertSystem
 
 
 def print_banner():
@@ -31,7 +32,7 @@ def main():
     print_banner()
     
     # ═══════════════════════════════════════════════════════════════════════
-    # STEP 1: GENERATE OR LOAD DATA
+    # STEP 1: GENERATE DATA
     # ═══════════════════════════════════════════════════════════════════════
     
     print("=" * 80)
@@ -49,7 +50,7 @@ def main():
     print(f"   • Products: 5 categories\n")
     
     # ═══════════════════════════════════════════════════════════════════════
-    # STEP 2: RUN CHURN DETECTION ANALYSIS
+    # STEP 2: RUN CHURN DETECTION
     # ═══════════════════════════════════════════════════════════════════════
     
     print("=" * 80)
@@ -105,7 +106,6 @@ def main():
     
     report_gen = ReportGenerator()
     
-    # Generate CSV reports
     print("[1/3] Creating customer metrics CSV...")
     report_gen.generate_customer_metrics_report(churn_results)
     print("✓ Created: reports/customer_metrics.csv")
@@ -118,8 +118,45 @@ def main():
     report_gen.generate_product_risk_report(customers_data, churn_results)
     print("✓ Created: reports/product_risk_analysis.csv")
     
-    # Generate JSON report
-    print("\nGenerating comprehensive JSON report...")
+    # ═══════════════════════════════════════════════════════════════════════
+    # STEP 5: SEND ALERTS (NEW - FEATURE 3)
+    # ═══════════════════════════════════════════════════════════════════════
+    
+    print("\n" + "=" * 80)
+    print("STEP 5: SENDING REAL-TIME ALERTS")
+    print("=" * 80)
+    
+    alert_system = AlertSystem()
+    
+    # Print alert summary to console
+    alert_system.print_alert_summary(high_risk)
+    
+    # Option 1: Send email alert (requires Gmail setup)
+    # Uncomment and configure if you want to send emails
+    # alert_system.send_email_alert(
+    #     recipient_email="your-email@gmail.com",
+    #     high_risk_customers=high_risk,
+    #     use_gmail=True
+    # )
+    
+    # Option 2: Print email alert preview to console (for testing)
+    print("\nGenerating email alert preview...")
+    alert_system.send_email_alert(
+        recipient_email="sales-team@company.com",
+        high_risk_customers=high_risk,
+        use_gmail=False  # Set to True if Gmail is configured
+    )
+    
+    print("✓ Alerts processed\n")
+    
+    # ═══════════════════════════════════════════════════════════════════════
+    # STEP 6: GENERATE JSON REPORT
+    # ═══════════════════════════════════════════════════════════════════════
+    
+    print("=" * 80)
+    print("STEP 6: GENERATING COMPREHENSIVE JSON REPORT")
+    print("=" * 80)
+    
     summary_stats = {
         'total_customers': len(churn_results),
         'high_risk_count': len(high_risk),
@@ -141,14 +178,13 @@ def main():
     print("✓ Created: churn_report.json\n")
     
     # ═══════════════════════════════════════════════════════════════════════
-    # STEP 5: DISPLAY HIGH-RISK CUSTOMERS
+    # STEP 7: DISPLAY HIGH-RISK CUSTOMERS
     # ═══════════════════════════════════════════════════════════════════════
     
     print("=" * 80)
-    print("STEP 5: HIGH-RISK CUSTOMERS (TOP 10)")
+    print("STEP 7: HIGH-RISK CUSTOMERS (TOP 10)")
     print("=" * 80 + "\n")
     
-    # Sort by CLV (highest value at risk first)
     high_risk_sorted = sorted(high_risk, 
                              key=lambda x: x.get('clv', 0), 
                              reverse=True)
@@ -186,7 +222,6 @@ def main():
     print(f"\n💰 TOTAL REVENUE AT RISK: £{summary_stats['total_revenue_at_risk']:,.0f}")
     print(f"   (Annual value of high-risk customers)\n")
     
-    # Calculate potential savings
     total_discount_cost = sum([c.get('discount_cost', 0) for c in high_risk])
     total_roi = sum([c.get('retention_roi', 0) for c in high_risk])
     
