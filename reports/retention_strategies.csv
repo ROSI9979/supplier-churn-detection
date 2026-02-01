@@ -1,6 +1,0 @@
-customer_id,risk_level,risk_score,products_at_risk,recommended_discount_pct,action,priority
-Customer_002,High Risk,100.0,"Chicken Dips, Cheese Dips, Sauces, Frozen Items",15,Proactive outreach with 15% discount on lost products,URGENT
-Customer_006,High Risk,91.35,"Chicken Dips, Cheese Dips, Drinks, Sauces, Frozen Items",15,Proactive outreach with 15% discount on lost products,URGENT
-Customer_001,High Risk,78.43,"Chicken Dips, Cheese Dips, Drinks, Sauces, Frozen Items",15,Proactive outreach with 15% discount on lost products,URGENT
-Customer_027,High Risk,77.8,"Chicken Dips, Cheese Dips, Drinks, Sauces, Frozen Items",15,Proactive outreach with 15% discount on lost products,URGENT
-Customer_005,High Risk,74.18,"Chicken Dips, Cheese Dips, Drinks, Sauces, Frozen Items",12,Proactive outreach with 12% discount on lost products,URGENT
