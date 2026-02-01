@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-02-01T23:36:41.374905",
+  "summary": {
+    "total_customers": 50,
+    "high_risk_count": 8,
+    "medium_risk_count": 12,
+    "avg_risk_score": 58.5,
+    "total_revenue_at_risk": 1055000
+  },
+  "high_risk_customers": [
+    {
+      "customer_id": "Customer_001",
+      "churn_risk_score": 94.0,
+      "risk_level": "High Risk",
+      "days_until_churn": 18,
+      "predicted_churn_date": "2026-02-19",
+      "purchase_cycle": 30,
+      "clv": 487000,
+      "avg_spending": 45000,
+      "retention_roi": 19480,
+      "recommended_discount_pct": 15,
+      "action": "URGENT: Call customer today"
+    }
+  ],
+  "retention_strategies": []
+}
