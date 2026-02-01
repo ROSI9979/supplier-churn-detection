@@ -55,6 +55,7 @@ if data['high_risk_customers']:
                 st.metric("📈 Retention ROI", f"{roi:,.0f}%", delta="Expected return")
             
             st.write(f"**Customer:** {row['customer_id']}")
+            st.write(f"**Annual Spending:** £{row.get('avg_spending', 0):,.0f}")
             st.write(f"**Spending Trend:** {row.get('spending_trend', 0):.1f}%")
             st.write(f"**Recommended Discount:** {row.get('recommended_discount_pct', 0)}%")
             st.write(f"**Action:** {row.get('action', 'Monitor')}")
@@ -62,7 +63,38 @@ if data['high_risk_customers']:
 else:
     st.info("✅ No high-risk customers detected")
 
-# SECTION 3: ALL CUSTOMERS METRICS
+# SECTION 3: PRODUCTS AT RISK
+st.header("📦 Products at Risk of Being Lost")
+
+if data['high_risk_customers']:
+    products_data = []
+    
+    for customer in data['high_risk_customers']:
+        products = ['Cheese Dips', 'Chicken Dips', 'Drinks', 'Sauces', 'Frozen Items']
+        for product in products:
+            products_data.append({
+                'Customer': customer['customer_id'],
+                'Product': product,
+                'Risk Score': customer['churn_risk_score'],
+                'Days Until Churn': customer.get('days_until_churn', '?'),
+                'Annual Spend at Risk': f"£{customer.get('avg_spending', 0) / len(products):,.0f}",
+                'Priority': 'CRITICAL' if customer.get('days_until_churn', 100) <= 15 else 'HIGH'
+            })
+    
+    products_df = pd.DataFrame(products_data)
+    
+    st.subheader("Products by Risk Priority")
+    st.dataframe(
+        products_df.sort_values('Risk Score', ascending=False),
+        use_container_width=True,
+        height=400
+    )
+    
+    st.subheader("📊 Product Risk Summary")
+    product_summary = products_df.groupby('Product').size().reset_index(name='Customers at Risk')
+    st.bar_chart(product_summary.set_index('Product'))
+
+# SECTION 4: ALL CUSTOMERS METRICS
 st.header("📈 All Customers - Detailed Metrics")
 
 try:
@@ -83,7 +115,7 @@ try:
 except Exception as e:
     st.error(f"Error loading customer metrics: {e}")
 
-# SECTION 4: KEY INSIGHTS
+# SECTION 5: KEY INSIGHTS
 st.header("💡 Key Insights")
 
 col1, col2, col3 = st.columns(3)
@@ -100,7 +132,7 @@ with col3:
     st.metric("Largest Account at Risk",
               f"£{high_risk_df['clv'].max():,.0f}" if not high_risk_df.empty else "N/A")
 
-# SECTION 5: RETENTION STRATEGIES
+# SECTION 6: RETENTION STRATEGIES
 st.header("💡 Recommended Retention Strategies")
 
 if data['high_risk_customers']:
@@ -122,12 +154,13 @@ if data['high_risk_customers']:
                 st.metric("Days to Act", row.get('days_until_churn', '?'))
             
             st.write(f"**Churn Date:** {row.get('predicted_churn_date', 'Unknown')}")
+            st.write(f"**Products at Risk:** Cheese Dips, Chicken Dips, Drinks, Sauces, Frozen Items")
             st.write(f"**Recommended Action:** {row.get('action', 'Monitor')}")
             st.write(f"**CLV (Lifetime Value):** £{row.get('clv', 0):,.0f}")
 else:
     st.info("No retention strategies needed")
 
-# SECTION 6: SIDEBAR
+# SECTION 7: SIDEBAR
 st.sidebar.header("ℹ️ About This System")
 st.sidebar.markdown("""
 ## How It Works
@@ -149,6 +182,7 @@ This system uses **multi-factor risk scoring** to identify at-risk customers:
 - **CLV**: Customer Lifetime Value (5-year projection)
 - **ROI**: Return on retention investment
 - **Churn Date**: Predicted when customer will leave
+- **Products**: Which products are at risk
 """)
 
 st.sidebar.markdown("---")
