@@ -1,0 +1,44 @@
+
+SUPPLIER CHURN DETECTION SYSTEM - QUICK REFERENCE
+==================================================
+
+RISK SCORING METHODOLOGY:
+• Spending Trend (35%): Linear regression on monthly spending
+• Recent Decline (35%): Comparison of recent vs historical averages
+• Inactivity (20%): Number of months with zero spending
+• Volatility (10%): Erratic purchasing patterns
+
+RISK LEVELS:
+• 🔴 HIGH RISK (70-100): Immediate action required
+  Recommended: 15% discount + personalized outreach
+  
+• 🟠 MEDIUM RISK (45-69): Monitor closely
+  Recommended: 8-12% discount + periodic check-ins
+  
+• 🟢 LOW RISK (0-44): Stable customers
+  Recommended: Standard retention
+
+KEY OUTPUTS:
+1. customer_metrics.csv - Full metrics for all customers
+2. product_risk_analysis.csv - Which products are being lost
+3. retention_strategies.csv - Specific actions per customer
+4. churn_report.json - Complete analysis in JSON format
+
+DATABASE TABLES:
+• transactions - All customer purchases
+• customer_metrics - Calculated churn scores
+• churn_predictions - Recommended actions
+• retention_actions - History of interventions
+
+TO QUERY THE DATABASE:
+from database import SupplierDatabase
+db = SupplierDatabase('supplier_churn.db')
+high_risk = db.get_high_risk_customers()
+recommendations = db.get_retention_recommendations()
+
+NEXT STEPS:
+1. Review high-risk customers in churn_report.json
+2. Implement retention actions for URGENT priority customers
+3. Offer recommended discounts on at-risk products
+4. Track outcomes in retention_actions table
+5. Re-run analysis monthly to identify new at-risk customers

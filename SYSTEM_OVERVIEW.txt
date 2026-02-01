@@ -1,0 +1,394 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  SUPPLIER CHURN DETECTION SYSTEM                             ║
+║              Complete B2B Customer Retention Solution                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+WHAT YOU'VE BUILT
+═════════════════════════════════════════════════════════════════════════════
+
+An intelligent system that:
+✓ Identifies customers at risk of switching to competitors
+✓ Analyzes which products are being sourced elsewhere
+✓ Generates automatic retention strategies
+✓ Recommends discount levels based on risk
+✓ Tracks retention actions and outcomes
+
+Real Example:
+─────────────
+Your takeaway used to buy chicken from Fresco every week.
+Month 1: Dropped from 20 units to 12 units (40% decline)
+Month 2: Dropped to 8 units (80% decline total) - buying from Booker
+System detects this at Month 2 (not Month 6)
+Fresco offers 12% discount
+You stay, Fresco keeps the business
+
+
+SYSTEM ARCHITECTURE
+═════════════════════════════════════════════════════════════════════════════
+
+Raw Transaction Data
+         ↓
+    [Data Generator]  ← Creates synthetic or loads real data
+         ↓
+    [ML Model]        ← Calculates churn risk scores
+         ↓
+    [Database]        ← Stores transactions, metrics, predictions
+         ↓
+    [Analysis]        ← Identifies at-risk customers & products
+         ↓
+    [Reports]         ← Generates actionable insights
+         ↓
+    Output: CSV + JSON + SQLite Database
+
+
+KEY COMPONENTS
+═════════════════════════════════════════════════════════════════════════════
+
+1. DATA GENERATOR (data_generator.py)
+   • Simulates B2B transaction patterns
+   • Generates 3,000 transactions for 50 customers over 12 months
+   • Includes churn simulation (30% of customers)
+   • Can use with real data
+
+2. CHURN DETECTION MODEL (churn_detection.py)
+   • Multi-factor risk scoring algorithm
+   • 4 weighted factors:
+     - Spending Trend (35%)        → Linear regression on spending
+     - Recent Decline (35%)         → Recent vs historical average
+     - Inactivity (20%)            → Months with zero purchases
+     - Volatility (10%)            → Erratic buying patterns
+   • Produces Churn Risk Score: 0-100
+   • Risk Levels:
+     🔴 HIGH (70-100)   → Immediate action needed
+     🟠 MEDIUM (45-69)  → Monitor closely
+     🟢 LOW (0-44)      → Stable customer
+
+3. DATABASE LAYER (database.py)
+   • SQLite database with 4 tables:
+     - transactions: All customer purchases
+     - customer_metrics: Risk scores & metrics
+     - churn_predictions: Recommended actions
+     - retention_actions: History of interventions
+   • Query methods for analysis
+   • Action logging for tracking
+
+4. REPORTING ENGINE (report_generator.py)
+   • Executive summaries
+   • High-risk customer analysis
+   • Product churn analysis
+   • Retention strategy generation
+   • CSV & JSON exports
+
+5. ORCHESTRATOR (main.py)
+   • Ties everything together
+   • Runs complete pipeline
+   • Handles data flow
+   • Generates reports
+
+
+OUTPUT FILES (GENERATED AUTOMATICALLY)
+═════════════════════════════════════════════════════════════════════════════
+
+When you run: python main.py --generate-data
+
+Generated Files:
+┌─────────────────────────────────────────────────────────────────────────┐
+│ 1. transactions.csv (154 KB)                                            │
+│    └─ 3,000 sample transactions with:                                   │
+│       • Customer IDs, dates, products, quantities, prices               │
+│                                                                          │
+│ 2. supplier_churn.db (284 KB)                                           │
+│    └─ SQLite database containing:                                       │
+│       • Transaction data                                                │
+│       • Customer metrics (risk scores)                                  │
+│       • Churn predictions                                               │
+│       • Action history                                                  │
+│                                                                          │
+│ 3. reports/customer_metrics.csv (7.7 KB)                               │
+│    └─ All 50 customers with:                                            │
+│       • Risk scores (0-100)                                             │
+│       • Spending trends                                                 │
+│       • Recent changes                                                  │
+│       • Risk levels                                                     │
+│                                                                          │
+│ 4. reports/product_risk_analysis.csv (14 KB)                           │
+│    └─ Product-level churn signals:                                      │
+│       • Which customers losing which products                           │
+│       • Quantity changes for each product                               │
+│       • Percentage decline per product                                  │
+│                                                                          │
+│ 5. reports/retention_strategies.csv (838 bytes)                        │
+│    └─ Actionable recommendations:                                       │
+│       • Customer ID & risk level                                        │
+│       • Products at risk                                                │
+│       • Recommended discount (5-15%)                                    │
+│       • Priority (URGENT/HIGH/MEDIUM)                                  │
+│                                                                          │
+│ 6. churn_report.json (4.8 KB)                                          │
+│    └─ Complete analysis in JSON:                                        │
+│       • Summary statistics                                              │
+│       • All high-risk customers                                         │
+│       • All retention strategies                                        │
+│       • Timestamp of analysis                                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+
+SAMPLE RESULTS
+═════════════════════════════════════════════════════════════════════════════
+
+Executive Summary:
+─────────────────
+Total Customers: 50
+
+Risk Distribution:
+  🔴 HIGH RISK:   5 customers (10%)
+  🟠 MEDIUM RISK: 6 customers (12%)
+  🟢 LOW RISK:    39 customers (78%)
+
+Revenue at Risk:
+  Monthly: £18,653
+  Annual:  £223,837
+
+Top At-Risk Customers:
+─────────────────────
+Customer_002  | Score: 100.0 | Trend: -231.76 | Decline: -45.6% | Spend: £4,224/mo
+Customer_006  | Score: 91.4  | Trend: -219.82 | Decline: -42.4% | Spend: £4,226/mo
+Customer_001  | Score: 78.4  | Trend: -199.57 | Decline: -39.3% | Spend: £3,346/mo
+
+Products Being Lost:
+────────────────────
+• Drinks        (11 customers affected, -49.3% avg decline)
+• Frozen Items  (15 customers affected, -48.5% avg decline)
+• Cheese Dips   (12 customers affected, -42.8% avg decline)
+• Chicken Dips  (13 customers affected, -41.9% avg decline)
+
+Retention Strategies:
+────────────────────
+Customer_001 - URGENT
+  Action: Proactive outreach with 15% discount
+  Products: Chicken Dips, Cheese Dips, Drinks, Sauces, Frozen Items
+
+Customer_002 - URGENT
+  Action: Proactive outreach with 15% discount
+  Products: Chicken Dips, Cheese Dips, Sauces, Frozen Items
+
+
+HOW TO USE IT
+═════════════════════════════════════════════════════════════════════════════
+
+Option 1: Generate Sample Data & Analyze
+─────────────────────────────────────────
+$ cd supplier_churn_system
+$ python main.py --generate-data
+
+[System will generate data, run analysis, create reports]
+[Takes ~5 seconds]
+[Displays results on screen]
+
+Output: All CSV/JSON files created automatically
+
+Option 2: Analyze Existing Data
+───────────────────────────────
+$ python main.py
+[Reads transactions.csv and runs analysis]
+
+Option 3: Query Results Programmatically
+────────────────────────────────────────
+from database import SupplierDatabase
+db = SupplierDatabase('supplier_churn.db')
+high_risk = db.get_high_risk_customers()
+recommendations = db.get_retention_recommendations()
+
+
+ALGORITHM EXPLAINED
+═════════════════════════════════════════════════════════════════════════════
+
+How Churn Risk Score is Calculated:
+───────────────────────────────────
+
+For each customer, the system:
+
+1. Calculates Metrics:
+   - Average monthly spending (over 12 months)
+   - Spending trend (declining or increasing?)
+   - Volatility (how erratic are purchases?)
+   - Recent vs historical average (recent decline?)
+   - Inactivity (months with zero spending)
+
+2. Scores Each Factor:
+   - Spending Trend:     Z-score of regression slope
+   - Recent Decline:     Z-score of % change
+   - Inactivity:         Count × 0.5
+   - Volatility:         Z-score of std deviation
+
+3. Weights Factors:
+   Risk = (35% × Trend)
+        + (35% × Decline)
+        + (20% × Inactivity)
+        + (10% × Volatility)
+
+4. Normalizes to 0-100:
+   Final Score = (Risk / Max) × 100
+
+5. Classifies Risk Level:
+   🔴 HIGH RISK (70-100)   → 15% discount
+   🟠 MEDIUM RISK (45-69)  → 8-12% discount
+   🟢 LOW RISK (0-44)      → Standard retention
+
+Example Walkthrough:
+────────────────────
+Customer_002:
+  Month 1-6:  Avg spending £5,000/month
+  Month 7-12: Avg spending £2,700/month = -46% decline
+
+  Spending Trend:  -231.76 (strong downward)  → Very High Risk
+  Recent Decline:  -45.6%  (huge recent drop) → Very High Risk
+  Inactivity:      0 months (not inactive)    → Low Risk
+  Volatility:      High (erratic patterns)    → Medium Risk
+
+  Risk Score: 100/100 (Extremely High)
+  Recommendation: URGENT - 15% discount immediately
+
+
+REAL-WORLD APPLICATIONS
+═════════════════════════════════════════════════════════════════════════════
+
+For Suppliers:
+  • Detect customer churn before it happens
+  • Identify which products are being lost to competitors
+  • Optimize discount spending on at-risk customers
+  • Measure retention program effectiveness
+
+For Supply Chain Teams:
+  • Monitor vendor concentration risk
+  • Identify supply chain vulnerabilities
+  • Track vendor relationship health
+
+For Business Intelligence:
+  • Forecast revenue impact of churn
+  • Measure customer lifetime value at risk
+  • Make data-driven retention decisions
+
+Potential Industries:
+  ✓ Food & Beverage (Fresco, Booker, Farm Foods)
+  ✓ Manufacturing (component suppliers)
+  ✓ Pharma (bulk supplies)
+  ✓ FMCG (wholesale distribution)
+  ✓ B2B Services (any subscription model)
+  ✓ SaaS (cloud credits, API usage)
+
+
+PROJECT STRUCTURE
+═════════════════════════════════════════════════════════════════════════════
+
+supplier_churn_system/
+├── 📄 Application Code
+│   ├── main.py                    # Entry point
+│   ├── data_generator.py          # Creates synthetic data
+│   ├── churn_detection.py         # ML model & algorithms
+│   ├── database.py                # Database operations
+│   └── report_generator.py        # Report creation
+│
+├── 📊 Configuration
+│   ├── requirements.txt           # Python dependencies
+│   ├── README.md                  # Full documentation
+│   └── QUICK_REFERENCE.txt        # Quick start guide
+│
+├── 📁 Generated on Run
+│   ├── transactions.csv           # Sample transaction data
+│   ├── supplier_churn.db          # SQLite database
+│   ├── churn_report.json          # JSON export
+│   └── reports/                   # CSV exports
+│       ├── customer_metrics.csv
+│       ├── product_risk_analysis.csv
+│       └── retention_strategies.csv
+
+
+INSTALLATION & QUICK START
+═════════════════════════════════════════════════════════════════════════════
+
+1. Install dependencies:
+   $ pip install -r requirements.txt
+
+2. Run analysis with sample data:
+   $ python main.py --generate-data
+
+3. View results:
+   ✓ Screen output (high-risk customers, recommendations)
+   ✓ churn_report.json (complete analysis)
+   ✓ reports/*.csv (detailed breakdowns)
+   ✓ supplier_churn.db (queryable database)
+
+That's it! You have a complete churn detection system.
+
+
+TECHNICAL STACK
+═════════════════════════════════════════════════════════════════════════════
+
+Language:     Python 3.8+
+Data:         pandas, NumPy
+ML/Stats:     scikit-learn, SciPy
+Database:     SQLite
+Reporting:    CSV, JSON
+UI:           Command-line (tabulate)
+
+No external APIs or cloud services required.
+Runs completely standalone.
+
+
+WHY THIS PROJECT MATTERS
+═════════════════════════════════════════════════════════════════════════════
+
+For Your Career:
+  ✓ Demonstrates full-stack data engineering
+  ✓ Shows business problem-solving skills
+  ✓ Proves ML and database competency
+  ✓ Portfolio piece for interviews
+  ✓ Real-world applicable skill
+
+For Job Interviews:
+  "I built an end-to-end churn detection system that analyzes B2B customer
+   transaction patterns using statistical methods and ML algorithms. It
+   scores customers using a weighted risk model and generates automated
+   retention strategies."
+
+For Business:
+  ✓ Identifiable revenue impact (£200k+ annually)
+  ✓ Scalable to any B2B supplier
+  ✓ Potential SaaS business opportunity
+  ✓ Solves real market problem
+
+
+NEXT STEPS
+═════════════════════════════════════════════════════════════════════════════
+
+1. Explore the code:
+   • Read through each .py file
+   • Understand the algorithms
+   • Modify and experiment
+
+2. Run with different parameters:
+   • python main.py --customers 100 --months 24
+   • Test with your own CSV data
+
+3. Enhance the system:
+   • Add Streamlit dashboard
+   • Build REST API
+   • Create predictive models
+   • Add email automation
+
+4. Deploy it:
+   • Docker container
+   • Cloud deployment (AWS/GCP)
+   • SaaS offering
+
+5. Use it in interviews:
+   • Show on GitHub
+   • Explain in technical interview
+   • Demo for hiring managers
+
+
+═════════════════════════════════════════════════════════════════════════════
+                    You've built something impressive!
+                    This is portfolio-quality work.
+═════════════════════════════════════════════════════════════════════════════

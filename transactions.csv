@@ -1,0 +1,3001 @@
+date,customer_id,product,quantity,unit_price,total_value,month
+2023-01-01,Customer_000,Chicken Dips,46,10.11,464.89,1
+2023-01-01,Customer_000,Cheese Dips,34,29.37,998.42,1
+2023-01-01,Customer_000,Drinks,23,16.61,381.97,1
+2023-01-01,Customer_000,Sauces,51,49.2,2509.08,1
+2023-01-01,Customer_000,Frozen Items,10,28.83,288.34,1
+2023-01-01,Customer_001,Chicken Dips,21,49.83,1046.46,1
+2023-01-01,Customer_001,Cheese Dips,42,45.52,1911.79,1
+2023-01-01,Customer_001,Drinks,24,20.26,486.15,1
+2023-01-01,Customer_001,Sauces,24,36.52,876.39,1
+2023-01-01,Customer_001,Frozen Items,12,43.53,522.42,1
+2023-01-01,Customer_002,Chicken Dips,15,40.09,601.42,1
+2023-01-01,Customer_002,Cheese Dips,30,43.29,1298.75,1
+2023-01-01,Customer_002,Drinks,35,12.27,429.57,1
+2023-01-01,Customer_002,Sauces,44,35.1,1544.6,1
+2023-01-01,Customer_002,Frozen Items,25,21.75,543.82,1
+2023-01-01,Customer_003,Chicken Dips,10,34.86,348.58,1
+2023-01-01,Customer_003,Cheese Dips,22,12.24,269.2,1
+2023-01-01,Customer_003,Drinks,2,26.85,53.71,1
+2023-01-01,Customer_003,Sauces,25,34.34,858.46,1
+2023-01-01,Customer_003,Frozen Items,51,12.92,658.75,1
+2023-01-01,Customer_004,Chicken Dips,32,15.68,501.64,1
+2023-01-01,Customer_004,Cheese Dips,41,13.05,534.93,1
+2023-01-01,Customer_004,Drinks,8,34.23,273.87,1
+2023-01-01,Customer_004,Sauces,26,37.44,973.5,1
+2023-01-01,Customer_004,Frozen Items,32,29.41,941.26,1
+2023-01-01,Customer_005,Chicken Dips,13,33.63,437.25,1
+2023-01-01,Customer_005,Cheese Dips,26,15.98,415.47,1
+2023-01-01,Customer_005,Drinks,48,49.05,2354.41,1
+2023-01-01,Customer_005,Sauces,26,45.14,1173.69,1
+2023-01-01,Customer_005,Frozen Items,27,20.75,560.35,1
+2023-01-01,Customer_006,Chicken Dips,41,30.96,1269.39,1
+2023-01-01,Customer_006,Cheese Dips,27,13.79,372.22,1
+2023-01-01,Customer_006,Drinks,17,30.74,522.58,1
+2023-01-01,Customer_006,Sauces,14,6.96,97.47,1
+2023-01-01,Customer_006,Frozen Items,47,44.76,2103.59,1
+2023-01-01,Customer_007,Chicken Dips,10,47.89,478.88,1
+2023-01-01,Customer_007,Cheese Dips,36,29.87,1075.48,1
+2023-01-01,Customer_007,Drinks,8,49.11,392.92,1
+2023-01-01,Customer_007,Sauces,23,18.25,419.75,1
+2023-01-01,Customer_007,Frozen Items,12,13.59,163.09,1
+2023-01-01,Customer_008,Chicken Dips,38,19.26,731.94,1
+2023-01-01,Customer_008,Cheese Dips,18,30.06,541.01,1
+2023-01-01,Customer_008,Drinks,8,36.32,290.57,1
+2023-01-01,Customer_008,Sauces,31,8.17,253.23,1
+2023-01-01,Customer_008,Frozen Items,14,32.68,457.45,1
+2023-01-01,Customer_009,Chicken Dips,13,21.14,274.81,1
+2023-01-01,Customer_009,Cheese Dips,34,44.48,1512.38,1
+2023-01-01,Customer_009,Drinks,1,43.19,43.19,1
+2023-01-01,Customer_009,Sauces,27,36.61,988.52,1
+2023-01-01,Customer_009,Frozen Items,33,18.21,600.98,1
+2023-01-01,Customer_010,Chicken Dips,12,23.89,286.68,1
+2023-01-01,Customer_010,Cheese Dips,44,44.02,1936.8,1
+2023-01-01,Customer_010,Drinks,16,5.23,83.73,1
+2023-01-01,Customer_010,Sauces,37,40.92,1514.16,1
+2023-01-01,Customer_010,Frozen Items,13,8.19,106.5,1
+2023-01-01,Customer_011,Chicken Dips,18,20.21,363.78,1
+2023-01-01,Customer_011,Cheese Dips,36,9.23,332.25,1
+2023-01-01,Customer_011,Drinks,45,35.24,1585.85,1
+2023-01-01,Customer_011,Sauces,5,25.95,129.76,1
+2023-01-01,Customer_011,Frozen Items,6,31.59,189.52,1
+2023-01-01,Customer_012,Chicken Dips,10,16.26,162.61,1
+2023-01-01,Customer_012,Cheese Dips,50,42.02,2100.85,1
+2023-01-01,Customer_012,Drinks,8,29.17,233.35,1
+2023-01-01,Customer_012,Sauces,32,28.5,912.03,1
+2023-01-01,Customer_012,Frozen Items,21,17.22,361.61,1
+2023-01-01,Customer_013,Chicken Dips,29,25.58,741.73,1
+2023-01-01,Customer_013,Cheese Dips,48,7.33,351.63,1
+2023-01-01,Customer_013,Drinks,36,23.51,846.39,1
+2023-01-01,Customer_013,Sauces,11,33.68,370.53,1
+2023-01-01,Customer_013,Frozen Items,38,10.97,416.99,1
+2023-01-01,Customer_014,Chicken Dips,14,28.23,395.27,1
+2023-01-01,Customer_014,Cheese Dips,32,40.78,1305.07,1
+2023-01-01,Customer_014,Drinks,16,24.75,396.06,1
+2023-01-01,Customer_014,Sauces,13,16.29,211.75,1
+2023-01-01,Customer_014,Frozen Items,22,48.32,1063.02,1
+2023-01-01,Customer_015,Chicken Dips,28,24.27,679.68,1
+2023-01-01,Customer_015,Cheese Dips,43,7.62,327.6,1
+2023-01-01,Customer_015,Drinks,29,12.04,349.15,1
+2023-01-01,Customer_015,Sauces,16,15.79,252.65,1
+2023-01-01,Customer_015,Frozen Items,49,37.16,1820.68,1
+2023-01-01,Customer_016,Chicken Dips,24,47.06,1129.38,1
+2023-01-01,Customer_016,Cheese Dips,23,47.97,1103.29,1
+2023-01-01,Customer_016,Drinks,31,34.57,1071.67,1
+2023-01-01,Customer_016,Sauces,28,32.53,910.77,1
+2023-01-01,Customer_016,Frozen Items,50,7.15,357.36,1
+2023-01-01,Customer_017,Chicken Dips,49,21.02,1029.92,1
+2023-01-01,Customer_017,Cheese Dips,32,10.41,333.04,1
+2023-01-01,Customer_017,Drinks,18,9.24,166.27,1
+2023-01-01,Customer_017,Sauces,47,12.89,605.82,1
+2023-01-01,Customer_017,Frozen Items,9,39.35,354.16,1
+2023-01-01,Customer_018,Chicken Dips,28,26.31,736.57,1
+2023-01-01,Customer_018,Cheese Dips,6,25.91,155.46,1
+2023-01-01,Customer_018,Drinks,12,22.93,275.19,1
+2023-01-01,Customer_018,Sauces,32,47.71,1526.77,1
+2023-01-01,Customer_018,Frozen Items,3,7.04,21.12,1
+2023-01-01,Customer_019,Chicken Dips,52,33.16,1724.51,1
+2023-01-01,Customer_019,Cheese Dips,16,27.55,440.75,1
+2023-01-01,Customer_019,Drinks,30,34.64,1039.24,1
+2023-01-01,Customer_019,Sauces,13,32.71,425.27,1
+2023-01-01,Customer_019,Frozen Items,22,47.49,1044.81,1
+2023-01-01,Customer_020,Chicken Dips,10,30.9,308.96,1
+2023-01-01,Customer_020,Cheese Dips,35,30.8,1078.05,1
+2023-01-01,Customer_020,Drinks,34,25.62,871.13,1
+2023-01-01,Customer_020,Sauces,34,41.93,1425.58,1
+2023-01-01,Customer_020,Frozen Items,6,41.92,251.52,1
+2023-01-01,Customer_021,Chicken Dips,48,45.74,2195.56,1
+2023-01-01,Customer_021,Cheese Dips,39,6.75,263.38,1
+2023-01-01,Customer_021,Drinks,41,35.74,1465.15,1
+2023-01-01,Customer_021,Sauces,27,34.51,931.7,1
+2023-01-01,Customer_021,Frozen Items,15,35.67,535.09,1
+2023-01-01,Customer_022,Chicken Dips,9,16.73,150.58,1
+2023-01-01,Customer_022,Cheese Dips,13,10.32,134.13,1
+2023-01-01,Customer_022,Drinks,15,20.68,310.13,1
+2023-01-01,Customer_022,Sauces,40,38.08,1523.13,1
+2023-01-01,Customer_022,Frozen Items,36,48.54,1747.48,1
+2023-01-01,Customer_023,Chicken Dips,25,12.98,324.62,1
+2023-01-01,Customer_023,Cheese Dips,31,30.58,948.09,1
+2023-01-01,Customer_023,Drinks,38,49.57,1883.76,1
+2023-01-01,Customer_023,Sauces,37,21.74,804.41,1
+2023-01-01,Customer_023,Frozen Items,49,31.12,1525.1,1
+2023-01-01,Customer_024,Chicken Dips,45,46.88,2109.78,1
+2023-01-01,Customer_024,Cheese Dips,25,15.74,393.42,1
+2023-01-01,Customer_024,Drinks,32,38.79,1241.25,1
+2023-01-01,Customer_024,Sauces,42,15.72,660.27,1
+2023-01-01,Customer_024,Frozen Items,0,29.04,0.0,1
+2023-01-01,Customer_025,Chicken Dips,37,42.19,1561.05,1
+2023-01-01,Customer_025,Cheese Dips,41,18.39,754.14,1
+2023-01-01,Customer_025,Drinks,15,22.51,337.71,1
+2023-01-01,Customer_025,Sauces,10,43.12,431.21,1
+2023-01-01,Customer_025,Frozen Items,8,19.37,154.95,1
+2023-01-01,Customer_026,Chicken Dips,7,30.8,215.63,1
+2023-01-01,Customer_026,Cheese Dips,29,9.13,264.67,1
+2023-01-01,Customer_026,Drinks,21,29.92,628.25,1
+2023-01-01,Customer_026,Sauces,42,38.86,1631.99,1
+2023-01-01,Customer_026,Frozen Items,32,40.16,1285.07,1
+2023-01-01,Customer_027,Chicken Dips,14,9.1,127.46,1
+2023-01-01,Customer_027,Cheese Dips,23,48.84,1123.35,1
+2023-01-01,Customer_027,Drinks,23,24.87,571.98,1
+2023-01-01,Customer_027,Sauces,31,29.57,916.55,1
+2023-01-01,Customer_027,Frozen Items,42,48.59,2040.75,1
+2023-01-01,Customer_028,Chicken Dips,20,39.27,785.36,1
+2023-01-01,Customer_028,Cheese Dips,31,9.55,296.07,1
+2023-01-01,Customer_028,Drinks,44,24.17,1063.66,1
+2023-01-01,Customer_028,Sauces,38,8.27,314.42,1
+2023-01-01,Customer_028,Frozen Items,4,45.14,180.54,1
+2023-01-01,Customer_029,Chicken Dips,30,8.66,259.82,1
+2023-01-01,Customer_029,Cheese Dips,40,15.5,619.81,1
+2023-01-01,Customer_029,Drinks,29,21.84,633.42,1
+2023-01-01,Customer_029,Sauces,38,44.62,1695.42,1
+2023-01-01,Customer_029,Frozen Items,44,47.63,2095.55,1
+2023-01-01,Customer_030,Chicken Dips,22,31.63,695.97,1
+2023-01-01,Customer_030,Cheese Dips,45,21.93,986.93,1
+2023-01-01,Customer_030,Drinks,30,39.97,1199.15,1
+2023-01-01,Customer_030,Sauces,40,36.73,1469.15,1
+2023-01-01,Customer_030,Frozen Items,21,45.79,961.5,1
+2023-01-01,Customer_031,Chicken Dips,37,24.55,908.36,1
+2023-01-01,Customer_031,Cheese Dips,7,26.09,182.63,1
+2023-01-01,Customer_031,Drinks,30,38.34,1150.31,1
+2023-01-01,Customer_031,Sauces,34,10.29,349.82,1
+2023-01-01,Customer_031,Frozen Items,9,38.49,346.41,1
+2023-01-01,Customer_032,Chicken Dips,43,31.25,1343.82,1
+2023-01-01,Customer_032,Cheese Dips,52,21.87,1137.2,1
+2023-01-01,Customer_032,Drinks,5,8.73,43.65,1
+2023-01-01,Customer_032,Sauces,27,15.06,406.67,1
+2023-01-01,Customer_032,Frozen Items,32,41.09,1315.04,1
+2023-01-01,Customer_033,Chicken Dips,47,6.95,326.79,1
+2023-01-01,Customer_033,Cheese Dips,47,49.68,2335.12,1
+2023-01-01,Customer_033,Drinks,23,16.38,376.84,1
+2023-01-01,Customer_033,Sauces,31,48.62,1507.18,1
+2023-01-01,Customer_033,Frozen Items,11,12.48,137.28,1
+2023-01-01,Customer_034,Chicken Dips,27,36.31,980.33,1
+2023-01-01,Customer_034,Cheese Dips,24,33.24,797.76,1
+2023-01-01,Customer_034,Drinks,43,22.29,958.43,1
+2023-01-01,Customer_034,Sauces,38,7.05,267.71,1
+2023-01-01,Customer_034,Frozen Items,9,47.77,429.92,1
+2023-01-01,Customer_035,Chicken Dips,33,22.75,750.86,1
+2023-01-01,Customer_035,Cheese Dips,19,32.91,625.21,1
+2023-01-01,Customer_035,Drinks,47,12.64,593.87,1
+2023-01-01,Customer_035,Sauces,5,25.87,129.33,1
+2023-01-01,Customer_035,Frozen Items,47,15.32,720.17,1
+2023-01-01,Customer_036,Chicken Dips,9,48.85,439.63,1
+2023-01-01,Customer_036,Cheese Dips,12,6.45,77.45,1
+2023-01-01,Customer_036,Drinks,34,18.93,643.58,1
+2023-01-01,Customer_036,Sauces,11,32.13,353.38,1
+2023-01-01,Customer_036,Frozen Items,38,42.01,1596.54,1
+2023-01-01,Customer_037,Chicken Dips,33,23.75,783.71,1
+2023-01-01,Customer_037,Cheese Dips,45,32.6,1467.17,1
+2023-01-01,Customer_037,Drinks,44,8.72,383.84,1
+2023-01-01,Customer_037,Sauces,24,29.82,715.71,1
+2023-01-01,Customer_037,Frozen Items,18,6.19,111.36,1
+2023-01-01,Customer_038,Chicken Dips,31,39.99,1239.76,1
+2023-01-01,Customer_038,Cheese Dips,32,49.43,1581.68,1
+2023-01-01,Customer_038,Drinks,23,21.95,504.92,1
+2023-01-01,Customer_038,Sauces,49,22.14,1084.86,1
+2023-01-01,Customer_038,Frozen Items,16,42.31,677.0,1
+2023-01-01,Customer_039,Chicken Dips,38,42.72,1623.54,1
+2023-01-01,Customer_039,Cheese Dips,2,6.66,13.31,1
+2023-01-01,Customer_039,Drinks,2,5.62,11.23,1
+2023-01-01,Customer_039,Sauces,42,43.91,1844.33,1
+2023-01-01,Customer_039,Frozen Items,16,29.05,464.73,1
+2023-01-01,Customer_040,Chicken Dips,5,49.85,249.24,1
+2023-01-01,Customer_040,Cheese Dips,5,31.33,156.66,1
+2023-01-01,Customer_040,Drinks,31,47.51,1472.95,1
+2023-01-01,Customer_040,Sauces,31,22.0,682.1,1
+2023-01-01,Customer_040,Frozen Items,40,25.27,1010.98,1
+2023-01-01,Customer_041,Chicken Dips,31,47.93,1485.9,1
+2023-01-01,Customer_041,Cheese Dips,35,15.29,535.11,1
+2023-01-01,Customer_041,Drinks,0,39.06,0.0,1
+2023-01-01,Customer_041,Sauces,19,21.12,401.23,1
+2023-01-01,Customer_041,Frozen Items,8,6.0,47.99,1
+2023-01-01,Customer_042,Chicken Dips,52,28.41,1477.52,1
+2023-01-01,Customer_042,Cheese Dips,30,42.41,1272.35,1
+2023-01-01,Customer_042,Drinks,32,43.35,1387.14,1
+2023-01-01,Customer_042,Sauces,10,48.56,485.59,1
+2023-01-01,Customer_042,Frozen Items,39,31.55,1230.37,1
+2023-01-01,Customer_043,Chicken Dips,9,38.98,350.83,1
+2023-01-01,Customer_043,Cheese Dips,14,33.77,472.8,1
+2023-01-01,Customer_043,Drinks,18,45.64,821.55,1
+2023-01-01,Customer_043,Sauces,38,20.78,789.5,1
+2023-01-01,Customer_043,Frozen Items,24,33.65,807.58,1
+2023-01-01,Customer_044,Chicken Dips,6,45.69,274.12,1
+2023-01-01,Customer_044,Cheese Dips,36,29.64,1066.86,1
+2023-01-01,Customer_044,Drinks,5,40.26,201.32,1
+2023-01-01,Customer_044,Sauces,27,28.56,771.18,1
+2023-01-01,Customer_044,Frozen Items,10,47.73,477.28,1
+2023-01-01,Customer_045,Chicken Dips,18,25.67,462.07,1
+2023-01-01,Customer_045,Cheese Dips,32,27.15,868.65,1
+2023-01-01,Customer_045,Drinks,11,25.66,282.27,1
+2023-01-01,Customer_045,Sauces,6,32.94,197.62,1
+2023-01-01,Customer_045,Frozen Items,16,19.79,316.7,1
+2023-01-01,Customer_046,Chicken Dips,30,29.18,875.31,1
+2023-01-01,Customer_046,Cheese Dips,8,10.76,86.1,1
+2023-01-01,Customer_046,Drinks,24,36.4,873.48,1
+2023-01-01,Customer_046,Sauces,38,13.18,501.01,1
+2023-01-01,Customer_046,Frozen Items,25,23.52,588.12,1
+2023-01-01,Customer_047,Chicken Dips,27,28.19,761.01,1
+2023-01-01,Customer_047,Cheese Dips,3,32.09,96.26,1
+2023-01-01,Customer_047,Drinks,20,6.84,136.78,1
+2023-01-01,Customer_047,Sauces,23,20.53,472.16,1
+2023-01-01,Customer_047,Frozen Items,40,12.97,518.62,1
+2023-01-01,Customer_048,Chicken Dips,10,29.69,296.92,1
+2023-01-01,Customer_048,Cheese Dips,44,25.74,1132.34,1
+2023-01-01,Customer_048,Drinks,41,45.24,1854.83,1
+2023-01-01,Customer_048,Sauces,39,27.65,1078.5,1
+2023-01-01,Customer_048,Frozen Items,46,9.15,421.04,1
+2023-01-01,Customer_049,Chicken Dips,25,35.95,898.76,1
+2023-01-01,Customer_049,Cheese Dips,46,44.31,2038.31,1
+2023-01-01,Customer_049,Drinks,0,17.46,0.0,1
+2023-01-01,Customer_049,Sauces,10,8.8,88.03,1
+2023-01-01,Customer_049,Frozen Items,29,13.3,385.8,1
+2023-01-31,Customer_000,Chicken Dips,45,26.8,1206.16,2
+2023-01-31,Customer_000,Cheese Dips,37,39.2,1450.33,2
+2023-01-31,Customer_000,Drinks,21,37.42,785.89,2
+2023-01-31,Customer_000,Sauces,51,6.65,339.19,2
+2023-01-31,Customer_000,Frozen Items,14,10.99,153.86,2
+2023-01-31,Customer_001,Chicken Dips,22,45.28,996.25,2
+2023-01-31,Customer_001,Cheese Dips,39,25.13,980.21,2
+2023-01-31,Customer_001,Drinks,20,22.87,457.45,2
+2023-01-31,Customer_001,Sauces,30,38.18,1145.5,2
+2023-01-31,Customer_001,Frozen Items,19,30.38,577.19,2
+2023-01-31,Customer_002,Chicken Dips,10,14.52,145.15,2
+2023-01-31,Customer_002,Cheese Dips,32,29.09,930.88,2
+2023-01-31,Customer_002,Drinks,43,45.07,1938.17,2
+2023-01-31,Customer_002,Sauces,42,26.33,1105.8,2
+2023-01-31,Customer_002,Frozen Items,32,40.51,1296.41,2
+2023-01-31,Customer_003,Chicken Dips,3,8.91,26.73,2
+2023-01-31,Customer_003,Cheese Dips,26,31.41,816.6,2
+2023-01-31,Customer_003,Drinks,8,31.39,251.15,2
+2023-01-31,Customer_003,Sauces,25,22.04,551.12,2
+2023-01-31,Customer_003,Frozen Items,47,21.34,1002.92,2
+2023-01-31,Customer_004,Chicken Dips,38,32.34,1228.92,2
+2023-01-31,Customer_004,Cheese Dips,44,27.42,1206.53,2
+2023-01-31,Customer_004,Drinks,6,32.26,193.56,2
+2023-01-31,Customer_004,Sauces,20,5.34,106.78,2
+2023-01-31,Customer_004,Frozen Items,36,11.88,427.63,2
+2023-01-31,Customer_005,Chicken Dips,17,26.95,458.17,2
+2023-01-31,Customer_005,Cheese Dips,28,45.35,1269.92,2
+2023-01-31,Customer_005,Drinks,49,7.32,358.86,2
+2023-01-31,Customer_005,Sauces,31,36.36,1127.26,2
+2023-01-31,Customer_005,Frozen Items,33,10.04,331.38,2
+2023-01-31,Customer_006,Chicken Dips,42,30.92,1298.64,2
+2023-01-31,Customer_006,Cheese Dips,30,5.24,157.16,2
+2023-01-31,Customer_006,Drinks,20,16.61,332.11,2
+2023-01-31,Customer_006,Sauces,21,37.53,788.14,2
+2023-01-31,Customer_006,Frozen Items,51,37.33,1903.86,2
+2023-01-31,Customer_007,Chicken Dips,9,26.45,238.03,2
+2023-01-31,Customer_007,Cheese Dips,40,13.42,536.68,2
+2023-01-31,Customer_007,Drinks,11,36.99,406.92,2
+2023-01-31,Customer_007,Sauces,23,27.84,640.38,2
+2023-01-31,Customer_007,Frozen Items,8,28.84,230.74,2
+2023-01-31,Customer_008,Chicken Dips,38,32.48,1234.16,2
+2023-01-31,Customer_008,Cheese Dips,22,31.16,685.43,2
+2023-01-31,Customer_008,Drinks,6,19.43,116.57,2
+2023-01-31,Customer_008,Sauces,26,7.33,190.63,2
+2023-01-31,Customer_008,Frozen Items,14,25.44,356.19,2
+2023-01-31,Customer_009,Chicken Dips,12,7.85,94.22,2
+2023-01-31,Customer_009,Cheese Dips,26,19.51,507.15,2
+2023-01-31,Customer_009,Drinks,2,8.95,17.91,2
+2023-01-31,Customer_009,Sauces,23,5.12,117.81,2
+2023-01-31,Customer_009,Frozen Items,35,31.8,1113.13,2
+2023-01-31,Customer_010,Chicken Dips,13,32.27,419.57,2
+2023-01-31,Customer_010,Cheese Dips,45,20.7,931.46,2
+2023-01-31,Customer_010,Drinks,7,43.28,302.98,2
+2023-01-31,Customer_010,Sauces,35,10.59,370.77,2
+2023-01-31,Customer_010,Frozen Items,20,49.59,991.84,2
+2023-01-31,Customer_011,Chicken Dips,17,13.16,223.64,2
+2023-01-31,Customer_011,Cheese Dips,37,46.69,1727.54,2
+2023-01-31,Customer_011,Drinks,44,7.16,315.23,2
+2023-01-31,Customer_011,Sauces,10,42.26,422.57,2
+2023-01-31,Customer_011,Frozen Items,5,14.07,70.37,2
+2023-01-31,Customer_012,Chicken Dips,7,12.39,86.74,2
+2023-01-31,Customer_012,Cheese Dips,45,15.61,702.28,2
+2023-01-31,Customer_012,Drinks,12,45.85,550.25,2
+2023-01-31,Customer_012,Sauces,36,44.47,1601.06,2
+2023-01-31,Customer_012,Frozen Items,25,35.73,893.35,2
+2023-01-31,Customer_013,Chicken Dips,32,24.76,792.35,2
+2023-01-31,Customer_013,Cheese Dips,45,33.08,1488.81,2
+2023-01-31,Customer_013,Drinks,33,38.64,1275.2,2
+2023-01-31,Customer_013,Sauces,9,15.45,139.05,2
+2023-01-31,Customer_013,Frozen Items,35,22.62,791.58,2
+2023-01-31,Customer_014,Chicken Dips,14,29.46,412.44,2
+2023-01-31,Customer_014,Cheese Dips,37,15.31,566.33,2
+2023-01-31,Customer_014,Drinks,20,10.26,205.21,2
+2023-01-31,Customer_014,Sauces,12,19.98,239.72,2
+2023-01-31,Customer_014,Frozen Items,15,20.07,301.06,2
+2023-01-31,Customer_015,Chicken Dips,25,40.73,1018.28,2
+2023-01-31,Customer_015,Cheese Dips,39,29.01,1131.22,2
+2023-01-31,Customer_015,Drinks,26,30.79,800.59,2
+2023-01-31,Customer_015,Sauces,20,38.86,777.16,2
+2023-01-31,Customer_015,Frozen Items,48,40.04,1921.72,2
+2023-01-31,Customer_016,Chicken Dips,17,6.51,110.65,2
+2023-01-31,Customer_016,Cheese Dips,28,37.13,1039.72,2
+2023-01-31,Customer_016,Drinks,29,44.45,1289.18,2
+2023-01-31,Customer_016,Sauces,24,9.63,231.15,2
+2023-01-31,Customer_016,Frozen Items,47,25.57,1201.56,2
+2023-01-31,Customer_017,Chicken Dips,43,22.88,983.75,2
+2023-01-31,Customer_017,Cheese Dips,35,11.75,411.12,2
+2023-01-31,Customer_017,Drinks,17,37.5,637.52,2
+2023-01-31,Customer_017,Sauces,45,5.55,249.71,2
+2023-01-31,Customer_017,Frozen Items,2,36.23,72.46,2
+2023-01-31,Customer_018,Chicken Dips,27,37.23,1005.16,2
+2023-01-31,Customer_018,Cheese Dips,10,42.21,422.06,2
+2023-01-31,Customer_018,Drinks,17,20.41,347.03,2
+2023-01-31,Customer_018,Sauces,28,23.04,645.07,2
+2023-01-31,Customer_018,Frozen Items,9,47.63,428.65,2
+2023-01-31,Customer_019,Chicken Dips,52,31.38,1631.78,2
+2023-01-31,Customer_019,Cheese Dips,8,32.52,260.12,2
+2023-01-31,Customer_019,Drinks,30,44.25,1327.37,2
+2023-01-31,Customer_019,Sauces,13,46.34,602.47,2
+2023-01-31,Customer_019,Frozen Items,20,46.51,930.25,2
+2023-01-31,Customer_020,Chicken Dips,14,34.31,480.36,2
+2023-01-31,Customer_020,Cheese Dips,34,30.93,1051.72,2
+2023-01-31,Customer_020,Drinks,43,8.1,348.36,2
+2023-01-31,Customer_020,Sauces,34,38.14,1296.76,2
+2023-01-31,Customer_020,Frozen Items,11,42.82,471.02,2
+2023-01-31,Customer_021,Chicken Dips,47,10.53,494.74,2
+2023-01-31,Customer_021,Cheese Dips,42,49.32,2071.35,2
+2023-01-31,Customer_021,Drinks,43,10.61,456.22,2
+2023-01-31,Customer_021,Sauces,35,19.95,698.13,2
+2023-01-31,Customer_021,Frozen Items,11,28.35,311.82,2
+2023-01-31,Customer_022,Chicken Dips,15,32.36,485.33,2
+2023-01-31,Customer_022,Cheese Dips,15,38.49,577.37,2
+2023-01-31,Customer_022,Drinks,20,41.13,822.57,2
+2023-01-31,Customer_022,Sauces,37,32.17,1190.2,2
+2023-01-31,Customer_022,Frozen Items,34,22.92,779.2,2
+2023-01-31,Customer_023,Chicken Dips,30,43.86,1315.75,2
+2023-01-31,Customer_023,Cheese Dips,28,20.59,576.4,2
+2023-01-31,Customer_023,Drinks,37,26.64,985.59,2
+2023-01-31,Customer_023,Sauces,34,31.42,1068.21,2
+2023-01-31,Customer_023,Frozen Items,45,16.17,727.66,2
+2023-01-31,Customer_024,Chicken Dips,47,27.43,1289.05,2
+2023-01-31,Customer_024,Cheese Dips,26,6.52,169.64,2
+2023-01-31,Customer_024,Drinks,26,21.31,554.0,2
+2023-01-31,Customer_024,Sauces,39,14.9,581.27,2
+2023-01-31,Customer_024,Frozen Items,1,34.86,34.86,2
+2023-01-31,Customer_025,Chicken Dips,40,48.9,1955.97,2
+2023-01-31,Customer_025,Cheese Dips,44,11.69,514.35,2
+2023-01-31,Customer_025,Drinks,18,43.73,787.11,2
+2023-01-31,Customer_025,Sauces,9,27.6,248.39,2
+2023-01-31,Customer_025,Frozen Items,0,18.95,0.0,2
+2023-01-31,Customer_026,Chicken Dips,10,24.21,242.06,2
+2023-01-31,Customer_026,Cheese Dips,32,45.41,1453.2,2
+2023-01-31,Customer_026,Drinks,13,6.64,86.38,2
+2023-01-31,Customer_026,Sauces,45,31.44,1414.59,2
+2023-01-31,Customer_026,Frozen Items,26,39.9,1037.37,2
+2023-01-31,Customer_027,Chicken Dips,9,28.6,257.38,2
+2023-01-31,Customer_027,Cheese Dips,14,23.03,322.48,2
+2023-01-31,Customer_027,Drinks,19,39.44,749.38,2
+2023-01-31,Customer_027,Sauces,28,13.19,369.23,2
+2023-01-31,Customer_027,Frozen Items,47,47.58,2236.03,2
+2023-01-31,Customer_028,Chicken Dips,21,17.18,360.85,2
+2023-01-31,Customer_028,Cheese Dips,32,23.39,748.58,2
+2023-01-31,Customer_028,Drinks,44,49.05,2158.28,2
+2023-01-31,Customer_028,Sauces,32,44.01,1408.47,2
+2023-01-31,Customer_028,Frozen Items,10,6.22,62.19,2
+2023-01-31,Customer_029,Chicken Dips,35,16.42,574.87,2
+2023-01-31,Customer_029,Cheese Dips,42,35.24,1479.88,2
+2023-01-31,Customer_029,Drinks,29,9.68,280.86,2
+2023-01-31,Customer_029,Sauces,42,13.03,547.45,2
+2023-01-31,Customer_029,Frozen Items,44,30.05,1322.31,2
+2023-01-31,Customer_030,Chicken Dips,21,9.47,198.97,2
+2023-01-31,Customer_030,Cheese Dips,49,37.5,1837.6,2
+2023-01-31,Customer_030,Drinks,35,41.31,1445.79,2
+2023-01-31,Customer_030,Sauces,38,47.5,1804.94,2
+2023-01-31,Customer_030,Frozen Items,17,14.22,241.81,2
+2023-01-31,Customer_031,Chicken Dips,37,45.34,1677.4,2
+2023-01-31,Customer_031,Cheese Dips,12,33.5,401.95,2
+2023-01-31,Customer_031,Drinks,21,14.35,301.45,2
+2023-01-31,Customer_031,Sauces,29,10.52,305.22,2
+2023-01-31,Customer_031,Frozen Items,3,31.24,93.71,2
+2023-01-31,Customer_032,Chicken Dips,42,45.17,1897.15,2
+2023-01-31,Customer_032,Cheese Dips,48,20.38,978.33,2
+2023-01-31,Customer_032,Drinks,14,42.13,589.82,2
+2023-01-31,Customer_032,Sauces,29,31.56,915.33,2
+2023-01-31,Customer_032,Frozen Items,30,33.09,992.6,2
+2023-01-31,Customer_033,Chicken Dips,48,39.82,1911.48,2
+2023-01-31,Customer_033,Cheese Dips,51,24.63,1255.91,2
+2023-01-31,Customer_033,Drinks,21,47.68,1001.29,2
+2023-01-31,Customer_033,Sauces,34,40.09,1363.03,2
+2023-01-31,Customer_033,Frozen Items,10,44.08,440.81,2
+2023-01-31,Customer_034,Chicken Dips,34,49.34,1677.61,2
+2023-01-31,Customer_034,Cheese Dips,30,40.99,1229.8,2
+2023-01-31,Customer_034,Drinks,38,26.82,1018.97,2
+2023-01-31,Customer_034,Sauces,32,17.09,546.9,2
+2023-01-31,Customer_034,Frozen Items,7,36.45,255.14,2
+2023-01-31,Customer_035,Chicken Dips,34,16.6,564.57,2
+2023-01-31,Customer_035,Cheese Dips,17,34.03,578.47,2
+2023-01-31,Customer_035,Drinks,43,10.95,470.95,2
+2023-01-31,Customer_035,Sauces,3,17.25,51.76,2
+2023-01-31,Customer_035,Frozen Items,43,46.14,1984.17,2
+2023-01-31,Customer_036,Chicken Dips,9,41.68,375.1,2
+2023-01-31,Customer_036,Cheese Dips,15,17.33,259.99,2
+2023-01-31,Customer_036,Drinks,26,23.24,604.14,2
+2023-01-31,Customer_036,Sauces,13,42.34,550.4,2
+2023-01-31,Customer_036,Frozen Items,42,9.8,411.43,2
+2023-01-31,Customer_037,Chicken Dips,37,11.16,412.91,2
+2023-01-31,Customer_037,Cheese Dips,49,16.99,832.63,2
+2023-01-31,Customer_037,Drinks,50,16.28,814.14,2
+2023-01-31,Customer_037,Sauces,31,27.24,844.51,2
+2023-01-31,Customer_037,Frozen Items,23,46.15,1061.42,2
+2023-01-31,Customer_038,Chicken Dips,40,23.2,927.89,2
+2023-01-31,Customer_038,Cheese Dips,40,23.99,959.66,2
+2023-01-31,Customer_038,Drinks,24,12.48,299.59,2
+2023-01-31,Customer_038,Sauces,40,8.73,349.04,2
+2023-01-31,Customer_038,Frozen Items,14,39.69,555.72,2
+2023-01-31,Customer_039,Chicken Dips,42,42.67,1792.08,2
+2023-01-31,Customer_039,Cheese Dips,4,37.36,149.43,2
+2023-01-31,Customer_039,Drinks,8,32.47,259.75,2
+2023-01-31,Customer_039,Sauces,41,26.42,1083.31,2
+2023-01-31,Customer_039,Frozen Items,23,47.16,1084.62,2
+2023-01-31,Customer_040,Chicken Dips,5,26.77,133.84,2
+2023-01-31,Customer_040,Cheese Dips,10,6.4,64.03,2
+2023-01-31,Customer_040,Drinks,30,12.29,368.72,2
+2023-01-31,Customer_040,Sauces,25,7.31,182.85,2
+2023-01-31,Customer_040,Frozen Items,37,33.05,1222.85,2
+2023-01-31,Customer_041,Chicken Dips,32,9.8,313.5,2
+2023-01-31,Customer_041,Cheese Dips,40,20.82,832.77,2
+2023-01-31,Customer_041,Drinks,0,27.3,0.0,2
+2023-01-31,Customer_041,Sauces,25,24.57,614.18,2
+2023-01-31,Customer_041,Frozen Items,7,8.42,58.92,2
+2023-01-31,Customer_042,Chicken Dips,44,40.97,1802.84,2
+2023-01-31,Customer_042,Cheese Dips,27,17.25,465.66,2
+2023-01-31,Customer_042,Drinks,32,9.64,308.45,2
+2023-01-31,Customer_042,Sauces,9,9.12,82.09,2
+2023-01-31,Customer_042,Frozen Items,31,11.16,345.86,2
+2023-01-31,Customer_043,Chicken Dips,12,36.08,432.9,2
+2023-01-31,Customer_043,Cheese Dips,10,13.33,133.31,2
+2023-01-31,Customer_043,Drinks,23,39.13,899.94,2
+2023-01-31,Customer_043,Sauces,41,39.16,1605.42,2
+2023-01-31,Customer_043,Frozen Items,27,36.15,976.12,2
+2023-01-31,Customer_044,Chicken Dips,9,49.13,442.13,2
+2023-01-31,Customer_044,Cheese Dips,34,27.02,918.82,2
+2023-01-31,Customer_044,Drinks,14,7.32,102.51,2
+2023-01-31,Customer_044,Sauces,30,6.77,203.23,2
+2023-01-31,Customer_044,Frozen Items,19,31.47,597.97,2
+2023-01-31,Customer_045,Chicken Dips,15,13.13,196.89,2
+2023-01-31,Customer_045,Cheese Dips,36,26.29,946.6,2
+2023-01-31,Customer_045,Drinks,14,6.53,91.39,2
+2023-01-31,Customer_045,Sauces,9,37.9,341.06,2
+2023-01-31,Customer_045,Frozen Items,17,46.6,792.16,2
+2023-01-31,Customer_046,Chicken Dips,29,23.98,695.4,2
+2023-01-31,Customer_046,Cheese Dips,3,38.53,115.58,2
+2023-01-31,Customer_046,Drinks,22,43.0,946.1,2
+2023-01-31,Customer_046,Sauces,36,28.51,1026.34,2
+2023-01-31,Customer_046,Frozen Items,24,6.67,159.97,2
+2023-01-31,Customer_047,Chicken Dips,32,15.35,491.21,2
+2023-01-31,Customer_047,Cheese Dips,3,44.82,134.47,2
+2023-01-31,Customer_047,Drinks,25,24.85,621.16,2
+2023-01-31,Customer_047,Sauces,25,7.94,198.53,2
+2023-01-31,Customer_047,Frozen Items,38,29.28,1112.53,2
+2023-01-31,Customer_048,Chicken Dips,11,19.34,212.78,2
+2023-01-31,Customer_048,Cheese Dips,41,28.41,1164.71,2
+2023-01-31,Customer_048,Drinks,41,44.45,1822.45,2
+2023-01-31,Customer_048,Sauces,40,6.1,243.92,2
+2023-01-31,Customer_048,Frozen Items,47,49.57,2329.57,2
+2023-01-31,Customer_049,Chicken Dips,23,13.35,306.96,2
+2023-01-31,Customer_049,Cheese Dips,40,47.26,1890.32,2
+2023-01-31,Customer_049,Drinks,2,8.15,16.3,2
+2023-01-31,Customer_049,Sauces,13,7.37,95.82,2
+2023-01-31,Customer_049,Frozen Items,27,23.09,623.35,2
+2023-03-02,Customer_000,Chicken Dips,42,26.59,1116.79,3
+2023-03-02,Customer_000,Cheese Dips,35,17.23,602.91,3
+2023-03-02,Customer_000,Drinks,22,39.57,870.59,3
+2023-03-02,Customer_000,Sauces,50,20.14,1006.83,3
+2023-03-02,Customer_000,Frozen Items,10,38.19,381.91,3
+2023-03-02,Customer_001,Chicken Dips,20,9.97,199.43,3
+2023-03-02,Customer_001,Cheese Dips,45,17.93,806.66,3
+2023-03-02,Customer_001,Drinks,21,37.2,781.2,3
+2023-03-02,Customer_001,Sauces,26,6.89,179.25,3
+2023-03-02,Customer_001,Frozen Items,10,45.97,459.65,3
+2023-03-02,Customer_002,Chicken Dips,18,9.93,178.67,3
+2023-03-02,Customer_002,Cheese Dips,31,35.58,1103.11,3
+2023-03-02,Customer_002,Drinks,44,40.91,1800.02,3
+2023-03-02,Customer_002,Sauces,43,9.02,388.01,3
+2023-03-02,Customer_002,Frozen Items,28,49.2,1377.74,3
+2023-03-02,Customer_003,Chicken Dips,9,26.03,234.3,3
+2023-03-02,Customer_003,Cheese Dips,22,12.52,275.36,3
+2023-03-02,Customer_003,Drinks,4,7.92,31.7,3
+2023-03-02,Customer_003,Sauces,30,47.42,1422.69,3
+2023-03-02,Customer_003,Frozen Items,48,32.35,1552.71,3
+2023-03-02,Customer_004,Chicken Dips,38,7.11,270.28,3
+2023-03-02,Customer_004,Cheese Dips,45,14.92,671.48,3
+2023-03-02,Customer_004,Drinks,1,48.08,48.08,3
+2023-03-02,Customer_004,Sauces,27,20.76,560.4,3
+2023-03-02,Customer_004,Frozen Items,36,33.34,1200.24,3
+2023-03-02,Customer_005,Chicken Dips,17,44.77,761.1,3
+2023-03-02,Customer_005,Cheese Dips,23,31.88,733.18,3
+2023-03-02,Customer_005,Drinks,43,12.83,551.49,3
+2023-03-02,Customer_005,Sauces,33,28.19,930.14,3
+2023-03-02,Customer_005,Frozen Items,27,36.32,980.67,3
+2023-03-02,Customer_006,Chicken Dips,48,45.38,2178.46,3
+2023-03-02,Customer_006,Cheese Dips,29,15.1,437.89,3
+2023-03-02,Customer_006,Drinks,22,38.65,850.39,3
+2023-03-02,Customer_006,Sauces,22,31.68,697.01,3
+2023-03-02,Customer_006,Frozen Items,47,9.12,428.49,3
+2023-03-02,Customer_007,Chicken Dips,10,22.6,226.03,3
+2023-03-02,Customer_007,Cheese Dips,44,7.0,307.87,3
+2023-03-02,Customer_007,Drinks,7,43.8,306.57,3
+2023-03-02,Customer_007,Sauces,28,19.81,554.6,3
+2023-03-02,Customer_007,Frozen Items,16,29.79,476.62,3
+2023-03-02,Customer_008,Chicken Dips,39,23.38,911.84,3
+2023-03-02,Customer_008,Cheese Dips,22,16.69,367.16,3
+2023-03-02,Customer_008,Drinks,7,7.2,50.37,3
+2023-03-02,Customer_008,Sauces,25,8.65,216.18,3
+2023-03-02,Customer_008,Frozen Items,17,49.62,843.48,3
+2023-03-02,Customer_009,Chicken Dips,9,27.28,245.53,3
+2023-03-02,Customer_009,Cheese Dips,27,42.11,1136.99,3
+2023-03-02,Customer_009,Drinks,8,34.8,278.36,3
+2023-03-02,Customer_009,Sauces,26,30.46,791.91,3
+2023-03-02,Customer_009,Frozen Items,27,44.54,1202.54,3
+2023-03-02,Customer_010,Chicken Dips,8,44.07,352.54,3
+2023-03-02,Customer_010,Cheese Dips,43,12.08,519.45,3
+2023-03-02,Customer_010,Drinks,15,20.03,300.46,3
+2023-03-02,Customer_010,Sauces,42,46.85,1967.87,3
+2023-03-02,Customer_010,Frozen Items,16,32.84,525.4,3
+2023-03-02,Customer_011,Chicken Dips,21,13.51,283.81,3
+2023-03-02,Customer_011,Cheese Dips,39,44.64,1740.93,3
+2023-03-02,Customer_011,Drinks,48,25.95,1245.42,3
+2023-03-02,Customer_011,Sauces,9,5.23,47.08,3
+2023-03-02,Customer_011,Frozen Items,5,38.46,192.29,3
+2023-03-02,Customer_012,Chicken Dips,6,41.81,250.85,3
+2023-03-02,Customer_012,Cheese Dips,47,13.69,643.48,3
+2023-03-02,Customer_012,Drinks,3,30.19,90.58,3
+2023-03-02,Customer_012,Sauces,35,16.69,584.19,3
+2023-03-02,Customer_012,Frozen Items,24,41.84,1004.17,3
+2023-03-02,Customer_013,Chicken Dips,30,17.75,532.51,3
+2023-03-02,Customer_013,Cheese Dips,49,29.36,1438.49,3
+2023-03-02,Customer_013,Drinks,34,20.38,693.06,3
+2023-03-02,Customer_013,Sauces,13,9.61,124.97,3
+2023-03-02,Customer_013,Frozen Items,38,12.82,487.12,3
+2023-03-02,Customer_014,Chicken Dips,16,8.05,128.84,3
+2023-03-02,Customer_014,Cheese Dips,30,39.69,1190.83,3
+2023-03-02,Customer_014,Drinks,14,31.2,436.77,3
+2023-03-02,Customer_014,Sauces,7,7.61,53.24,3
+2023-03-02,Customer_014,Frozen Items,20,7.06,141.17,3
+2023-03-02,Customer_015,Chicken Dips,23,49.56,1139.8,3
+2023-03-02,Customer_015,Cheese Dips,42,34.14,1433.91,3
+2023-03-02,Customer_015,Drinks,23,39.12,899.8,3
+2023-03-02,Customer_015,Sauces,21,7.95,167.02,3
+2023-03-02,Customer_015,Frozen Items,44,19.56,860.75,3
+2023-03-02,Customer_016,Chicken Dips,19,16.36,310.89,3
+2023-03-02,Customer_016,Cheese Dips,29,25.07,726.9,3
+2023-03-02,Customer_016,Drinks,26,49.87,1296.64,3
+2023-03-02,Customer_016,Sauces,24,9.6,230.37,3
+2023-03-02,Customer_016,Frozen Items,52,12.36,642.88,3
+2023-03-02,Customer_017,Chicken Dips,46,42.17,1939.66,3
+2023-03-02,Customer_017,Cheese Dips,31,42.8,1326.73,3
+2023-03-02,Customer_017,Drinks,17,34.45,585.7,3
+2023-03-02,Customer_017,Sauces,46,47.79,2198.29,3
+2023-03-02,Customer_017,Frozen Items,7,24.46,171.19,3
+2023-03-02,Customer_018,Chicken Dips,28,45.93,1286.0,3
+2023-03-02,Customer_018,Cheese Dips,10,33.73,337.34,3
+2023-03-02,Customer_018,Drinks,13,39.2,509.66,3
+2023-03-02,Customer_018,Sauces,27,49.28,1330.53,3
+2023-03-02,Customer_018,Frozen Items,0,19.43,0.0,3
+2023-03-02,Customer_019,Chicken Dips,48,15.35,736.7,3
+2023-03-02,Customer_019,Cheese Dips,9,6.4,57.61,3
+2023-03-02,Customer_019,Drinks,31,37.17,1152.32,3
+2023-03-02,Customer_019,Sauces,11,43.9,482.86,3
+2023-03-02,Customer_019,Frozen Items,23,12.17,279.82,3
+2023-03-02,Customer_020,Chicken Dips,15,44.09,661.32,3
+2023-03-02,Customer_020,Cheese Dips,38,11.91,452.76,3
+2023-03-02,Customer_020,Drinks,35,39.25,1373.61,3
+2023-03-02,Customer_020,Sauces,34,40.86,1389.1,3
+2023-03-02,Customer_020,Frozen Items,8,46.03,368.26,3
+2023-03-02,Customer_021,Chicken Dips,50,32.75,1637.46,3
+2023-03-02,Customer_021,Cheese Dips,46,5.06,232.55,3
+2023-03-02,Customer_021,Drinks,46,10.63,489.13,3
+2023-03-02,Customer_021,Sauces,30,24.36,730.91,3
+2023-03-02,Customer_021,Frozen Items,11,15.15,166.64,3
+2023-03-02,Customer_022,Chicken Dips,13,31.19,405.45,3
+2023-03-02,Customer_022,Cheese Dips,11,31.56,347.18,3
+2023-03-02,Customer_022,Drinks,18,18.97,341.39,3
+2023-03-02,Customer_022,Sauces,33,5.52,182.26,3
+2023-03-02,Customer_022,Frozen Items,33,35.62,1175.48,3
+2023-03-02,Customer_023,Chicken Dips,23,26.6,611.74,3
+2023-03-02,Customer_023,Cheese Dips,28,18.12,507.49,3
+2023-03-02,Customer_023,Drinks,44,43.71,1923.04,3
+2023-03-02,Customer_023,Sauces,39,45.85,1788.22,3
+2023-03-02,Customer_023,Frozen Items,48,38.71,1858.19,3
+2023-03-02,Customer_024,Chicken Dips,47,15.89,746.93,3
+2023-03-02,Customer_024,Cheese Dips,29,30.69,890.03,3
+2023-03-02,Customer_024,Drinks,31,32.82,1017.33,3
+2023-03-02,Customer_024,Sauces,37,20.57,761.12,3
+2023-03-02,Customer_024,Frozen Items,7,5.44,38.08,3
+2023-03-02,Customer_025,Chicken Dips,34,28.3,962.1,3
+2023-03-02,Customer_025,Cheese Dips,36,44.71,1609.7,3
+2023-03-02,Customer_025,Drinks,13,42.1,547.34,3
+2023-03-02,Customer_025,Sauces,11,22.86,251.48,3
+2023-03-02,Customer_025,Frozen Items,1,48.99,48.99,3
+2023-03-02,Customer_026,Chicken Dips,13,36.03,468.34,3
+2023-03-02,Customer_026,Cheese Dips,26,41.96,1091.09,3
+2023-03-02,Customer_026,Drinks,22,12.54,275.81,3
+2023-03-02,Customer_026,Sauces,38,47.82,1817.15,3
+2023-03-02,Customer_026,Frozen Items,28,45.33,1269.24,3
+2023-03-02,Customer_027,Chicken Dips,16,47.13,754.07,3
+2023-03-02,Customer_027,Cheese Dips,20,32.58,651.65,3
+2023-03-02,Customer_027,Drinks,22,36.91,811.97,3
+2023-03-02,Customer_027,Sauces,32,47.63,1524.18,3
+2023-03-02,Customer_027,Frozen Items,44,20.28,892.11,3
+2023-03-02,Customer_028,Chicken Dips,18,34.74,625.26,3
+2023-03-02,Customer_028,Cheese Dips,34,31.89,1084.14,3
+2023-03-02,Customer_028,Drinks,43,25.35,1090.24,3
+2023-03-02,Customer_028,Sauces,33,6.83,225.52,3
+2023-03-02,Customer_028,Frozen Items,12,24.74,296.85,3
+2023-03-02,Customer_029,Chicken Dips,30,7.72,231.48,3
+2023-03-02,Customer_029,Cheese Dips,42,34.26,1439.06,3
+2023-03-02,Customer_029,Drinks,30,44.23,1326.91,3
+2023-03-02,Customer_029,Sauces,47,19.81,930.87,3
+2023-03-02,Customer_029,Frozen Items,47,38.49,1809.15,3
+2023-03-02,Customer_030,Chicken Dips,20,24.51,490.29,3
+2023-03-02,Customer_030,Cheese Dips,44,12.28,540.11,3
+2023-03-02,Customer_030,Drinks,33,37.36,1233.01,3
+2023-03-02,Customer_030,Sauces,40,19.95,798.17,3
+2023-03-02,Customer_030,Frozen Items,19,48.87,928.45,3
+2023-03-02,Customer_031,Chicken Dips,33,8.67,286.07,3
+2023-03-02,Customer_031,Cheese Dips,8,35.61,284.88,3
+2023-03-02,Customer_031,Drinks,26,6.38,165.86,3
+2023-03-02,Customer_031,Sauces,27,42.82,1156.15,3
+2023-03-02,Customer_031,Frozen Items,1,44.07,44.07,3
+2023-03-02,Customer_032,Chicken Dips,50,38.42,1921.09,3
+2023-03-02,Customer_032,Cheese Dips,47,33.29,1564.84,3
+2023-03-02,Customer_032,Drinks,8,27.72,221.74,3
+2023-03-02,Customer_032,Sauces,28,44.02,1232.46,3
+2023-03-02,Customer_032,Frozen Items,35,24.74,865.82,3
+2023-03-02,Customer_033,Chicken Dips,47,22.8,1071.51,3
+2023-03-02,Customer_033,Cheese Dips,46,44.3,2037.99,3
+2023-03-02,Customer_033,Drinks,20,40.68,813.66,3
+2023-03-02,Customer_033,Sauces,35,17.46,611.0,3
+2023-03-02,Customer_033,Frozen Items,12,17.77,213.28,3
+2023-03-02,Customer_034,Chicken Dips,29,33.03,957.97,3
+2023-03-02,Customer_034,Cheese Dips,31,42.62,1321.22,3
+2023-03-02,Customer_034,Drinks,38,10.92,414.98,3
+2023-03-02,Customer_034,Sauces,39,23.24,906.32,3
+2023-03-02,Customer_034,Frozen Items,6,33.46,200.79,3
+2023-03-02,Customer_035,Chicken Dips,27,13.14,354.89,3
+2023-03-02,Customer_035,Cheese Dips,16,8.11,129.78,3
+2023-03-02,Customer_035,Drinks,48,16.13,774.02,3
+2023-03-02,Customer_035,Sauces,9,31.07,279.66,3
+2023-03-02,Customer_035,Frozen Items,41,31.68,1298.99,3
+2023-03-02,Customer_036,Chicken Dips,10,34.35,343.46,3
+2023-03-02,Customer_036,Cheese Dips,15,48.62,729.35,3
+2023-03-02,Customer_036,Drinks,27,43.61,1177.45,3
+2023-03-02,Customer_036,Sauces,12,19.63,235.6,3
+2023-03-02,Customer_036,Frozen Items,43,31.94,1373.51,3
+2023-03-02,Customer_037,Chicken Dips,35,48.64,1702.47,3
+2023-03-02,Customer_037,Cheese Dips,50,8.31,415.37,3
+2023-03-02,Customer_037,Drinks,52,25.19,1310.14,3
+2023-03-02,Customer_037,Sauces,31,24.39,756.09,3
+2023-03-02,Customer_037,Frozen Items,17,31.45,534.73,3
+2023-03-02,Customer_038,Chicken Dips,31,16.36,507.28,3
+2023-03-02,Customer_038,Cheese Dips,36,12.54,451.54,3
+2023-03-02,Customer_038,Drinks,31,32.25,999.73,3
+2023-03-02,Customer_038,Sauces,44,29.01,1276.35,3
+2023-03-02,Customer_038,Frozen Items,11,42.99,472.86,3
+2023-03-02,Customer_039,Chicken Dips,45,31.34,1410.34,3
+2023-03-02,Customer_039,Cheese Dips,6,14.26,85.58,3
+2023-03-02,Customer_039,Drinks,5,17.14,85.69,3
+2023-03-02,Customer_039,Sauces,37,10.53,389.75,3
+2023-03-02,Customer_039,Frozen Items,20,47.15,942.95,3
+2023-03-02,Customer_040,Chicken Dips,1,10.49,10.49,3
+2023-03-02,Customer_040,Cheese Dips,6,13.1,78.6,3
+2023-03-02,Customer_040,Drinks,31,9.65,299.12,3
+2023-03-02,Customer_040,Sauces,24,6.87,164.9,3
+2023-03-02,Customer_040,Frozen Items,45,22.88,1029.69,3
+2023-03-02,Customer_041,Chicken Dips,32,48.43,1549.77,3
+2023-03-02,Customer_041,Cheese Dips,33,19.54,644.85,3
+2023-03-02,Customer_041,Drinks,8,31.11,248.84,3
+2023-03-02,Customer_041,Sauces,25,28.2,705.05,3
+2023-03-02,Customer_041,Frozen Items,2,20.42,40.84,3
+2023-03-02,Customer_042,Chicken Dips,48,11.28,541.65,3
+2023-03-02,Customer_042,Cheese Dips,28,36.71,1027.9,3
+2023-03-02,Customer_042,Drinks,40,37.98,1519.22,3
+2023-03-02,Customer_042,Sauces,12,48.65,583.75,3
+2023-03-02,Customer_042,Frozen Items,31,37.89,1174.51,3
+2023-03-02,Customer_043,Chicken Dips,8,44.07,352.53,3
+2023-03-02,Customer_043,Cheese Dips,15,16.49,247.33,3
+2023-03-02,Customer_043,Drinks,16,42.72,683.44,3
+2023-03-02,Customer_043,Sauces,46,21.84,1004.79,3
+2023-03-02,Customer_043,Frozen Items,24,15.99,383.68,3
+2023-03-02,Customer_044,Chicken Dips,13,44.1,573.31,3
+2023-03-02,Customer_044,Cheese Dips,40,39.58,1583.33,3
+2023-03-02,Customer_044,Drinks,12,40.8,489.58,3
+2023-03-02,Customer_044,Sauces,24,35.44,850.63,3
+2023-03-02,Customer_044,Frozen Items,12,47.34,568.07,3
+2023-03-02,Customer_045,Chicken Dips,19,35.01,665.26,3
+2023-03-02,Customer_045,Cheese Dips,40,9.8,391.87,3
+2023-03-02,Customer_045,Drinks,9,49.97,449.76,3
+2023-03-02,Customer_045,Sauces,10,19.32,193.15,3
+2023-03-02,Customer_045,Frozen Items,15,23.31,349.66,3
+2023-03-02,Customer_046,Chicken Dips,36,9.07,326.58,3
+2023-03-02,Customer_046,Cheese Dips,10,9.91,99.1,3
+2023-03-02,Customer_046,Drinks,20,23.19,463.73,3
+2023-03-02,Customer_046,Sauces,38,35.04,1331.58,3
+2023-03-02,Customer_046,Frozen Items,23,45.56,1047.92,3
+2023-03-02,Customer_047,Chicken Dips,33,19.27,636.04,3
+2023-03-02,Customer_047,Cheese Dips,2,10.41,20.82,3
+2023-03-02,Customer_047,Drinks,23,34.21,786.79,3
+2023-03-02,Customer_047,Sauces,23,19.61,450.95,3
+2023-03-02,Customer_047,Frozen Items,40,22.83,913.11,3
+2023-03-02,Customer_048,Chicken Dips,10,22.12,221.19,3
+2023-03-02,Customer_048,Cheese Dips,48,31.84,1528.41,3
+2023-03-02,Customer_048,Drinks,32,25.0,799.96,3
+2023-03-02,Customer_048,Sauces,44,8.29,364.93,3
+2023-03-02,Customer_048,Frozen Items,40,12.58,503.2,3
+2023-03-02,Customer_049,Chicken Dips,26,39.17,1018.43,3
+2023-03-02,Customer_049,Cheese Dips,47,22.09,1038.25,3
+2023-03-02,Customer_049,Drinks,9,47.82,430.35,3
+2023-03-02,Customer_049,Sauces,11,26.56,292.2,3
+2023-03-02,Customer_049,Frozen Items,31,41.62,1290.2,3
+2023-04-01,Customer_000,Chicken Dips,46,22.11,1017.0,4
+2023-04-01,Customer_000,Cheese Dips,29,28.7,832.24,4
+2023-04-01,Customer_000,Drinks,17,32.36,550.05,4
+2023-04-01,Customer_000,Sauces,48,41.58,1996.05,4
+2023-04-01,Customer_000,Frozen Items,8,37.2,297.58,4
+2023-04-01,Customer_001,Chicken Dips,24,13.81,331.44,4
+2023-04-01,Customer_001,Cheese Dips,44,45.35,1995.49,4
+2023-04-01,Customer_001,Drinks,22,45.41,999.05,4
+2023-04-01,Customer_001,Sauces,30,34.46,1033.84,4
+2023-04-01,Customer_001,Frozen Items,12,7.71,92.54,4
+2023-04-01,Customer_002,Chicken Dips,14,26.56,371.89,4
+2023-04-01,Customer_002,Cheese Dips,25,9.56,239.1,4
+2023-04-01,Customer_002,Drinks,38,16.55,629.09,4
+2023-04-01,Customer_002,Sauces,42,35.15,1476.48,4
+2023-04-01,Customer_002,Frozen Items,25,31.14,778.55,4
+2023-04-01,Customer_003,Chicken Dips,11,32.47,357.12,4
+2023-04-01,Customer_003,Cheese Dips,22,23.0,505.91,4
+2023-04-01,Customer_003,Drinks,4,42.04,168.17,4
+2023-04-01,Customer_003,Sauces,29,35.65,1033.86,4
+2023-04-01,Customer_003,Frozen Items,52,40.99,2131.49,4
+2023-04-01,Customer_004,Chicken Dips,35,18.29,640.06,4
+2023-04-01,Customer_004,Cheese Dips,37,30.53,1129.57,4
+2023-04-01,Customer_004,Drinks,10,46.3,462.99,4
+2023-04-01,Customer_004,Sauces,23,26.76,615.47,4
+2023-04-01,Customer_004,Frozen Items,38,41.71,1584.93,4
+2023-04-01,Customer_005,Chicken Dips,18,28.69,516.46,4
+2023-04-01,Customer_005,Cheese Dips,27,33.71,910.15,4
+2023-04-01,Customer_005,Drinks,47,44.79,2105.1,4
+2023-04-01,Customer_005,Sauces,32,40.72,1302.99,4
+2023-04-01,Customer_005,Frozen Items,35,12.86,450.27,4
+2023-04-01,Customer_006,Chicken Dips,49,42.79,2096.89,4
+2023-04-01,Customer_006,Cheese Dips,34,39.65,1348.02,4
+2023-04-01,Customer_006,Drinks,15,15.66,234.89,4
+2023-04-01,Customer_006,Sauces,18,18.59,334.67,4
+2023-04-01,Customer_006,Frozen Items,50,42.02,2100.88,4
+2023-04-01,Customer_007,Chicken Dips,8,35.04,280.32,4
+2023-04-01,Customer_007,Cheese Dips,37,39.5,1461.48,4
+2023-04-01,Customer_007,Drinks,15,25.33,379.94,4
+2023-04-01,Customer_007,Sauces,21,11.88,249.57,4
+2023-04-01,Customer_007,Frozen Items,8,38.16,305.27,4
+2023-04-01,Customer_008,Chicken Dips,39,26.28,1024.93,4
+2023-04-01,Customer_008,Cheese Dips,21,9.31,195.45,4
+2023-04-01,Customer_008,Drinks,7,33.89,237.22,4
+2023-04-01,Customer_008,Sauces,30,29.6,888.04,4
+2023-04-01,Customer_008,Frozen Items,22,16.56,364.32,4
+2023-04-01,Customer_009,Chicken Dips,16,27.35,437.67,4
+2023-04-01,Customer_009,Cheese Dips,26,17.35,451.21,4
+2023-04-01,Customer_009,Drinks,7,36.28,253.97,4
+2023-04-01,Customer_009,Sauces,21,24.92,523.37,4
+2023-04-01,Customer_009,Frozen Items,33,37.6,1240.91,4
+2023-04-01,Customer_010,Chicken Dips,12,20.35,244.19,4
+2023-04-01,Customer_010,Cheese Dips,45,32.14,1446.52,4
+2023-04-01,Customer_010,Drinks,12,31.03,372.33,4
+2023-04-01,Customer_010,Sauces,40,39.77,1590.72,4
+2023-04-01,Customer_010,Frozen Items,16,8.85,141.67,4
+2023-04-01,Customer_011,Chicken Dips,16,31.81,508.94,4
+2023-04-01,Customer_011,Cheese Dips,43,19.55,840.72,4
+2023-04-01,Customer_011,Drinks,44,20.97,922.89,4
+2023-04-01,Customer_011,Sauces,6,24.91,149.45,4
+2023-04-01,Customer_011,Frozen Items,2,35.13,70.26,4
+2023-04-01,Customer_012,Chicken Dips,9,17.2,154.81,4
+2023-04-01,Customer_012,Cheese Dips,48,34.29,1645.9,4
+2023-04-01,Customer_012,Drinks,8,15.39,123.1,4
+2023-04-01,Customer_012,Sauces,37,19.99,739.45,4
+2023-04-01,Customer_012,Frozen Items,22,7.36,161.82,4
+2023-04-01,Customer_013,Chicken Dips,26,21.33,554.64,4
+2023-04-01,Customer_013,Cheese Dips,45,37.88,1704.57,4
+2023-04-01,Customer_013,Drinks,36,7.71,277.43,4
+2023-04-01,Customer_013,Sauces,18,48.09,865.68,4
+2023-04-01,Customer_013,Frozen Items,43,12.67,544.87,4
+2023-04-01,Customer_014,Chicken Dips,22,9.35,205.71,4
+2023-04-01,Customer_014,Cheese Dips,38,41.98,1595.29,4
+2023-04-01,Customer_014,Drinks,14,18.54,259.54,4
+2023-04-01,Customer_014,Sauces,14,40.8,571.13,4
+2023-04-01,Customer_014,Frozen Items,19,22.97,436.42,4
+2023-04-01,Customer_015,Chicken Dips,29,5.9,171.13,4
+2023-04-01,Customer_015,Cheese Dips,42,46.72,1962.03,4
+2023-04-01,Customer_015,Drinks,20,42.89,857.83,4
+2023-04-01,Customer_015,Sauces,19,9.18,174.45,4
+2023-04-01,Customer_015,Frozen Items,49,9.01,441.52,4
+2023-04-01,Customer_016,Chicken Dips,23,43.91,1009.95,4
+2023-04-01,Customer_016,Cheese Dips,27,42.17,1138.67,4
+2023-04-01,Customer_016,Drinks,30,12.17,365.06,4
+2023-04-01,Customer_016,Sauces,27,18.64,503.3,4
+2023-04-01,Customer_016,Frozen Items,45,20.38,916.89,4
+2023-04-01,Customer_017,Chicken Dips,48,8.94,429.31,4
+2023-04-01,Customer_017,Cheese Dips,36,29.92,1077.16,4
+2023-04-01,Customer_017,Drinks,16,22.86,365.83,4
+2023-04-01,Customer_017,Sauces,50,47.41,2370.37,4
+2023-04-01,Customer_017,Frozen Items,1,28.21,28.21,4
+2023-04-01,Customer_018,Chicken Dips,26,40.38,1049.94,4
+2023-04-01,Customer_018,Cheese Dips,11,30.5,335.45,4
+2023-04-01,Customer_018,Drinks,11,14.38,158.21,4
+2023-04-01,Customer_018,Sauces,23,10.24,235.44,4
+2023-04-01,Customer_018,Frozen Items,1,33.26,33.26,4
+2023-04-01,Customer_019,Chicken Dips,50,28.96,1448.08,4
+2023-04-01,Customer_019,Cheese Dips,12,11.36,136.29,4
+2023-04-01,Customer_019,Drinks,29,18.71,542.61,4
+2023-04-01,Customer_019,Sauces,18,19.51,351.25,4
+2023-04-01,Customer_019,Frozen Items,18,12.81,230.55,4
+2023-04-01,Customer_020,Chicken Dips,8,15.06,120.5,4
+2023-04-01,Customer_020,Cheese Dips,37,30.79,1139.11,4
+2023-04-01,Customer_020,Drinks,43,42.01,1806.5,4
+2023-04-01,Customer_020,Sauces,40,26.57,1062.84,4
+2023-04-01,Customer_020,Frozen Items,4,46.52,186.1,4
+2023-04-01,Customer_021,Chicken Dips,41,32.28,1323.54,4
+2023-04-01,Customer_021,Cheese Dips,43,42.32,1819.76,4
+2023-04-01,Customer_021,Drinks,43,27.62,1187.47,4
+2023-04-01,Customer_021,Sauces,35,42.13,1474.69,4
+2023-04-01,Customer_021,Frozen Items,10,10.48,104.79,4
+2023-04-01,Customer_022,Chicken Dips,12,6.16,73.94,4
+2023-04-01,Customer_022,Cheese Dips,15,15.46,231.97,4
+2023-04-01,Customer_022,Drinks,14,24.78,346.89,4
+2023-04-01,Customer_022,Sauces,38,5.01,190.57,4
+2023-04-01,Customer_022,Frozen Items,33,34.26,1130.55,4
+2023-04-01,Customer_023,Chicken Dips,24,22.39,537.38,4
+2023-04-01,Customer_023,Cheese Dips,27,40.13,1083.63,4
+2023-04-01,Customer_023,Drinks,45,14.53,653.8,4
+2023-04-01,Customer_023,Sauces,35,7.6,266.0,4
+2023-04-01,Customer_023,Frozen Items,50,18.38,919.05,4
+2023-04-01,Customer_024,Chicken Dips,45,15.76,709.34,4
+2023-04-01,Customer_024,Cheese Dips,23,8.36,192.24,4
+2023-04-01,Customer_024,Drinks,28,13.0,363.99,4
+2023-04-01,Customer_024,Sauces,34,27.92,949.42,4
+2023-04-01,Customer_024,Frozen Items,6,15.3,91.8,4
+2023-04-01,Customer_025,Chicken Dips,38,32.68,1242.03,4
+2023-04-01,Customer_025,Cheese Dips,39,12.82,499.94,4
+2023-04-01,Customer_025,Drinks,16,28.72,459.47,4
+2023-04-01,Customer_025,Sauces,8,37.59,300.75,4
+2023-04-01,Customer_025,Frozen Items,4,44.9,179.59,4
+2023-04-01,Customer_026,Chicken Dips,6,21.55,129.3,4
+2023-04-01,Customer_026,Cheese Dips,30,42.24,1267.18,4
+2023-04-01,Customer_026,Drinks,17,22.42,381.12,4
+2023-04-01,Customer_026,Sauces,42,5.5,230.85,4
+2023-04-01,Customer_026,Frozen Items,27,11.02,297.57,4
+2023-04-01,Customer_027,Chicken Dips,12,5.86,70.36,4
+2023-04-01,Customer_027,Cheese Dips,18,39.21,705.83,4
+2023-04-01,Customer_027,Drinks,23,13.54,311.33,4
+2023-04-01,Customer_027,Sauces,29,14.68,425.84,4
+2023-04-01,Customer_027,Frozen Items,45,42.54,1914.46,4
+2023-04-01,Customer_028,Chicken Dips,16,13.95,223.18,4
+2023-04-01,Customer_028,Cheese Dips,35,48.18,1686.33,4
+2023-04-01,Customer_028,Drinks,41,21.71,890.25,4
+2023-04-01,Customer_028,Sauces,31,29.66,919.4,4
+2023-04-01,Customer_028,Frozen Items,7,43.0,300.97,4
+2023-04-01,Customer_029,Chicken Dips,35,11.72,410.05,4
+2023-04-01,Customer_029,Cheese Dips,39,43.91,1712.48,4
+2023-04-01,Customer_029,Drinks,23,26.42,607.68,4
+2023-04-01,Customer_029,Sauces,46,32.63,1501.15,4
+2023-04-01,Customer_029,Frozen Items,49,22.66,1110.23,4
+2023-04-01,Customer_030,Chicken Dips,23,45.14,1038.31,4
+2023-04-01,Customer_030,Cheese Dips,50,9.6,479.84,4
+2023-04-01,Customer_030,Drinks,35,19.19,671.77,4
+2023-04-01,Customer_030,Sauces,35,41.4,1448.99,4
+2023-04-01,Customer_030,Frozen Items,12,42.84,514.07,4
+2023-04-01,Customer_031,Chicken Dips,40,16.39,655.51,4
+2023-04-01,Customer_031,Cheese Dips,13,25.77,334.96,4
+2023-04-01,Customer_031,Drinks,27,34.67,936.12,4
+2023-04-01,Customer_031,Sauces,32,33.65,1076.8,4
+2023-04-01,Customer_031,Frozen Items,1,8.0,8.0,4
+2023-04-01,Customer_032,Chicken Dips,48,44.71,2146.11,4
+2023-04-01,Customer_032,Cheese Dips,48,38.18,1832.86,4
+2023-04-01,Customer_032,Drinks,5,24.95,124.74,4
+2023-04-01,Customer_032,Sauces,34,6.88,233.76,4
+2023-04-01,Customer_032,Frozen Items,35,38.58,1350.28,4
+2023-04-01,Customer_033,Chicken Dips,43,8.24,354.48,4
+2023-04-01,Customer_033,Cheese Dips,50,9.74,487.08,4
+2023-04-01,Customer_033,Drinks,19,48.04,912.81,4
+2023-04-01,Customer_033,Sauces,33,22.44,740.58,4
+2023-04-01,Customer_033,Frozen Items,13,20.74,269.58,4
+2023-04-01,Customer_034,Chicken Dips,29,34.76,1008.09,4
+2023-04-01,Customer_034,Cheese Dips,26,12.83,333.71,4
+2023-04-01,Customer_034,Drinks,42,29.73,1248.77,4
+2023-04-01,Customer_034,Sauces,37,39.4,1457.68,4
+2023-04-01,Customer_034,Frozen Items,9,5.94,53.48,4
+2023-04-01,Customer_035,Chicken Dips,26,18.3,475.67,4
+2023-04-01,Customer_035,Cheese Dips,19,33.11,629.09,4
+2023-04-01,Customer_035,Drinks,41,35.03,1436.26,4
+2023-04-01,Customer_035,Sauces,4,10.46,41.85,4
+2023-04-01,Customer_035,Frozen Items,41,39.86,1634.2,4
+2023-04-01,Customer_036,Chicken Dips,13,48.19,626.5,4
+2023-04-01,Customer_036,Cheese Dips,13,6.89,89.54,4
+2023-04-01,Customer_036,Drinks,27,19.5,526.49,4
+2023-04-01,Customer_036,Sauces,11,18.18,199.95,4
+2023-04-01,Customer_036,Frozen Items,43,10.13,435.51,4
+2023-04-01,Customer_037,Chicken Dips,36,46.41,1670.88,4
+2023-04-01,Customer_037,Cheese Dips,42,10.76,452.1,4
+2023-04-01,Customer_037,Drinks,43,46.76,2010.84,4
+2023-04-01,Customer_037,Sauces,29,9.28,268.99,4
+2023-04-01,Customer_037,Frozen Items,21,24.44,513.31,4
+2023-04-01,Customer_038,Chicken Dips,40,32.58,1303.29,4
+2023-04-01,Customer_038,Cheese Dips,36,17.32,623.54,4
+2023-04-01,Customer_038,Drinks,26,10.47,272.16,4
+2023-04-01,Customer_038,Sauces,42,44.91,1886.29,4
+2023-04-01,Customer_038,Frozen Items,18,49.66,893.86,4
+2023-04-01,Customer_039,Chicken Dips,47,41.72,1960.73,4
+2023-04-01,Customer_039,Cheese Dips,7,44.57,311.97,4
+2023-04-01,Customer_039,Drinks,10,29.48,294.81,4
+2023-04-01,Customer_039,Sauces,40,38.98,1559.08,4
+2023-04-01,Customer_039,Frozen Items,20,49.03,980.56,4
+2023-04-01,Customer_040,Chicken Dips,8,30.1,240.81,4
+2023-04-01,Customer_040,Cheese Dips,7,34.53,241.69,4
+2023-04-01,Customer_040,Drinks,32,38.89,1244.59,4
+2023-04-01,Customer_040,Sauces,30,47.18,1415.47,4
+2023-04-01,Customer_040,Frozen Items,37,9.86,364.73,4
+2023-04-01,Customer_041,Chicken Dips,35,37.67,1318.42,4
+2023-04-01,Customer_041,Cheese Dips,33,14.61,482.06,4
+2023-04-01,Customer_041,Drinks,2,11.78,23.56,4
+2023-04-01,Customer_041,Sauces,23,29.4,676.22,4
+2023-04-01,Customer_041,Frozen Items,1,27.88,27.88,4
+2023-04-01,Customer_042,Chicken Dips,48,30.43,1460.45,4
+2023-04-01,Customer_042,Cheese Dips,31,30.97,960.16,4
+2023-04-01,Customer_042,Drinks,39,39.25,1530.77,4
+2023-04-01,Customer_042,Sauces,12,25.77,309.24,4
+2023-04-01,Customer_042,Frozen Items,38,16.1,611.82,4
+2023-04-01,Customer_043,Chicken Dips,7,44.67,312.66,4
+2023-04-01,Customer_043,Cheese Dips,13,9.46,123.02,4
+2023-04-01,Customer_043,Drinks,25,34.59,864.76,4
+2023-04-01,Customer_043,Sauces,45,29.98,1349.05,4
+2023-04-01,Customer_043,Frozen Items,29,32.67,947.55,4
+2023-04-01,Customer_044,Chicken Dips,5,20.99,104.96,4
+2023-04-01,Customer_044,Cheese Dips,41,29.94,1227.55,4
+2023-04-01,Customer_044,Drinks,10,43.16,431.62,4
+2023-04-01,Customer_044,Sauces,30,6.59,197.67,4
+2023-04-01,Customer_044,Frozen Items,10,5.5,54.96,4
+2023-04-01,Customer_045,Chicken Dips,23,48.11,1106.61,4
+2023-04-01,Customer_045,Cheese Dips,40,35.53,1421.08,4
+2023-04-01,Customer_045,Drinks,10,42.89,428.89,4
+2023-04-01,Customer_045,Sauces,10,44.45,444.49,4
+2023-04-01,Customer_045,Frozen Items,19,10.61,201.63,4
+2023-04-01,Customer_046,Chicken Dips,31,37.49,1162.29,4
+2023-04-01,Customer_046,Cheese Dips,9,14.77,132.97,4
+2023-04-01,Customer_046,Drinks,28,22.62,633.32,4
+2023-04-01,Customer_046,Sauces,39,5.08,198.3,4
+2023-04-01,Customer_046,Frozen Items,24,5.14,123.48,4
+2023-04-01,Customer_047,Chicken Dips,30,12.51,375.29,4
+2023-04-01,Customer_047,Cheese Dips,10,22.45,224.45,4
+2023-04-01,Customer_047,Drinks,18,31.47,566.44,4
+2023-04-01,Customer_047,Sauces,22,27.95,615.01,4
+2023-04-01,Customer_047,Frozen Items,33,7.92,261.31,4
+2023-04-01,Customer_048,Chicken Dips,15,30.27,454.0,4
+2023-04-01,Customer_048,Cheese Dips,43,7.38,317.18,4
+2023-04-01,Customer_048,Drinks,39,35.44,1382.2,4
+2023-04-01,Customer_048,Sauces,40,32.1,1283.86,4
+2023-04-01,Customer_048,Frozen Items,40,27.42,1096.86,4
+2023-04-01,Customer_049,Chicken Dips,19,7.63,145.06,4
+2023-04-01,Customer_049,Cheese Dips,48,36.85,1768.59,4
+2023-04-01,Customer_049,Drinks,3,28.28,84.83,4
+2023-04-01,Customer_049,Sauces,13,10.51,136.59,4
+2023-04-01,Customer_049,Frozen Items,27,24.53,662.33,4
+2023-05-01,Customer_000,Chicken Dips,39,21.71,846.85,5
+2023-05-01,Customer_000,Cheese Dips,28,31.92,893.76,5
+2023-05-01,Customer_000,Drinks,22,46.99,1033.78,5
+2023-05-01,Customer_000,Sauces,42,23.96,1006.16,5
+2023-05-01,Customer_000,Frozen Items,10,27.33,273.27,5
+2023-05-01,Customer_001,Chicken Dips,25,49.6,1240.02,5
+2023-05-01,Customer_001,Cheese Dips,44,30.73,1352.31,5
+2023-05-01,Customer_001,Drinks,22,13.3,292.63,5
+2023-05-01,Customer_001,Sauces,31,20.05,621.64,5
+2023-05-01,Customer_001,Frozen Items,10,31.36,313.61,5
+2023-05-01,Customer_002,Chicken Dips,15,17.29,259.32,5
+2023-05-01,Customer_002,Cheese Dips,23,46.83,1077.15,5
+2023-05-01,Customer_002,Drinks,37,47.33,1751.23,5
+2023-05-01,Customer_002,Sauces,48,43.37,2081.89,5
+2023-05-01,Customer_002,Frozen Items,32,44.27,1416.73,5
+2023-05-01,Customer_003,Chicken Dips,6,26.64,159.84,5
+2023-05-01,Customer_003,Cheese Dips,25,25.62,640.46,5
+2023-05-01,Customer_003,Drinks,5,36.77,183.85,5
+2023-05-01,Customer_003,Sauces,32,8.63,276.07,5
+2023-05-01,Customer_003,Frozen Items,49,45.68,2238.13,5
+2023-05-01,Customer_004,Chicken Dips,31,24.66,764.41,5
+2023-05-01,Customer_004,Cheese Dips,45,5.32,239.23,5
+2023-05-01,Customer_004,Drinks,9,12.15,109.36,5
+2023-05-01,Customer_004,Sauces,28,38.81,1086.73,5
+2023-05-01,Customer_004,Frozen Items,39,26.24,1023.47,5
+2023-05-01,Customer_005,Chicken Dips,15,8.1,121.55,5
+2023-05-01,Customer_005,Cheese Dips,30,17.7,530.95,5
+2023-05-01,Customer_005,Drinks,49,16.11,789.59,5
+2023-05-01,Customer_005,Sauces,31,48.87,1514.89,5
+2023-05-01,Customer_005,Frozen Items,31,24.3,753.3,5
+2023-05-01,Customer_006,Chicken Dips,49,39.95,1957.65,5
+2023-05-01,Customer_006,Cheese Dips,35,26.94,942.92,5
+2023-05-01,Customer_006,Drinks,22,7.09,156.04,5
+2023-05-01,Customer_006,Sauces,15,45.79,686.85,5
+2023-05-01,Customer_006,Frozen Items,51,20.57,1048.89,5
+2023-05-01,Customer_007,Chicken Dips,3,23.5,70.5,5
+2023-05-01,Customer_007,Cheese Dips,42,8.89,373.34,5
+2023-05-01,Customer_007,Drinks,7,37.96,265.72,5
+2023-05-01,Customer_007,Sauces,23,10.76,247.47,5
+2023-05-01,Customer_007,Frozen Items,14,22.71,317.87,5
+2023-05-01,Customer_008,Chicken Dips,47,23.85,1120.75,5
+2023-05-01,Customer_008,Cheese Dips,25,27.25,681.29,5
+2023-05-01,Customer_008,Drinks,7,16.54,115.81,5
+2023-05-01,Customer_008,Sauces,26,37.63,978.43,5
+2023-05-01,Customer_008,Frozen Items,17,30.44,517.48,5
+2023-05-01,Customer_009,Chicken Dips,10,18.89,188.91,5
+2023-05-01,Customer_009,Cheese Dips,29,32.38,939.13,5
+2023-05-01,Customer_009,Drinks,9,13.24,119.12,5
+2023-05-01,Customer_009,Sauces,19,11.81,224.32,5
+2023-05-01,Customer_009,Frozen Items,30,23.81,714.29,5
+2023-05-01,Customer_010,Chicken Dips,14,43.28,605.89,5
+2023-05-01,Customer_010,Cheese Dips,49,29.53,1446.96,5
+2023-05-01,Customer_010,Drinks,14,10.16,142.3,5
+2023-05-01,Customer_010,Sauces,35,23.18,811.27,5
+2023-05-01,Customer_010,Frozen Items,21,40.63,853.16,5
+2023-05-01,Customer_011,Chicken Dips,16,29.46,471.35,5
+2023-05-01,Customer_011,Cheese Dips,40,15.18,607.06,5
+2023-05-01,Customer_011,Drinks,40,26.81,1072.45,5
+2023-05-01,Customer_011,Sauces,7,11.34,79.4,5
+2023-05-01,Customer_011,Frozen Items,6,43.25,259.49,5
+2023-05-01,Customer_012,Chicken Dips,6,9.39,56.34,5
+2023-05-01,Customer_012,Cheese Dips,43,34.29,1474.63,5
+2023-05-01,Customer_012,Drinks,8,18.08,144.61,5
+2023-05-01,Customer_012,Sauces,35,10.04,351.3,5
+2023-05-01,Customer_012,Frozen Items,26,49.01,1274.33,5
+2023-05-01,Customer_013,Chicken Dips,27,40.38,1090.33,5
+2023-05-01,Customer_013,Cheese Dips,49,44.25,2168.06,5
+2023-05-01,Customer_013,Drinks,42,19.86,834.11,5
+2023-05-01,Customer_013,Sauces,12,28.37,340.47,5
+2023-05-01,Customer_013,Frozen Items,42,10.68,448.62,5
+2023-05-01,Customer_014,Chicken Dips,18,12.27,220.91,5
+2023-05-01,Customer_014,Cheese Dips,38,30.21,1147.91,5
+2023-05-01,Customer_014,Drinks,23,30.11,692.51,5
+2023-05-01,Customer_014,Sauces,8,7.93,63.47,5
+2023-05-01,Customer_014,Frozen Items,15,45.91,688.72,5
+2023-05-01,Customer_015,Chicken Dips,22,22.58,496.82,5
+2023-05-01,Customer_015,Cheese Dips,41,9.75,399.6,5
+2023-05-01,Customer_015,Drinks,23,25.33,582.51,5
+2023-05-01,Customer_015,Sauces,16,9.2,147.25,5
+2023-05-01,Customer_015,Frozen Items,48,48.4,2323.27,5
+2023-05-01,Customer_016,Chicken Dips,24,13.4,321.66,5
+2023-05-01,Customer_016,Cheese Dips,30,17.92,537.64,5
+2023-05-01,Customer_016,Drinks,33,30.99,1022.73,5
+2023-05-01,Customer_016,Sauces,28,19.06,533.56,5
+2023-05-01,Customer_016,Frozen Items,52,22.82,1186.57,5
+2023-05-01,Customer_017,Chicken Dips,47,28.41,1335.2,5
+2023-05-01,Customer_017,Cheese Dips,31,30.1,933.16,5
+2023-05-01,Customer_017,Drinks,15,19.25,288.81,5
+2023-05-01,Customer_017,Sauces,46,21.34,981.62,5
+2023-05-01,Customer_017,Frozen Items,1,12.6,12.6,5
+2023-05-01,Customer_018,Chicken Dips,29,11.33,328.63,5
+2023-05-01,Customer_018,Cheese Dips,6,6.5,39.01,5
+2023-05-01,Customer_018,Drinks,15,45.23,678.44,5
+2023-05-01,Customer_018,Sauces,27,24.81,669.99,5
+2023-05-01,Customer_018,Frozen Items,5,48.55,242.75,5
+2023-05-01,Customer_019,Chicken Dips,45,44.71,2011.89,5
+2023-05-01,Customer_019,Cheese Dips,13,48.52,630.77,5
+2023-05-01,Customer_019,Drinks,29,10.51,304.78,5
+2023-05-01,Customer_019,Sauces,11,12.47,137.15,5
+2023-05-01,Customer_019,Frozen Items,21,49.09,1030.89,5
+2023-05-01,Customer_020,Chicken Dips,13,10.84,140.95,5
+2023-05-01,Customer_020,Cheese Dips,38,30.19,1147.18,5
+2023-05-01,Customer_020,Drinks,34,6.32,214.93,5
+2023-05-01,Customer_020,Sauces,35,45.06,1577.16,5
+2023-05-01,Customer_020,Frozen Items,8,48.81,390.44,5
+2023-05-01,Customer_021,Chicken Dips,49,41.86,2051.04,5
+2023-05-01,Customer_021,Cheese Dips,39,9.98,389.36,5
+2023-05-01,Customer_021,Drinks,48,26.2,1257.72,5
+2023-05-01,Customer_021,Sauces,35,21.1,738.53,5
+2023-05-01,Customer_021,Frozen Items,7,41.87,293.07,5
+2023-05-01,Customer_022,Chicken Dips,17,16.0,271.92,5
+2023-05-01,Customer_022,Cheese Dips,14,8.92,124.92,5
+2023-05-01,Customer_022,Drinks,11,15.79,173.74,5
+2023-05-01,Customer_022,Sauces,36,45.74,1646.68,5
+2023-05-01,Customer_022,Frozen Items,34,25.27,859.04,5
+2023-05-01,Customer_023,Chicken Dips,31,32.62,1011.22,5
+2023-05-01,Customer_023,Cheese Dips,29,32.94,955.31,5
+2023-05-01,Customer_023,Drinks,41,38.21,1566.74,5
+2023-05-01,Customer_023,Sauces,36,6.4,230.41,5
+2023-05-01,Customer_023,Frozen Items,44,19.63,863.71,5
+2023-05-01,Customer_024,Chicken Dips,46,5.17,237.9,5
+2023-05-01,Customer_024,Cheese Dips,27,12.52,338.07,5
+2023-05-01,Customer_024,Drinks,29,15.22,441.47,5
+2023-05-01,Customer_024,Sauces,41,8.27,339.08,5
+2023-05-01,Customer_024,Frozen Items,2,36.24,72.47,5
+2023-05-01,Customer_025,Chicken Dips,42,14.7,617.35,5
+2023-05-01,Customer_025,Cheese Dips,40,6.49,259.74,5
+2023-05-01,Customer_025,Drinks,17,23.37,397.35,5
+2023-05-01,Customer_025,Sauces,5,47.22,236.12,5
+2023-05-01,Customer_025,Frozen Items,0,39.47,0.0,5
+2023-05-01,Customer_026,Chicken Dips,6,7.66,45.96,5
+2023-05-01,Customer_026,Cheese Dips,26,34.28,891.4,5
+2023-05-01,Customer_026,Drinks,18,35.18,633.29,5
+2023-05-01,Customer_026,Sauces,44,12.61,554.78,5
+2023-05-01,Customer_026,Frozen Items,27,25.12,678.17,5
+2023-05-01,Customer_027,Chicken Dips,13,15.2,197.64,5
+2023-05-01,Customer_027,Cheese Dips,18,29.6,532.79,5
+2023-05-01,Customer_027,Drinks,16,23.57,377.19,5
+2023-05-01,Customer_027,Sauces,28,5.81,162.68,5
+2023-05-01,Customer_027,Frozen Items,48,38.3,1838.19,5
+2023-05-01,Customer_028,Chicken Dips,21,48.48,1018.1,5
+2023-05-01,Customer_028,Cheese Dips,36,43.63,1570.51,5
+2023-05-01,Customer_028,Drinks,40,48.77,1951.0,5
+2023-05-01,Customer_028,Sauces,33,38.93,1284.63,5
+2023-05-01,Customer_028,Frozen Items,11,42.78,470.53,5
+2023-05-01,Customer_029,Chicken Dips,35,32.96,1153.62,5
+2023-05-01,Customer_029,Cheese Dips,44,18.71,823.41,5
+2023-05-01,Customer_029,Drinks,28,28.97,811.17,5
+2023-05-01,Customer_029,Sauces,40,44.27,1770.96,5
+2023-05-01,Customer_029,Frozen Items,51,36.67,1869.96,5
+2023-05-01,Customer_030,Chicken Dips,17,9.34,158.85,5
+2023-05-01,Customer_030,Cheese Dips,50,5.56,277.91,5
+2023-05-01,Customer_030,Drinks,35,17.77,622.03,5
+2023-05-01,Customer_030,Sauces,39,18.38,716.65,5
+2023-05-01,Customer_030,Frozen Items,20,7.17,143.33,5
+2023-05-01,Customer_031,Chicken Dips,34,44.48,1512.18,5
+2023-05-01,Customer_031,Cheese Dips,7,35.05,245.36,5
+2023-05-01,Customer_031,Drinks,26,45.15,1173.99,5
+2023-05-01,Customer_031,Sauces,33,28.91,954.01,5
+2023-05-01,Customer_031,Frozen Items,1,17.84,17.84,5
+2023-05-01,Customer_032,Chicken Dips,43,17.05,733.15,5
+2023-05-01,Customer_032,Cheese Dips,45,30.8,1386.03,5
+2023-05-01,Customer_032,Drinks,9,7.86,70.77,5
+2023-05-01,Customer_032,Sauces,30,14.91,447.3,5
+2023-05-01,Customer_032,Frozen Items,27,38.19,1031.14,5
+2023-05-01,Customer_033,Chicken Dips,51,45.93,2342.59,5
+2023-05-01,Customer_033,Cheese Dips,46,44.08,2027.9,5
+2023-05-01,Customer_033,Drinks,20,44.55,891.08,5
+2023-05-01,Customer_033,Sauces,29,6.13,177.81,5
+2023-05-01,Customer_033,Frozen Items,16,24.37,389.91,5
+2023-05-01,Customer_034,Chicken Dips,32,24.56,785.82,5
+2023-05-01,Customer_034,Cheese Dips,32,20.34,650.77,5
+2023-05-01,Customer_034,Drinks,41,24.95,1023.04,5
+2023-05-01,Customer_034,Sauces,39,47.66,1858.93,5
+2023-05-01,Customer_034,Frozen Items,5,31.63,158.13,5
+2023-05-01,Customer_035,Chicken Dips,28,15.68,439.17,5
+2023-05-01,Customer_035,Cheese Dips,18,10.93,196.67,5
+2023-05-01,Customer_035,Drinks,43,22.3,959.03,5
+2023-05-01,Customer_035,Sauces,4,34.35,137.4,5
+2023-05-01,Customer_035,Frozen Items,39,17.22,671.6,5
+2023-05-01,Customer_036,Chicken Dips,11,49.27,542.0,5
+2023-05-01,Customer_036,Cheese Dips,14,33.53,469.49,5
+2023-05-01,Customer_036,Drinks,31,45.12,1398.61,5
+2023-05-01,Customer_036,Sauces,9,21.28,191.55,5
+2023-05-01,Customer_036,Frozen Items,41,7.05,289.22,5
+2023-05-01,Customer_037,Chicken Dips,39,15.75,614.19,5
+2023-05-01,Customer_037,Cheese Dips,50,48.72,2435.95,5
+2023-05-01,Customer_037,Drinks,43,33.01,1419.58,5
+2023-05-01,Customer_037,Sauces,25,25.14,628.4,5
+2023-05-01,Customer_037,Frozen Items,17,14.31,243.35,5
+2023-05-01,Customer_038,Chicken Dips,36,43.44,1563.7,5
+2023-05-01,Customer_038,Cheese Dips,31,14.86,460.6,5
+2023-05-01,Customer_038,Drinks,26,9.86,256.39,5
+2023-05-01,Customer_038,Sauces,49,25.83,1265.59,5
+2023-05-01,Customer_038,Frozen Items,15,30.74,461.13,5
+2023-05-01,Customer_039,Chicken Dips,47,18.21,855.73,5
+2023-05-01,Customer_039,Cheese Dips,9,22.87,205.79,5
+2023-05-01,Customer_039,Drinks,6,17.81,106.83,5
+2023-05-01,Customer_039,Sauces,36,10.12,364.42,5
+2023-05-01,Customer_039,Frozen Items,18,44.59,802.69,5
+2023-05-01,Customer_040,Chicken Dips,7,44.34,310.38,5
+2023-05-01,Customer_040,Cheese Dips,3,25.28,75.83,5
+2023-05-01,Customer_040,Drinks,27,22.54,608.69,5
+2023-05-01,Customer_040,Sauces,24,23.5,563.9,5
+2023-05-01,Customer_040,Frozen Items,43,35.19,1513.27,5
+2023-05-01,Customer_041,Chicken Dips,31,42.07,1304.19,5
+2023-05-01,Customer_041,Cheese Dips,38,47.93,1821.4,5
+2023-05-01,Customer_041,Drinks,4,5.07,20.28,5
+2023-05-01,Customer_041,Sauces,24,37.29,894.98,5
+2023-05-01,Customer_041,Frozen Items,7,6.83,47.78,5
+2023-05-01,Customer_042,Chicken Dips,46,35.9,1651.24,5
+2023-05-01,Customer_042,Cheese Dips,26,34.94,908.39,5
+2023-05-01,Customer_042,Drinks,31,25.53,791.45,5
+2023-05-01,Customer_042,Sauces,6,9.15,54.92,5
+2023-05-01,Customer_042,Frozen Items,38,38.8,1474.51,5
+2023-05-01,Customer_043,Chicken Dips,3,23.19,69.57,5
+2023-05-01,Customer_043,Cheese Dips,12,20.96,251.58,5
+2023-05-01,Customer_043,Drinks,22,23.57,518.55,5
+2023-05-01,Customer_043,Sauces,45,34.09,1534.06,5
+2023-05-01,Customer_043,Frozen Items,25,31.71,792.87,5
+2023-05-01,Customer_044,Chicken Dips,13,27.6,358.76,5
+2023-05-01,Customer_044,Cheese Dips,35,46.1,1613.43,5
+2023-05-01,Customer_044,Drinks,13,11.94,155.28,5
+2023-05-01,Customer_044,Sauces,23,37.58,864.31,5
+2023-05-01,Customer_044,Frozen Items,14,45.61,638.55,5
+2023-05-01,Customer_045,Chicken Dips,20,42.31,846.12,5
+2023-05-01,Customer_045,Cheese Dips,39,41.9,1634.12,5
+2023-05-01,Customer_045,Drinks,16,23.99,383.86,5
+2023-05-01,Customer_045,Sauces,7,25.2,176.39,5
+2023-05-01,Customer_045,Frozen Items,21,30.97,650.45,5
+2023-05-01,Customer_046,Chicken Dips,37,45.96,1700.37,5
+2023-05-01,Customer_046,Cheese Dips,2,14.72,29.44,5
+2023-05-01,Customer_046,Drinks,27,37.81,1020.95,5
+2023-05-01,Customer_046,Sauces,43,8.03,345.39,5
+2023-05-01,Customer_046,Frozen Items,22,36.16,795.57,5
+2023-05-01,Customer_047,Chicken Dips,26,23.18,602.56,5
+2023-05-01,Customer_047,Cheese Dips,8,29.41,235.31,5
+2023-05-01,Customer_047,Drinks,23,40.5,931.6,5
+2023-05-01,Customer_047,Sauces,20,22.29,445.82,5
+2023-05-01,Customer_047,Frozen Items,33,43.59,1438.48,5
+2023-05-01,Customer_048,Chicken Dips,14,24.39,341.52,5
+2023-05-01,Customer_048,Cheese Dips,47,45.03,2116.61,5
+2023-05-01,Customer_048,Drinks,41,21.65,887.75,5
+2023-05-01,Customer_048,Sauces,44,36.75,1617.06,5
+2023-05-01,Customer_048,Frozen Items,38,28.66,1089.14,5
+2023-05-01,Customer_049,Chicken Dips,18,12.51,225.16,5
+2023-05-01,Customer_049,Cheese Dips,43,34.06,1464.51,5
+2023-05-01,Customer_049,Drinks,4,45.05,180.22,5
+2023-05-01,Customer_049,Sauces,10,47.6,475.99,5
+2023-05-01,Customer_049,Frozen Items,29,6.15,178.21,5
+2023-05-31,Customer_000,Chicken Dips,39,33.66,1312.76,6
+2023-05-31,Customer_000,Cheese Dips,28,9.56,267.59,6
+2023-05-31,Customer_000,Drinks,18,28.9,520.18,6
+2023-05-31,Customer_000,Sauces,45,31.11,1399.95,6
+2023-05-31,Customer_000,Frozen Items,12,25.43,305.16,6
+2023-05-31,Customer_001,Chicken Dips,23,12.53,288.22,6
+2023-05-31,Customer_001,Cheese Dips,39,26.85,1047.21,6
+2023-05-31,Customer_001,Drinks,25,48.99,1224.63,6
+2023-05-31,Customer_001,Sauces,24,48.38,1161.14,6
+2023-05-31,Customer_001,Frozen Items,13,9.47,123.09,6
+2023-05-31,Customer_002,Chicken Dips,15,46.65,699.81,6
+2023-05-31,Customer_002,Cheese Dips,32,22.79,729.43,6
+2023-05-31,Customer_002,Drinks,40,39.03,1561.18,6
+2023-05-31,Customer_002,Sauces,43,18.02,774.69,6
+2023-05-31,Customer_002,Frozen Items,27,42.6,1150.11,6
+2023-05-31,Customer_003,Chicken Dips,6,48.02,288.1,6
+2023-05-31,Customer_003,Cheese Dips,25,26.33,658.26,6
+2023-05-31,Customer_003,Drinks,6,32.13,192.79,6
+2023-05-31,Customer_003,Sauces,31,49.28,1527.7,6
+2023-05-31,Customer_003,Frozen Items,46,6.39,294.04,6
+2023-05-31,Customer_004,Chicken Dips,34,29.36,998.35,6
+2023-05-31,Customer_004,Cheese Dips,41,26.5,1086.69,6
+2023-05-31,Customer_004,Drinks,2,12.58,25.15,6
+2023-05-31,Customer_004,Sauces,24,42.51,1020.34,6
+2023-05-31,Customer_004,Frozen Items,34,21.03,714.96,6
+2023-05-31,Customer_005,Chicken Dips,12,16.67,200.04,6
+2023-05-31,Customer_005,Cheese Dips,23,12.97,298.37,6
+2023-05-31,Customer_005,Drinks,47,20.41,959.28,6
+2023-05-31,Customer_005,Sauces,28,48.49,1357.69,6
+2023-05-31,Customer_005,Frozen Items,32,29.52,944.55,6
+2023-05-31,Customer_006,Chicken Dips,41,31.12,1275.96,6
+2023-05-31,Customer_006,Cheese Dips,34,49.99,1699.56,6
+2023-05-31,Customer_006,Drinks,16,27.0,432.01,6
+2023-05-31,Customer_006,Sauces,16,40.21,643.32,6
+2023-05-31,Customer_006,Frozen Items,45,44.61,2007.64,6
+2023-05-31,Customer_007,Chicken Dips,9,19.66,176.96,6
+2023-05-31,Customer_007,Cheese Dips,43,32.93,1415.98,6
+2023-05-31,Customer_007,Drinks,10,37.89,378.87,6
+2023-05-31,Customer_007,Sauces,27,6.78,182.94,6
+2023-05-31,Customer_007,Frozen Items,8,36.99,295.92,6
+2023-05-31,Customer_008,Chicken Dips,43,15.25,655.7,6
+2023-05-31,Customer_008,Cheese Dips,21,31.96,671.17,6
+2023-05-31,Customer_008,Drinks,8,29.0,232.02,6
+2023-05-31,Customer_008,Sauces,29,10.88,315.5,6
+2023-05-31,Customer_008,Frozen Items,19,10.62,201.72,6
+2023-05-31,Customer_009,Chicken Dips,8,35.63,285.07,6
+2023-05-31,Customer_009,Cheese Dips,33,44.47,1467.48,6
+2023-05-31,Customer_009,Drinks,6,11.7,70.17,6
+2023-05-31,Customer_009,Sauces,21,28.08,589.69,6
+2023-05-31,Customer_009,Frozen Items,30,43.86,1315.79,6
+2023-05-31,Customer_010,Chicken Dips,12,21.89,262.68,6
+2023-05-31,Customer_010,Cheese Dips,48,28.51,1368.48,6
+2023-05-31,Customer_010,Drinks,14,24.86,347.97,6
+2023-05-31,Customer_010,Sauces,42,21.3,894.69,6
+2023-05-31,Customer_010,Frozen Items,13,43.95,571.36,6
+2023-05-31,Customer_011,Chicken Dips,17,24.96,424.24,6
+2023-05-31,Customer_011,Cheese Dips,38,41.3,1569.27,6
+2023-05-31,Customer_011,Drinks,41,14.02,574.88,6
+2023-05-31,Customer_011,Sauces,11,7.68,84.44,6
+2023-05-31,Customer_011,Frozen Items,1,33.81,33.81,6
+2023-05-31,Customer_012,Chicken Dips,5,45.19,225.95,6
+2023-05-31,Customer_012,Cheese Dips,43,19.04,818.52,6
+2023-05-31,Customer_012,Drinks,5,25.17,125.87,6
+2023-05-31,Customer_012,Sauces,34,5.86,199.25,6
+2023-05-31,Customer_012,Frozen Items,22,35.95,790.84,6
+2023-05-31,Customer_013,Chicken Dips,27,36.16,976.43,6
+2023-05-31,Customer_013,Cheese Dips,52,33.46,1740.15,6
+2023-05-31,Customer_013,Drinks,37,21.14,782.26,6
+2023-05-31,Customer_013,Sauces,10,20.0,200.03,6
+2023-05-31,Customer_013,Frozen Items,37,14.48,535.82,6
+2023-05-31,Customer_014,Chicken Dips,21,40.7,854.76,6
+2023-05-31,Customer_014,Cheese Dips,32,49.9,1596.86,6
+2023-05-31,Customer_014,Drinks,21,49.76,1044.94,6
+2023-05-31,Customer_014,Sauces,14,18.26,255.61,6
+2023-05-31,Customer_014,Frozen Items,19,6.99,132.76,6
+2023-05-31,Customer_015,Chicken Dips,25,42.54,1063.41,6
+2023-05-31,Customer_015,Cheese Dips,39,8.11,316.15,6
+2023-05-31,Customer_015,Drinks,27,47.17,1273.57,6
+2023-05-31,Customer_015,Sauces,23,39.48,907.93,6
+2023-05-31,Customer_015,Frozen Items,47,36.5,1715.57,6
+2023-05-31,Customer_016,Chicken Dips,24,22.96,551.03,6
+2023-05-31,Customer_016,Cheese Dips,24,8.49,203.86,6
+2023-05-31,Customer_016,Drinks,28,23.32,652.95,6
+2023-05-31,Customer_016,Sauces,29,18.78,544.51,6
+2023-05-31,Customer_016,Frozen Items,51,9.99,509.74,6
+2023-05-31,Customer_017,Chicken Dips,41,5.27,216.23,6
+2023-05-31,Customer_017,Cheese Dips,30,28.52,855.48,6
+2023-05-31,Customer_017,Drinks,15,8.46,126.88,6
+2023-05-31,Customer_017,Sauces,50,42.89,2144.67,6
+2023-05-31,Customer_017,Frozen Items,5,7.26,36.3,6
+2023-05-31,Customer_018,Chicken Dips,25,36.95,923.87,6
+2023-05-31,Customer_018,Cheese Dips,13,18.29,237.74,6
+2023-05-31,Customer_018,Drinks,9,17.65,158.81,6
+2023-05-31,Customer_018,Sauces,30,18.16,544.9,6
+2023-05-31,Customer_018,Frozen Items,7,23.23,162.61,6
+2023-05-31,Customer_019,Chicken Dips,48,19.47,934.43,6
+2023-05-31,Customer_019,Cheese Dips,11,42.9,471.9,6
+2023-05-31,Customer_019,Drinks,23,33.82,777.89,6
+2023-05-31,Customer_019,Sauces,14,6.52,91.21,6
+2023-05-31,Customer_019,Frozen Items,18,21.1,379.83,6
+2023-05-31,Customer_020,Chicken Dips,15,39.18,587.74,6
+2023-05-31,Customer_020,Cheese Dips,34,37.39,1271.28,6
+2023-05-31,Customer_020,Drinks,43,31.36,1348.65,6
+2023-05-31,Customer_020,Sauces,39,29.96,1168.42,6
+2023-05-31,Customer_020,Frozen Items,7,35.72,250.02,6
+2023-05-31,Customer_021,Chicken Dips,42,37.13,1559.37,6
+2023-05-31,Customer_021,Cheese Dips,41,18.64,764.39,6
+2023-05-31,Customer_021,Drinks,45,30.35,1365.66,6
+2023-05-31,Customer_021,Sauces,30,11.43,342.88,6
+2023-05-31,Customer_021,Frozen Items,12,37.43,449.15,6
+2023-05-31,Customer_022,Chicken Dips,14,12.14,169.93,6
+2023-05-31,Customer_022,Cheese Dips,8,11.02,88.18,6
+2023-05-31,Customer_022,Drinks,12,37.48,449.73,6
+2023-05-31,Customer_022,Sauces,41,38.69,1586.25,6
+2023-05-31,Customer_022,Frozen Items,40,5.01,200.24,6
+2023-05-31,Customer_023,Chicken Dips,31,40.24,1247.31,6
+2023-05-31,Customer_023,Cheese Dips,24,17.43,418.26,6
+2023-05-31,Customer_023,Drinks,41,45.31,1857.62,6
+2023-05-31,Customer_023,Sauces,41,42.77,1753.58,6
+2023-05-31,Customer_023,Frozen Items,51,20.32,1036.15,6
+2023-05-31,Customer_024,Chicken Dips,47,8.72,409.94,6
+2023-05-31,Customer_024,Cheese Dips,29,21.21,615.11,6
+2023-05-31,Customer_024,Drinks,28,30.42,851.88,6
+2023-05-31,Customer_024,Sauces,35,19.1,668.52,6
+2023-05-31,Customer_024,Frozen Items,3,45.82,137.47,6
+2023-05-31,Customer_025,Chicken Dips,36,24.52,882.78,6
+2023-05-31,Customer_025,Cheese Dips,36,21.98,791.25,6
+2023-05-31,Customer_025,Drinks,20,48.38,967.67,6
+2023-05-31,Customer_025,Sauces,6,10.22,61.33,6
+2023-05-31,Customer_025,Frozen Items,6,27.22,163.33,6
+2023-05-31,Customer_026,Chicken Dips,4,46.86,187.43,6
+2023-05-31,Customer_026,Cheese Dips,33,36.67,1210.23,6
+2023-05-31,Customer_026,Drinks,22,11.26,247.72,6
+2023-05-31,Customer_026,Sauces,42,37.09,1557.66,6
+2023-05-31,Customer_026,Frozen Items,30,48.47,1454.16,6
+2023-05-31,Customer_027,Chicken Dips,8,35.42,283.4,6
+2023-05-31,Customer_027,Cheese Dips,22,18.41,405.07,6
+2023-05-31,Customer_027,Drinks,18,26.39,475.08,6
+2023-05-31,Customer_027,Sauces,27,33.99,917.64,6
+2023-05-31,Customer_027,Frozen Items,50,9.72,485.82,6
+2023-05-31,Customer_028,Chicken Dips,17,48.06,816.95,6
+2023-05-31,Customer_028,Cheese Dips,39,26.42,1030.32,6
+2023-05-31,Customer_028,Drinks,39,33.55,1308.41,6
+2023-05-31,Customer_028,Sauces,33,21.64,714.17,6
+2023-05-31,Customer_028,Frozen Items,9,39.54,355.86,6
+2023-05-31,Customer_029,Chicken Dips,30,29.84,895.29,6
+2023-05-31,Customer_029,Cheese Dips,39,43.27,1687.36,6
+2023-05-31,Customer_029,Drinks,30,34.58,1037.43,6
+2023-05-31,Customer_029,Sauces,43,44.61,1918.1,6
+2023-05-31,Customer_029,Frozen Items,44,40.83,1796.56,6
+2023-05-31,Customer_030,Chicken Dips,20,32.35,646.98,6
+2023-05-31,Customer_030,Cheese Dips,43,22.76,978.81,6
+2023-05-31,Customer_030,Drinks,35,34.32,1201.33,6
+2023-05-31,Customer_030,Sauces,36,38.17,1374.1,6
+2023-05-31,Customer_030,Frozen Items,17,34.02,578.3,6
+2023-05-31,Customer_031,Chicken Dips,35,35.7,1249.46,6
+2023-05-31,Customer_031,Cheese Dips,11,13.96,153.61,6
+2023-05-31,Customer_031,Drinks,24,8.84,212.17,6
+2023-05-31,Customer_031,Sauces,29,35.01,1015.26,6
+2023-05-31,Customer_031,Frozen Items,1,10.02,10.02,6
+2023-05-31,Customer_032,Chicken Dips,50,29.47,1473.56,6
+2023-05-31,Customer_032,Cheese Dips,48,35.96,1726.18,6
+2023-05-31,Customer_032,Drinks,9,46.0,413.98,6
+2023-05-31,Customer_032,Sauces,28,5.87,164.35,6
+2023-05-31,Customer_032,Frozen Items,30,47.7,1430.94,6
+2023-05-31,Customer_033,Chicken Dips,45,27.18,1223.05,6
+2023-05-31,Customer_033,Cheese Dips,48,28.89,1386.83,6
+2023-05-31,Customer_033,Drinks,24,17.0,408.01,6
+2023-05-31,Customer_033,Sauces,37,48.36,1789.23,6
+2023-05-31,Customer_033,Frozen Items,19,35.49,674.3,6
+2023-05-31,Customer_034,Chicken Dips,30,25.47,764.14,6
+2023-05-31,Customer_034,Cheese Dips,24,28.46,683.0,6
+2023-05-31,Customer_034,Drinks,47,43.57,2047.83,6
+2023-05-31,Customer_034,Sauces,37,5.76,213.22,6
+2023-05-31,Customer_034,Frozen Items,8,10.41,83.27,6
+2023-05-31,Customer_035,Chicken Dips,31,24.6,762.53,6
+2023-05-31,Customer_035,Cheese Dips,16,20.38,326.1,6
+2023-05-31,Customer_035,Drinks,46,28.31,1302.18,6
+2023-05-31,Customer_035,Sauces,5,33.88,169.42,6
+2023-05-31,Customer_035,Frozen Items,42,34.09,1431.81,6
+2023-05-31,Customer_036,Chicken Dips,11,44.57,490.23,6
+2023-05-31,Customer_036,Cheese Dips,9,6.06,54.56,6
+2023-05-31,Customer_036,Drinks,33,40.24,1328.05,6
+2023-05-31,Customer_036,Sauces,16,18.1,289.62,6
+2023-05-31,Customer_036,Frozen Items,41,11.85,486.04,6
+2023-05-31,Customer_037,Chicken Dips,39,7.96,310.29,6
+2023-05-31,Customer_037,Cheese Dips,49,47.18,2311.92,6
+2023-05-31,Customer_037,Drinks,44,26.78,1178.47,6
+2023-05-31,Customer_037,Sauces,29,35.22,1021.49,6
+2023-05-31,Customer_037,Frozen Items,17,48.1,817.71,6
+2023-05-31,Customer_038,Chicken Dips,39,15.76,614.72,6
+2023-05-31,Customer_038,Cheese Dips,38,49.61,1885.17,6
+2023-05-31,Customer_038,Drinks,24,34.01,816.16,6
+2023-05-31,Customer_038,Sauces,45,21.46,965.5,6
+2023-05-31,Customer_038,Frozen Items,20,13.81,276.25,6
+2023-05-31,Customer_039,Chicken Dips,47,45.32,2130.2,6
+2023-05-31,Customer_039,Cheese Dips,9,40.16,361.44,6
+2023-05-31,Customer_039,Drinks,4,11.61,46.45,6
+2023-05-31,Customer_039,Sauces,40,28.73,1149.08,6
+2023-05-31,Customer_039,Frozen Items,19,22.47,426.88,6
+2023-05-31,Customer_040,Chicken Dips,1,20.53,20.53,6
+2023-05-31,Customer_040,Cheese Dips,4,20.18,80.72,6
+2023-05-31,Customer_040,Drinks,32,26.15,836.78,6
+2023-05-31,Customer_040,Sauces,30,36.05,1081.5,6
+2023-05-31,Customer_040,Frozen Items,45,11.63,523.29,6
+2023-05-31,Customer_041,Chicken Dips,35,27.38,958.27,6
+2023-05-31,Customer_041,Cheese Dips,40,25.15,1005.81,6
+2023-05-31,Customer_041,Drinks,5,23.7,118.52,6
+2023-05-31,Customer_041,Sauces,23,28.83,663.2,6
+2023-05-31,Customer_041,Frozen Items,10,35.58,355.83,6
+2023-05-31,Customer_042,Chicken Dips,47,32.94,1548.22,6
+2023-05-31,Customer_042,Cheese Dips,30,39.24,1177.15,6
+2023-05-31,Customer_042,Drinks,40,13.11,524.55,6
+2023-05-31,Customer_042,Sauces,7,12.46,87.21,6
+2023-05-31,Customer_042,Frozen Items,38,14.41,547.71,6
+2023-05-31,Customer_043,Chicken Dips,3,11.16,33.49,6
+2023-05-31,Customer_043,Cheese Dips,11,43.42,477.62,6
+2023-05-31,Customer_043,Drinks,21,9.9,207.9,6
+2023-05-31,Customer_043,Sauces,40,47.81,1912.57,6
+2023-05-31,Customer_043,Frozen Items,30,37.03,1110.83,6
+2023-05-31,Customer_044,Chicken Dips,13,28.51,370.69,6
+2023-05-31,Customer_044,Cheese Dips,37,24.66,912.6,6
+2023-05-31,Customer_044,Drinks,7,12.92,90.47,6
+2023-05-31,Customer_044,Sauces,26,33.01,858.14,6
+2023-05-31,Customer_044,Frozen Items,19,5.64,107.13,6
+2023-05-31,Customer_045,Chicken Dips,17,37.95,645.07,6
+2023-05-31,Customer_045,Cheese Dips,33,36.42,1201.99,6
+2023-05-31,Customer_045,Drinks,12,47.88,574.56,6
+2023-05-31,Customer_045,Sauces,6,39.08,234.47,6
+2023-05-31,Customer_045,Frozen Items,24,26.46,635.05,6
+2023-05-31,Customer_046,Chicken Dips,31,16.13,500.04,6
+2023-05-31,Customer_046,Cheese Dips,2,25.62,51.24,6
+2023-05-31,Customer_046,Drinks,19,12.32,234.11,6
+2023-05-31,Customer_046,Sauces,42,39.36,1653.16,6
+2023-05-31,Customer_046,Frozen Items,23,32.14,739.17,6
+2023-05-31,Customer_047,Chicken Dips,29,5.41,156.8,6
+2023-05-31,Customer_047,Cheese Dips,6,21.96,131.79,6
+2023-05-31,Customer_047,Drinks,27,41.21,1112.78,6
+2023-05-31,Customer_047,Sauces,23,14.99,344.85,6
+2023-05-31,Customer_047,Frozen Items,38,43.16,1640.15,6
+2023-05-31,Customer_048,Chicken Dips,13,41.37,537.84,6
+2023-05-31,Customer_048,Cheese Dips,45,24.29,1093.12,6
+2023-05-31,Customer_048,Drinks,40,23.12,924.98,6
+2023-05-31,Customer_048,Sauces,48,45.56,2186.99,6
+2023-05-31,Customer_048,Frozen Items,43,22.9,984.81,6
+2023-05-31,Customer_049,Chicken Dips,18,49.7,894.54,6
+2023-05-31,Customer_049,Cheese Dips,47,39.25,1844.53,6
+2023-05-31,Customer_049,Drinks,0,33.59,0.0,6
+2023-05-31,Customer_049,Sauces,13,38.94,506.25,6
+2023-05-31,Customer_049,Frozen Items,29,7.6,220.3,6
+2023-06-30,Customer_000,Chicken Dips,44,30.97,1362.7,7
+2023-06-30,Customer_000,Cheese Dips,28,40.44,1132.31,7
+2023-06-30,Customer_000,Drinks,17,22.38,380.54,7
+2023-06-30,Customer_000,Sauces,46,21.14,972.26,7
+2023-06-30,Customer_000,Frozen Items,10,43.13,431.27,7
+2023-06-30,Customer_001,Chicken Dips,20,13.62,272.43,7
+2023-06-30,Customer_001,Cheese Dips,41,9.58,392.83,7
+2023-06-30,Customer_001,Drinks,27,42.79,1155.38,7
+2023-06-30,Customer_001,Sauces,30,6.75,202.56,7
+2023-06-30,Customer_001,Frozen Items,19,48.03,912.65,7
+2023-06-30,Customer_002,Chicken Dips,15,44.0,660.07,7
+2023-06-30,Customer_002,Cheese Dips,31,47.77,1480.89,7
+2023-06-30,Customer_002,Drinks,39,37.36,1457.13,7
+2023-06-30,Customer_002,Sauces,46,31.1,1430.78,7
+2023-06-30,Customer_002,Frozen Items,25,19.69,492.13,7
+2023-06-30,Customer_003,Chicken Dips,4,17.71,70.85,7
+2023-06-30,Customer_003,Cheese Dips,27,45.23,1221.32,7
+2023-06-30,Customer_003,Drinks,7,43.06,301.44,7
+2023-06-30,Customer_003,Sauces,27,23.88,644.63,7
+2023-06-30,Customer_003,Frozen Items,46,42.04,1933.94,7
+2023-06-30,Customer_004,Chicken Dips,32,27.39,876.46,7
+2023-06-30,Customer_004,Cheese Dips,40,14.2,568.03,7
+2023-06-30,Customer_004,Drinks,8,13.38,107.01,7
+2023-06-30,Customer_004,Sauces,22,31.72,697.86,7
+2023-06-30,Customer_004,Frozen Items,40,21.4,855.84,7
+2023-06-30,Customer_005,Chicken Dips,20,47.34,946.71,7
+2023-06-30,Customer_005,Cheese Dips,25,25.7,642.5,7
+2023-06-30,Customer_005,Drinks,50,42.2,2110.18,7
+2023-06-30,Customer_005,Sauces,27,36.21,977.75,7
+2023-06-30,Customer_005,Frozen Items,33,20.87,688.61,7
+2023-06-30,Customer_006,Chicken Dips,44,11.82,520.16,7
+2023-06-30,Customer_006,Cheese Dips,35,25.85,904.69,7
+2023-06-30,Customer_006,Drinks,19,17.71,336.51,7
+2023-06-30,Customer_006,Sauces,20,46.9,937.91,7
+2023-06-30,Customer_006,Frozen Items,47,39.45,1854.13,7
+2023-06-30,Customer_007,Chicken Dips,10,31.57,315.69,7
+2023-06-30,Customer_007,Cheese Dips,41,21.3,873.22,7
+2023-06-30,Customer_007,Drinks,14,48.79,683.04,7
+2023-06-30,Customer_007,Sauces,26,14.16,368.19,7
+2023-06-30,Customer_007,Frozen Items,12,18.68,224.13,7
+2023-06-30,Customer_008,Chicken Dips,40,44.72,1788.92,7
+2023-06-30,Customer_008,Cheese Dips,22,37.82,832.05,7
+2023-06-30,Customer_008,Drinks,8,37.93,303.42,7
+2023-06-30,Customer_008,Sauces,27,38.39,1036.4,7
+2023-06-30,Customer_008,Frozen Items,17,39.16,665.69,7
+2023-06-30,Customer_009,Chicken Dips,17,18.63,316.74,7
+2023-06-30,Customer_009,Cheese Dips,29,37.07,1074.97,7
+2023-06-30,Customer_009,Drinks,3,13.17,39.52,7
+2023-06-30,Customer_009,Sauces,24,23.26,558.21,7
+2023-06-30,Customer_009,Frozen Items,34,39.31,1336.6,7
+2023-06-30,Customer_010,Chicken Dips,11,31.58,347.37,7
+2023-06-30,Customer_010,Cheese Dips,43,22.13,951.63,7
+2023-06-30,Customer_010,Drinks,13,29.5,383.53,7
+2023-06-30,Customer_010,Sauces,43,5.93,255.0,7
+2023-06-30,Customer_010,Frozen Items,14,40.13,561.8,7
+2023-06-30,Customer_011,Chicken Dips,24,17.1,410.35,7
+2023-06-30,Customer_011,Cheese Dips,44,26.68,1174.1,7
+2023-06-30,Customer_011,Drinks,39,32.07,1250.73,7
+2023-06-30,Customer_011,Sauces,6,33.45,200.68,7
+2023-06-30,Customer_011,Frozen Items,5,30.2,151.02,7
+2023-06-30,Customer_012,Chicken Dips,5,28.12,140.62,7
+2023-06-30,Customer_012,Cheese Dips,49,12.74,624.46,7
+2023-06-30,Customer_012,Drinks,3,46.98,140.94,7
+2023-06-30,Customer_012,Sauces,35,12.16,425.46,7
+2023-06-30,Customer_012,Frozen Items,23,25.78,592.88,7
+2023-06-30,Customer_013,Chicken Dips,25,10.49,262.28,7
+2023-06-30,Customer_013,Cheese Dips,52,37.8,1965.82,7
+2023-06-30,Customer_013,Drinks,41,17.33,710.66,7
+2023-06-30,Customer_013,Sauces,17,13.79,234.36,7
+2023-06-30,Customer_013,Frozen Items,40,20.1,804.1,7
+2023-06-30,Customer_014,Chicken Dips,16,12.08,193.27,7
+2023-06-30,Customer_014,Cheese Dips,30,36.55,1096.58,7
+2023-06-30,Customer_014,Drinks,20,29.72,594.38,7
+2023-06-30,Customer_014,Sauces,7,22.12,154.86,7
+2023-06-30,Customer_014,Frozen Items,16,40.38,646.07,7
+2023-06-30,Customer_015,Chicken Dips,25,22.3,557.4,7
+2023-06-30,Customer_015,Cheese Dips,41,40.2,1648.11,7
+2023-06-30,Customer_015,Drinks,22,5.51,121.3,7
+2023-06-30,Customer_015,Sauces,24,32.72,785.18,7
+2023-06-30,Customer_015,Frozen Items,45,24.69,1111.26,7
+2023-06-30,Customer_016,Chicken Dips,20,30.15,603.08,7
+2023-06-30,Customer_016,Cheese Dips,25,36.78,919.47,7
+2023-06-30,Customer_016,Drinks,25,48.52,1212.91,7
+2023-06-30,Customer_016,Sauces,26,24.33,632.63,7
+2023-06-30,Customer_016,Frozen Items,48,37.33,1791.86,7
+2023-06-30,Customer_017,Chicken Dips,45,10.33,464.95,7
+2023-06-30,Customer_017,Cheese Dips,30,47.86,1435.83,7
+2023-06-30,Customer_017,Drinks,23,41.4,952.1,7
+2023-06-30,Customer_017,Sauces,47,33.13,1556.94,7
+2023-06-30,Customer_017,Frozen Items,1,44.21,44.21,7
+2023-06-30,Customer_018,Chicken Dips,26,27.57,716.77,7
+2023-06-30,Customer_018,Cheese Dips,13,16.27,211.52,7
+2023-06-30,Customer_018,Drinks,15,47.09,706.33,7
+2023-06-30,Customer_018,Sauces,24,42.48,1019.46,7
+2023-06-30,Customer_018,Frozen Items,2,33.26,66.52,7
+2023-06-30,Customer_019,Chicken Dips,46,35.33,1625.22,7
+2023-06-30,Customer_019,Cheese Dips,7,29.7,207.89,7
+2023-06-30,Customer_019,Drinks,27,18.8,507.73,7
+2023-06-30,Customer_019,Sauces,10,47.07,470.75,7
+2023-06-30,Customer_019,Frozen Items,20,37.97,759.43,7
+2023-06-30,Customer_020,Chicken Dips,11,8.08,88.83,7
+2023-06-30,Customer_020,Cheese Dips,34,17.86,607.21,7
+2023-06-30,Customer_020,Drinks,42,35.84,1505.49,7
+2023-06-30,Customer_020,Sauces,36,8.24,296.82,7
+2023-06-30,Customer_020,Frozen Items,10,47.5,475.0,7
+2023-06-30,Customer_021,Chicken Dips,44,35.22,1549.53,7
+2023-06-30,Customer_021,Cheese Dips,44,13.95,614.0,7
+2023-06-30,Customer_021,Drinks,42,40.34,1694.16,7
+2023-06-30,Customer_021,Sauces,34,49.57,1685.25,7
+2023-06-30,Customer_021,Frozen Items,13,17.43,226.65,7
+2023-06-30,Customer_022,Chicken Dips,17,46.16,784.77,7
+2023-06-30,Customer_022,Cheese Dips,14,8.04,112.53,7
+2023-06-30,Customer_022,Drinks,20,13.07,261.43,7
+2023-06-30,Customer_022,Sauces,38,29.65,1126.71,7
+2023-06-30,Customer_022,Frozen Items,40,38.2,1528.19,7
+2023-06-30,Customer_023,Chicken Dips,31,31.2,967.15,7
+2023-06-30,Customer_023,Cheese Dips,23,20.59,473.65,7
+2023-06-30,Customer_023,Drinks,42,16.89,709.48,7
+2023-06-30,Customer_023,Sauces,43,28.26,1214.99,7
+2023-06-30,Customer_023,Frozen Items,45,17.08,768.78,7
+2023-06-30,Customer_024,Chicken Dips,46,34.55,1589.49,7
+2023-06-30,Customer_024,Cheese Dips,26,11.48,298.41,7
+2023-06-30,Customer_024,Drinks,32,8.46,270.85,7
+2023-06-30,Customer_024,Sauces,39,8.08,314.93,7
+2023-06-30,Customer_024,Frozen Items,8,9.14,73.14,7
+2023-06-30,Customer_025,Chicken Dips,36,33.06,1190.31,7
+2023-06-30,Customer_025,Cheese Dips,37,17.03,630.22,7
+2023-06-30,Customer_025,Drinks,14,36.67,513.39,7
+2023-06-30,Customer_025,Sauces,7,16.29,114.03,7
+2023-06-30,Customer_025,Frozen Items,9,25.28,227.53,7
+2023-06-30,Customer_026,Chicken Dips,9,19.08,171.73,7
+2023-06-30,Customer_026,Cheese Dips,28,16.23,454.4,7
+2023-06-30,Customer_026,Drinks,14,43.97,615.64,7
+2023-06-30,Customer_026,Sauces,38,10.27,390.18,7
+2023-06-30,Customer_026,Frozen Items,34,11.97,406.89,7
+2023-06-30,Customer_027,Chicken Dips,13,47.26,614.35,7
+2023-06-30,Customer_027,Cheese Dips,18,14.12,254.13,7
+2023-06-30,Customer_027,Drinks,19,33.13,629.55,7
+2023-06-30,Customer_027,Sauces,33,7.27,239.98,7
+2023-06-30,Customer_027,Frozen Items,41,5.69,233.4,7
+2023-06-30,Customer_028,Chicken Dips,15,47.13,706.98,7
+2023-06-30,Customer_028,Cheese Dips,39,25.26,985.2,7
+2023-06-30,Customer_028,Drinks,38,14.92,567.03,7
+2023-06-30,Customer_028,Sauces,39,42.79,1668.85,7
+2023-06-30,Customer_028,Frozen Items,12,38.27,459.28,7
+2023-06-30,Customer_029,Chicken Dips,34,48.97,1664.82,7
+2023-06-30,Customer_029,Cheese Dips,36,27.41,986.83,7
+2023-06-30,Customer_029,Drinks,27,19.72,532.36,7
+2023-06-30,Customer_029,Sauces,41,38.68,1585.77,7
+2023-06-30,Customer_029,Frozen Items,52,24.53,1275.61,7
+2023-06-30,Customer_030,Chicken Dips,17,24.55,417.32,7
+2023-06-30,Customer_030,Cheese Dips,50,24.73,1236.37,7
+2023-06-30,Customer_030,Drinks,30,31.53,945.76,7
+2023-06-30,Customer_030,Sauces,35,29.61,1036.33,7
+2023-06-30,Customer_030,Frozen Items,20,15.89,317.82,7
+2023-06-30,Customer_031,Chicken Dips,34,14.18,482.16,7
+2023-06-30,Customer_031,Cheese Dips,12,13.97,167.61,7
+2023-06-30,Customer_031,Drinks,27,7.25,195.77,7
+2023-06-30,Customer_031,Sauces,30,5.62,168.56,7
+2023-06-30,Customer_031,Frozen Items,1,14.65,14.65,7
+2023-06-30,Customer_032,Chicken Dips,45,8.47,381.22,7
+2023-06-30,Customer_032,Cheese Dips,45,7.81,351.62,7
+2023-06-30,Customer_032,Drinks,6,37.97,227.84,7
+2023-06-30,Customer_032,Sauces,36,31.87,1147.3,7
+2023-06-30,Customer_032,Frozen Items,28,21.75,608.97,7
+2023-06-30,Customer_033,Chicken Dips,49,42.73,2093.87,7
+2023-06-30,Customer_033,Cheese Dips,48,22.25,1067.89,7
+2023-06-30,Customer_033,Drinks,22,46.97,1033.38,7
+2023-06-30,Customer_033,Sauces,36,14.01,504.46,7
+2023-06-30,Customer_033,Frozen Items,19,28.11,534.14,7
+2023-06-30,Customer_034,Chicken Dips,33,38.21,1260.81,7
+2023-06-30,Customer_034,Cheese Dips,31,8.08,250.5,7
+2023-06-30,Customer_034,Drinks,47,24.24,1139.15,7
+2023-06-30,Customer_034,Sauces,37,40.99,1516.53,7
+2023-06-30,Customer_034,Frozen Items,6,17.1,102.59,7
+2023-06-30,Customer_035,Chicken Dips,26,45.29,1177.55,7
+2023-06-30,Customer_035,Cheese Dips,20,6.58,131.51,7
+2023-06-30,Customer_035,Drinks,44,23.51,1034.45,7
+2023-06-30,Customer_035,Sauces,11,16.18,177.95,7
+2023-06-30,Customer_035,Frozen Items,43,24.24,1042.41,7
+2023-06-30,Customer_036,Chicken Dips,8,29.08,232.61,7
+2023-06-30,Customer_036,Cheese Dips,11,40.28,443.07,7
+2023-06-30,Customer_036,Drinks,27,42.11,1137.06,7
+2023-06-30,Customer_036,Sauces,13,40.33,524.28,7
+2023-06-30,Customer_036,Frozen Items,45,5.99,269.37,7
+2023-06-30,Customer_037,Chicken Dips,35,31.56,1104.62,7
+2023-06-30,Customer_037,Cheese Dips,47,7.53,353.81,7
+2023-06-30,Customer_037,Drinks,48,6.27,301.15,7
+2023-06-30,Customer_037,Sauces,23,39.4,906.2,7
+2023-06-30,Customer_037,Frozen Items,19,34.48,655.17,7
+2023-06-30,Customer_038,Chicken Dips,31,46.58,1444.02,7
+2023-06-30,Customer_038,Cheese Dips,35,12.22,427.73,7
+2023-06-30,Customer_038,Drinks,27,40.39,1090.62,7
+2023-06-30,Customer_038,Sauces,44,38.6,1698.62,7
+2023-06-30,Customer_038,Frozen Items,13,41.64,541.26,7
+2023-06-30,Customer_039,Chicken Dips,41,25.08,1028.24,7
+2023-06-30,Customer_039,Cheese Dips,4,18.01,72.05,7
+2023-06-30,Customer_039,Drinks,5,46.61,233.03,7
+2023-06-30,Customer_039,Sauces,43,29.9,1285.79,7
+2023-06-30,Customer_039,Frozen Items,24,21.06,505.44,7
+2023-06-30,Customer_040,Chicken Dips,10,42.29,422.85,7
+2023-06-30,Customer_040,Cheese Dips,9,42.27,380.39,7
+2023-06-30,Customer_040,Drinks,33,47.88,1579.93,7
+2023-06-30,Customer_040,Sauces,25,33.45,836.24,7
+2023-06-30,Customer_040,Frozen Items,36,27.75,999.13,7
+2023-06-30,Customer_041,Chicken Dips,37,15.43,570.92,7
+2023-06-30,Customer_041,Cheese Dips,32,9.62,307.7,7
+2023-06-30,Customer_041,Drinks,8,8.49,67.95,7
+2023-06-30,Customer_041,Sauces,20,20.7,414.0,7
+2023-06-30,Customer_041,Frozen Items,9,43.65,392.82,7
+2023-06-30,Customer_042,Chicken Dips,52,44.8,2329.44,7
+2023-06-30,Customer_042,Cheese Dips,31,25.78,799.27,7
+2023-06-30,Customer_042,Drinks,39,5.6,218.26,7
+2023-06-30,Customer_042,Sauces,13,12.22,158.81,7
+2023-06-30,Customer_042,Frozen Items,35,23.5,822.47,7
+2023-06-30,Customer_043,Chicken Dips,6,15.33,91.99,7
+2023-06-30,Customer_043,Cheese Dips,16,24.33,389.32,7
+2023-06-30,Customer_043,Drinks,22,5.09,111.97,7
+2023-06-30,Customer_043,Sauces,38,28.94,1099.53,7
+2023-06-30,Customer_043,Frozen Items,24,18.36,440.53,7
+2023-06-30,Customer_044,Chicken Dips,9,8.76,78.84,7
+2023-06-30,Customer_044,Cheese Dips,33,23.64,780.09,7
+2023-06-30,Customer_044,Drinks,14,44.67,625.45,7
+2023-06-30,Customer_044,Sauces,30,20.94,628.27,7
+2023-06-30,Customer_044,Frozen Items,12,15.01,180.08,7
+2023-06-30,Customer_045,Chicken Dips,23,14.54,334.31,7
+2023-06-30,Customer_045,Cheese Dips,38,7.6,288.72,7
+2023-06-30,Customer_045,Drinks,13,17.04,221.55,7
+2023-06-30,Customer_045,Sauces,10,14.88,148.8,7
+2023-06-30,Customer_045,Frozen Items,22,32.73,720.14,7
+2023-06-30,Customer_046,Chicken Dips,36,23.71,853.56,7
+2023-06-30,Customer_046,Cheese Dips,2,29.34,58.68,7
+2023-06-30,Customer_046,Drinks,28,23.53,658.95,7
+2023-06-30,Customer_046,Sauces,44,12.73,559.95,7
+2023-06-30,Customer_046,Frozen Items,19,19.74,375.06,7
+2023-06-30,Customer_047,Chicken Dips,30,30.89,926.8,7
+2023-06-30,Customer_047,Cheese Dips,2,27.31,54.61,7
+2023-06-30,Customer_047,Drinks,24,11.43,274.27,7
+2023-06-30,Customer_047,Sauces,28,28.05,785.48,7
+2023-06-30,Customer_047,Frozen Items,35,39.42,1379.56,7
+2023-06-30,Customer_048,Chicken Dips,8,14.19,113.55,7
+2023-06-30,Customer_048,Cheese Dips,40,47.81,1912.6,7
+2023-06-30,Customer_048,Drinks,32,5.82,186.1,7
+2023-06-30,Customer_048,Sauces,39,43.58,1699.58,7
+2023-06-30,Customer_048,Frozen Items,40,30.23,1209.22,7
+2023-06-30,Customer_049,Chicken Dips,21,14.99,314.7,7
+2023-06-30,Customer_049,Cheese Dips,48,16.4,787.07,7
+2023-06-30,Customer_049,Drinks,8,37.91,303.27,7
+2023-06-30,Customer_049,Sauces,18,29.1,523.88,7
+2023-06-30,Customer_049,Frozen Items,27,25.93,700.04,7
+2023-07-30,Customer_000,Chicken Dips,43,42.95,1846.84,8
+2023-07-30,Customer_000,Cheese Dips,30,10.73,321.97,8
+2023-07-30,Customer_000,Drinks,19,40.62,771.78,8
+2023-07-30,Customer_000,Sauces,44,41.93,1844.79,8
+2023-07-30,Customer_000,Frozen Items,15,44.72,670.73,8
+2023-07-30,Customer_001,Chicken Dips,22,23.44,515.64,8
+2023-07-30,Customer_001,Cheese Dips,46,45.58,2096.67,8
+2023-07-30,Customer_001,Drinks,19,44.48,845.13,8
+2023-07-30,Customer_001,Sauces,30,43.16,1294.7,8
+2023-07-30,Customer_001,Frozen Items,13,8.33,108.35,8
+2023-07-30,Customer_002,Chicken Dips,11,49.51,544.66,8
+2023-07-30,Customer_002,Cheese Dips,26,30.16,784.1,8
+2023-07-30,Customer_002,Drinks,37,20.77,768.62,8
+2023-07-30,Customer_002,Sauces,46,21.63,995.02,8
+2023-07-30,Customer_002,Frozen Items,26,20.75,539.44,8
+2023-07-30,Customer_003,Chicken Dips,3,34.78,104.33,8
+2023-07-30,Customer_003,Cheese Dips,21,21.8,457.71,8
+2023-07-30,Customer_003,Drinks,2,39.78,79.55,8
+2023-07-30,Customer_003,Sauces,31,31.15,965.52,8
+2023-07-30,Customer_003,Frozen Items,51,31.27,1594.62,8
+2023-07-30,Customer_004,Chicken Dips,33,28.45,938.79,8
+2023-07-30,Customer_004,Cheese Dips,43,35.49,1525.91,8
+2023-07-30,Customer_004,Drinks,4,11.31,45.26,8
+2023-07-30,Customer_004,Sauces,24,14.33,343.82,8
+2023-07-30,Customer_004,Frozen Items,38,34.81,1322.85,8
+2023-07-30,Customer_005,Chicken Dips,16,45.87,733.92,8
+2023-07-30,Customer_005,Cheese Dips,27,24.49,661.29,8
+2023-07-30,Customer_005,Drinks,52,31.05,1614.41,8
+2023-07-30,Customer_005,Sauces,29,18.81,545.51,8
+2023-07-30,Customer_005,Frozen Items,31,31.48,975.96,8
+2023-07-30,Customer_006,Chicken Dips,49,14.67,718.88,8
+2023-07-30,Customer_006,Cheese Dips,36,13.46,484.43,8
+2023-07-30,Customer_006,Drinks,15,11.01,165.21,8
+2023-07-30,Customer_006,Sauces,16,34.68,554.85,8
+2023-07-30,Customer_006,Frozen Items,43,36.16,1554.71,8
+2023-07-30,Customer_007,Chicken Dips,4,33.64,134.55,8
+2023-07-30,Customer_007,Cheese Dips,36,42.17,1517.99,8
+2023-07-30,Customer_007,Drinks,10,14.84,148.42,8
+2023-07-30,Customer_007,Sauces,23,7.84,180.35,8
+2023-07-30,Customer_007,Frozen Items,12,40.01,480.13,8
+2023-07-30,Customer_008,Chicken Dips,44,40.4,1777.68,8
+2023-07-30,Customer_008,Cheese Dips,26,21.58,560.97,8
+2023-07-30,Customer_008,Drinks,10,16.68,166.81,8
+2023-07-30,Customer_008,Sauces,29,44.98,1304.45,8
+2023-07-30,Customer_008,Frozen Items,17,43.62,741.46,8
+2023-07-30,Customer_009,Chicken Dips,13,24.3,315.96,8
+2023-07-30,Customer_009,Cheese Dips,32,19.64,628.42,8
+2023-07-30,Customer_009,Drinks,7,49.83,348.79,8
+2023-07-30,Customer_009,Sauces,24,9.24,221.87,8
+2023-07-30,Customer_009,Frozen Items,34,16.21,550.98,8
+2023-07-30,Customer_010,Chicken Dips,11,36.81,404.88,8
+2023-07-30,Customer_010,Cheese Dips,48,9.27,445.02,8
+2023-07-30,Customer_010,Drinks,10,45.64,456.39,8
+2023-07-30,Customer_010,Sauces,43,5.26,226.07,8
+2023-07-30,Customer_010,Frozen Items,15,30.7,460.53,8
+2023-07-30,Customer_011,Chicken Dips,16,48.25,772.03,8
+2023-07-30,Customer_011,Cheese Dips,39,40.27,1570.46,8
+2023-07-30,Customer_011,Drinks,43,15.44,663.96,8
+2023-07-30,Customer_011,Sauces,8,5.77,46.17,8
+2023-07-30,Customer_011,Frozen Items,8,33.07,264.55,8
+2023-07-30,Customer_012,Chicken Dips,8,6.75,54.02,8
+2023-07-30,Customer_012,Cheese Dips,50,30.35,1517.64,8
+2023-07-30,Customer_012,Drinks,7,43.9,307.3,8
+2023-07-30,Customer_012,Sauces,37,22.58,835.34,8
+2023-07-30,Customer_012,Frozen Items,20,49.58,991.61,8
+2023-07-30,Customer_013,Chicken Dips,27,24.9,672.39,8
+2023-07-30,Customer_013,Cheese Dips,52,11.23,583.94,8
+2023-07-30,Customer_013,Drinks,41,15.3,627.28,8
+2023-07-30,Customer_013,Sauces,11,44.08,484.86,8
+2023-07-30,Customer_013,Frozen Items,36,20.39,733.89,8
+2023-07-30,Customer_014,Chicken Dips,17,26.12,444.0,8
+2023-07-30,Customer_014,Cheese Dips,34,34.23,1163.75,8
+2023-07-30,Customer_014,Drinks,14,47.3,662.16,8
+2023-07-30,Customer_014,Sauces,8,43.86,350.91,8
+2023-07-30,Customer_014,Frozen Items,20,12.53,250.62,8
+2023-07-30,Customer_015,Chicken Dips,26,33.99,883.78,8
+2023-07-30,Customer_015,Cheese Dips,47,17.39,817.23,8
+2023-07-30,Customer_015,Drinks,22,41.46,912.16,8
+2023-07-30,Customer_015,Sauces,15,36.73,550.97,8
+2023-07-30,Customer_015,Frozen Items,49,25.38,1243.67,8
+2023-07-30,Customer_016,Chicken Dips,18,5.86,105.51,8
+2023-07-30,Customer_016,Cheese Dips,23,32.44,746.04,8
+2023-07-30,Customer_016,Drinks,32,41.13,1316.05,8
+2023-07-30,Customer_016,Sauces,29,29.12,844.4,8
+2023-07-30,Customer_016,Frozen Items,51,47.91,2443.36,8
+2023-07-30,Customer_017,Chicken Dips,41,17.47,716.09,8
+2023-07-30,Customer_017,Cheese Dips,31,38.33,1188.09,8
+2023-07-30,Customer_017,Drinks,21,36.62,768.99,8
+2023-07-30,Customer_017,Sauces,51,46.21,2356.47,8
+2023-07-30,Customer_017,Frozen Items,3,44.73,134.19,8
+2023-07-30,Customer_018,Chicken Dips,30,27.57,827.13,8
+2023-07-30,Customer_018,Cheese Dips,13,13.85,180.04,8
+2023-07-30,Customer_018,Drinks,12,41.0,492.04,8
+2023-07-30,Customer_018,Sauces,31,49.88,1546.15,8
+2023-07-30,Customer_018,Frozen Items,3,14.73,44.19,8
+2023-07-30,Customer_019,Chicken Dips,43,33.02,1419.79,8
+2023-07-30,Customer_019,Cheese Dips,13,32.85,427.11,8
+2023-07-30,Customer_019,Drinks,27,7.81,210.81,8
+2023-07-30,Customer_019,Sauces,13,20.64,268.29,8
+2023-07-30,Customer_019,Frozen Items,20,48.89,977.81,8
+2023-07-30,Customer_020,Chicken Dips,7,35.12,245.83,8
+2023-07-30,Customer_020,Cheese Dips,43,47.21,2029.96,8
+2023-07-30,Customer_020,Drinks,36,29.83,1074.04,8
+2023-07-30,Customer_020,Sauces,33,8.2,270.49,8
+2023-07-30,Customer_020,Frozen Items,13,15.32,199.18,8
+2023-07-30,Customer_021,Chicken Dips,44,7.49,329.34,8
+2023-07-30,Customer_021,Cheese Dips,45,9.54,429.48,8
+2023-07-30,Customer_021,Drinks,43,24.73,1063.41,8
+2023-07-30,Customer_021,Sauces,30,48.79,1463.65,8
+2023-07-30,Customer_021,Frozen Items,14,48.55,679.69,8
+2023-07-30,Customer_022,Chicken Dips,15,5.39,80.88,8
+2023-07-30,Customer_022,Cheese Dips,13,40.92,532.0,8
+2023-07-30,Customer_022,Drinks,18,14.89,267.96,8
+2023-07-30,Customer_022,Sauces,40,10.84,433.42,8
+2023-07-30,Customer_022,Frozen Items,38,21.45,815.17,8
+2023-07-30,Customer_023,Chicken Dips,25,35.33,883.24,8
+2023-07-30,Customer_023,Cheese Dips,26,14.47,376.29,8
+2023-07-30,Customer_023,Drinks,41,45.42,1862.25,8
+2023-07-30,Customer_023,Sauces,35,20.42,714.67,8
+2023-07-30,Customer_023,Frozen Items,50,11.97,598.58,8
+2023-07-30,Customer_024,Chicken Dips,45,9.44,424.63,8
+2023-07-30,Customer_024,Cheese Dips,27,36.8,993.61,8
+2023-07-30,Customer_024,Drinks,30,26.53,795.97,8
+2023-07-30,Customer_024,Sauces,43,27.75,1193.16,8
+2023-07-30,Customer_024,Frozen Items,7,33.08,231.56,8
+2023-07-30,Customer_025,Chicken Dips,40,8.7,348.09,8
+2023-07-30,Customer_025,Cheese Dips,42,49.29,2070.2,8
+2023-07-30,Customer_025,Drinks,22,42.01,924.16,8
+2023-07-30,Customer_025,Sauces,11,17.69,194.55,8
+2023-07-30,Customer_025,Frozen Items,1,25.63,25.63,8
+2023-07-30,Customer_026,Chicken Dips,12,30.84,370.12,8
+2023-07-30,Customer_026,Cheese Dips,27,49.63,1340.0,8
+2023-07-30,Customer_026,Drinks,13,43.8,569.39,8
+2023-07-30,Customer_026,Sauces,44,42.8,1883.41,8
+2023-07-30,Customer_026,Frozen Items,26,39.43,1025.24,8
+2023-07-30,Customer_027,Chicken Dips,15,13.78,206.74,8
+2023-07-30,Customer_027,Cheese Dips,15,34.52,517.84,8
+2023-07-30,Customer_027,Drinks,19,21.26,404.0,8
+2023-07-30,Customer_027,Sauces,27,10.55,284.73,8
+2023-07-30,Customer_027,Frozen Items,47,39.31,1847.58,8
+2023-07-30,Customer_028,Chicken Dips,19,13.84,262.94,8
+2023-07-30,Customer_028,Cheese Dips,31,41.8,1295.91,8
+2023-07-30,Customer_028,Drinks,43,30.55,1313.55,8
+2023-07-30,Customer_028,Sauces,39,28.08,1095.13,8
+2023-07-30,Customer_028,Frozen Items,8,15.34,122.74,8
+2023-07-30,Customer_029,Chicken Dips,35,46.95,1643.41,8
+2023-07-30,Customer_029,Cheese Dips,41,10.92,447.9,8
+2023-07-30,Customer_029,Drinks,29,13.34,386.78,8
+2023-07-30,Customer_029,Sauces,40,14.84,593.68,8
+2023-07-30,Customer_029,Frozen Items,49,42.16,2065.69,8
+2023-07-30,Customer_030,Chicken Dips,19,32.17,611.29,8
+2023-07-30,Customer_030,Cheese Dips,47,48.65,2286.39,8
+2023-07-30,Customer_030,Drinks,35,21.7,759.59,8
+2023-07-30,Customer_030,Sauces,40,21.85,874.19,8
+2023-07-30,Customer_030,Frozen Items,14,47.25,661.5,8
+2023-07-30,Customer_031,Chicken Dips,31,37.83,1172.6,8
+2023-07-30,Customer_031,Cheese Dips,10,12.88,128.81,8
+2023-07-30,Customer_031,Drinks,29,6.14,177.93,8
+2023-07-30,Customer_031,Sauces,31,44.33,1374.33,8
+2023-07-30,Customer_031,Frozen Items,7,31.5,220.51,8
+2023-07-30,Customer_032,Chicken Dips,44,5.03,221.29,8
+2023-07-30,Customer_032,Cheese Dips,53,40.67,2155.34,8
+2023-07-30,Customer_032,Drinks,8,21.94,175.55,8
+2023-07-30,Customer_032,Sauces,27,11.84,319.74,8
+2023-07-30,Customer_032,Frozen Items,27,29.95,808.52,8
+2023-07-30,Customer_033,Chicken Dips,43,18.23,783.79,8
+2023-07-30,Customer_033,Cheese Dips,50,46.43,2321.66,8
+2023-07-30,Customer_033,Drinks,25,18.12,452.89,8
+2023-07-30,Customer_033,Sauces,36,46.6,1677.73,8
+2023-07-30,Customer_033,Frozen Items,16,5.29,84.63,8
+2023-07-30,Customer_034,Chicken Dips,35,32.69,1144.02,8
+2023-07-30,Customer_034,Cheese Dips,29,31.86,923.97,8
+2023-07-30,Customer_034,Drinks,44,21.91,964.09,8
+2023-07-30,Customer_034,Sauces,33,6.37,210.24,8
+2023-07-30,Customer_034,Frozen Items,4,34.1,136.39,8
+2023-07-30,Customer_035,Chicken Dips,28,32.68,915.06,8
+2023-07-30,Customer_035,Cheese Dips,20,26.07,521.5,8
+2023-07-30,Customer_035,Drinks,44,7.26,319.48,8
+2023-07-30,Customer_035,Sauces,5,17.53,87.66,8
+2023-07-30,Customer_035,Frozen Items,46,24.72,1137.03,8
+2023-07-30,Customer_036,Chicken Dips,10,49.84,498.38,8
+2023-07-30,Customer_036,Cheese Dips,9,38.92,350.26,8
+2023-07-30,Customer_036,Drinks,34,20.12,684.09,8
+2023-07-30,Customer_036,Sauces,8,39.8,318.42,8
+2023-07-30,Customer_036,Frozen Items,44,32.37,1424.47,8
+2023-07-30,Customer_037,Chicken Dips,39,36.3,1415.82,8
+2023-07-30,Customer_037,Cheese Dips,48,7.5,359.93,8
+2023-07-30,Customer_037,Drinks,49,39.77,1948.96,8
+2023-07-30,Customer_037,Sauces,32,30.46,974.73,8
+2023-07-30,Customer_037,Frozen Items,20,21.46,429.3,8
+2023-07-30,Customer_038,Chicken Dips,36,5.86,211.03,8
+2023-07-30,Customer_038,Cheese Dips,33,28.61,944.23,8
+2023-07-30,Customer_038,Drinks,31,17.73,549.51,8
+2023-07-30,Customer_038,Sauces,42,20.53,862.21,8
+2023-07-30,Customer_038,Frozen Items,11,19.95,219.44,8
+2023-07-30,Customer_039,Chicken Dips,39,35.05,1367.11,8
+2023-07-30,Customer_039,Cheese Dips,3,33.67,101.01,8
+2023-07-30,Customer_039,Drinks,2,34.4,68.8,8
+2023-07-30,Customer_039,Sauces,43,19.29,829.46,8
+2023-07-30,Customer_039,Frozen Items,17,32.88,559.01,8
+2023-07-30,Customer_040,Chicken Dips,5,38.26,191.29,8
+2023-07-30,Customer_040,Cheese Dips,10,20.29,202.9,8
+2023-07-30,Customer_040,Drinks,30,29.44,883.08,8
+2023-07-30,Customer_040,Sauces,25,49.55,1238.87,8
+2023-07-30,Customer_040,Frozen Items,45,11.4,513.07,8
+2023-07-30,Customer_041,Chicken Dips,38,24.93,947.18,8
+2023-07-30,Customer_041,Cheese Dips,32,9.0,288.15,8
+2023-07-30,Customer_041,Drinks,7,29.35,205.42,8
+2023-07-30,Customer_041,Sauces,25,47.25,1181.37,8
+2023-07-30,Customer_041,Frozen Items,2,46.79,93.58,8
+2023-07-30,Customer_042,Chicken Dips,51,15.8,805.78,8
+2023-07-30,Customer_042,Cheese Dips,32,31.78,1017.11,8
+2023-07-30,Customer_042,Drinks,38,20.36,773.84,8
+2023-07-30,Customer_042,Sauces,13,46.1,599.24,8
+2023-07-30,Customer_042,Frozen Items,33,16.1,531.29,8
+2023-07-30,Customer_043,Chicken Dips,8,34.79,278.29,8
+2023-07-30,Customer_043,Cheese Dips,19,34.14,648.63,8
+2023-07-30,Customer_043,Drinks,23,31.01,713.12,8
+2023-07-30,Customer_043,Sauces,39,18.24,711.44,8
+2023-07-30,Customer_043,Frozen Items,25,39.07,976.68,8
+2023-07-30,Customer_044,Chicken Dips,4,5.31,21.24,8
+2023-07-30,Customer_044,Cheese Dips,41,34.86,1429.2,8
+2023-07-30,Customer_044,Drinks,14,37.27,521.79,8
+2023-07-30,Customer_044,Sauces,27,44.81,1209.77,8
+2023-07-30,Customer_044,Frozen Items,13,39.09,508.12,8
+2023-07-30,Customer_045,Chicken Dips,18,19.12,344.24,8
+2023-07-30,Customer_045,Cheese Dips,38,9.82,373.07,8
+2023-07-30,Customer_045,Drinks,13,13.58,176.51,8
+2023-07-30,Customer_045,Sauces,7,20.39,142.76,8
+2023-07-30,Customer_045,Frozen Items,23,43.84,1008.35,8
+2023-07-30,Customer_046,Chicken Dips,31,10.4,322.25,8
+2023-07-30,Customer_046,Cheese Dips,2,10.26,20.52,8
+2023-07-30,Customer_046,Drinks,28,18.5,517.93,8
+2023-07-30,Customer_046,Sauces,38,38.02,1444.94,8
+2023-07-30,Customer_046,Frozen Items,26,12.4,322.35,8
+2023-07-30,Customer_047,Chicken Dips,33,20.98,692.37,8
+2023-07-30,Customer_047,Cheese Dips,8,46.92,375.36,8
+2023-07-30,Customer_047,Drinks,20,34.57,691.33,8
+2023-07-30,Customer_047,Sauces,21,30.23,634.75,8
+2023-07-30,Customer_047,Frozen Items,34,42.19,1434.62,8
+2023-07-30,Customer_048,Chicken Dips,10,9.44,94.43,8
+2023-07-30,Customer_048,Cheese Dips,44,25.88,1138.68,8
+2023-07-30,Customer_048,Drinks,39,9.15,356.75,8
+2023-07-30,Customer_048,Sauces,44,14.66,645.1,8
+2023-07-30,Customer_048,Frozen Items,46,45.31,2084.09,8
+2023-07-30,Customer_049,Chicken Dips,18,6.46,116.28,8
+2023-07-30,Customer_049,Cheese Dips,45,30.56,1375.15,8
+2023-07-30,Customer_049,Drinks,5,40.71,203.55,8
+2023-07-30,Customer_049,Sauces,16,24.41,390.49,8
+2023-07-30,Customer_049,Frozen Items,28,7.37,206.48,8
+2023-08-29,Customer_000,Chicken Dips,38,25.61,973.06,9
+2023-08-29,Customer_000,Cheese Dips,35,49.52,1733.36,9
+2023-08-29,Customer_000,Drinks,14,16.38,229.3,9
+2023-08-29,Customer_000,Sauces,51,21.16,1079.38,9
+2023-08-29,Customer_000,Frozen Items,11,38.53,423.86,9
+2023-08-29,Customer_001,Chicken Dips,22,20.79,457.31,9
+2023-08-29,Customer_001,Cheese Dips,41,7.33,300.54,9
+2023-08-29,Customer_001,Drinks,21,8.81,185.03,9
+2023-08-29,Customer_001,Sauces,19,46.08,875.52,9
+2023-08-29,Customer_001,Frozen Items,11,22.14,243.59,9
+2023-08-29,Customer_002,Chicken Dips,12,40.17,482.01,9
+2023-08-29,Customer_002,Cheese Dips,24,5.75,138.1,9
+2023-08-29,Customer_002,Drinks,33,35.77,1180.54,9
+2023-08-29,Customer_002,Sauces,41,47.17,1933.97,9
+2023-08-29,Customer_002,Frozen Items,28,12.25,343.14,9
+2023-08-29,Customer_003,Chicken Dips,3,48.7,146.11,9
+2023-08-29,Customer_003,Cheese Dips,21,46.76,982.06,9
+2023-08-29,Customer_003,Drinks,7,23.8,166.57,9
+2023-08-29,Customer_003,Sauces,29,28.05,813.55,9
+2023-08-29,Customer_003,Frozen Items,45,8.46,380.53,9
+2023-08-29,Customer_004,Chicken Dips,31,15.42,477.91,9
+2023-08-29,Customer_004,Cheese Dips,39,23.14,902.63,9
+2023-08-29,Customer_004,Drinks,8,19.38,155.07,9
+2023-08-29,Customer_004,Sauces,20,45.47,909.33,9
+2023-08-29,Customer_004,Frozen Items,33,9.76,322.22,9
+2023-08-29,Customer_005,Chicken Dips,12,35.41,424.94,9
+2023-08-29,Customer_005,Cheese Dips,23,22.79,524.09,9
+2023-08-29,Customer_005,Drinks,40,6.31,252.48,9
+2023-08-29,Customer_005,Sauces,24,12.57,301.66,9
+2023-08-29,Customer_005,Frozen Items,23,15.41,354.48,9
+2023-08-29,Customer_006,Chicken Dips,40,16.81,672.22,9
+2023-08-29,Customer_006,Cheese Dips,30,44.88,1346.35,9
+2023-08-29,Customer_006,Drinks,19,22.08,419.57,9
+2023-08-29,Customer_006,Sauces,20,9.11,182.24,9
+2023-08-29,Customer_006,Frozen Items,42,35.48,1490.36,9
+2023-08-29,Customer_007,Chicken Dips,6,42.1,252.61,9
+2023-08-29,Customer_007,Cheese Dips,35,29.31,1025.97,9
+2023-08-29,Customer_007,Drinks,13,9.84,127.95,9
+2023-08-29,Customer_007,Sauces,23,24.52,563.95,9
+2023-08-29,Customer_007,Frozen Items,13,17.35,225.51,9
+2023-08-29,Customer_008,Chicken Dips,41,19.63,805.01,9
+2023-08-29,Customer_008,Cheese Dips,16,37.08,593.25,9
+2023-08-29,Customer_008,Drinks,5,15.53,77.63,9
+2023-08-29,Customer_008,Sauces,23,35.2,809.58,9
+2023-08-29,Customer_008,Frozen Items,16,10.96,175.33,9
+2023-08-29,Customer_009,Chicken Dips,13,40.25,523.23,9
+2023-08-29,Customer_009,Cheese Dips,34,6.16,209.43,9
+2023-08-29,Customer_009,Drinks,7,25.68,179.79,9
+2023-08-29,Customer_009,Sauces,20,10.42,208.35,9
+2023-08-29,Customer_009,Frozen Items,35,13.91,487.0,9
+2023-08-29,Customer_010,Chicken Dips,15,33.02,495.36,9
+2023-08-29,Customer_010,Cheese Dips,47,18.82,884.76,9
+2023-08-29,Customer_010,Drinks,13,23.77,309.06,9
+2023-08-29,Customer_010,Sauces,35,12.69,444.22,9
+2023-08-29,Customer_010,Frozen Items,21,40.87,858.36,9
+2023-08-29,Customer_011,Chicken Dips,25,8.79,219.64,9
+2023-08-29,Customer_011,Cheese Dips,44,20.32,894.28,9
+2023-08-29,Customer_011,Drinks,47,7.36,345.81,9
+2023-08-29,Customer_011,Sauces,5,32.11,160.55,9
+2023-08-29,Customer_011,Frozen Items,2,8.46,16.91,9
+2023-08-29,Customer_012,Chicken Dips,9,42.57,383.15,9
+2023-08-29,Customer_012,Cheese Dips,47,11.1,521.5,9
+2023-08-29,Customer_012,Drinks,4,46.69,186.76,9
+2023-08-29,Customer_012,Sauces,37,46.71,1728.32,9
+2023-08-29,Customer_012,Frozen Items,17,5.44,92.41,9
+2023-08-29,Customer_013,Chicken Dips,27,6.29,169.81,9
+2023-08-29,Customer_013,Cheese Dips,52,47.6,2475.41,9
+2023-08-29,Customer_013,Drinks,41,40.43,1657.7,9
+2023-08-29,Customer_013,Sauces,18,31.48,566.57,9
+2023-08-29,Customer_013,Frozen Items,38,48.82,1855.2,9
+2023-08-29,Customer_014,Chicken Dips,13,29.09,378.19,9
+2023-08-29,Customer_014,Cheese Dips,31,21.86,677.74,9
+2023-08-29,Customer_014,Drinks,19,23.47,445.97,9
+2023-08-29,Customer_014,Sauces,6,19.29,115.74,9
+2023-08-29,Customer_014,Frozen Items,13,46.87,609.28,9
+2023-08-29,Customer_015,Chicken Dips,22,20.19,444.08,9
+2023-08-29,Customer_015,Cheese Dips,40,14.5,580.03,9
+2023-08-29,Customer_015,Drinks,25,44.18,1104.46,9
+2023-08-29,Customer_015,Sauces,16,26.8,428.76,9
+2023-08-29,Customer_015,Frozen Items,43,30.74,1321.81,9
+2023-08-29,Customer_016,Chicken Dips,21,39.21,823.35,9
+2023-08-29,Customer_016,Cheese Dips,26,29.63,770.48,9
+2023-08-29,Customer_016,Drinks,33,17.07,563.24,9
+2023-08-29,Customer_016,Sauces,27,23.35,630.37,9
+2023-08-29,Customer_016,Frozen Items,45,7.55,339.78,9
+2023-08-29,Customer_017,Chicken Dips,37,20.19,746.99,9
+2023-08-29,Customer_017,Cheese Dips,26,33.87,880.56,9
+2023-08-29,Customer_017,Drinks,14,45.31,634.28,9
+2023-08-29,Customer_017,Sauces,43,10.0,430.05,9
+2023-08-29,Customer_017,Frozen Items,4,35.26,141.03,9
+2023-08-29,Customer_018,Chicken Dips,32,11.35,363.19,9
+2023-08-29,Customer_018,Cheese Dips,9,9.75,87.76,9
+2023-08-29,Customer_018,Drinks,12,12.03,144.41,9
+2023-08-29,Customer_018,Sauces,27,8.69,234.66,9
+2023-08-29,Customer_018,Frozen Items,3,17.18,51.54,9
+2023-08-29,Customer_019,Chicken Dips,44,6.35,279.44,9
+2023-08-29,Customer_019,Cheese Dips,15,12.03,180.44,9
+2023-08-29,Customer_019,Drinks,29,10.28,298.05,9
+2023-08-29,Customer_019,Sauces,19,40.72,773.71,9
+2023-08-29,Customer_019,Frozen Items,18,31.0,558.02,9
+2023-08-29,Customer_020,Chicken Dips,9,49.33,444.0,9
+2023-08-29,Customer_020,Cheese Dips,35,24.55,859.12,9
+2023-08-29,Customer_020,Drinks,43,24.24,1042.19,9
+2023-08-29,Customer_020,Sauces,39,30.39,1185.23,9
+2023-08-29,Customer_020,Frozen Items,10,47.05,470.49,9
+2023-08-29,Customer_021,Chicken Dips,48,42.05,2018.27,9
+2023-08-29,Customer_021,Cheese Dips,44,9.48,417.1,9
+2023-08-29,Customer_021,Drinks,46,5.73,263.53,9
+2023-08-29,Customer_021,Sauces,28,16.41,459.52,9
+2023-08-29,Customer_021,Frozen Items,6,45.05,270.28,9
+2023-08-29,Customer_022,Chicken Dips,8,34.34,274.75,9
+2023-08-29,Customer_022,Cheese Dips,11,39.44,433.85,9
+2023-08-29,Customer_022,Drinks,12,32.11,385.33,9
+2023-08-29,Customer_022,Sauces,36,9.63,346.6,9
+2023-08-29,Customer_022,Frozen Items,41,17.95,736.05,9
+2023-08-29,Customer_023,Chicken Dips,23,35.32,812.42,9
+2023-08-29,Customer_023,Cheese Dips,25,19.59,489.87,9
+2023-08-29,Customer_023,Drinks,45,45.03,2026.39,9
+2023-08-29,Customer_023,Sauces,39,32.14,1253.53,9
+2023-08-29,Customer_023,Frozen Items,44,30.89,1359.21,9
+2023-08-29,Customer_024,Chicken Dips,42,17.42,731.49,9
+2023-08-29,Customer_024,Cheese Dips,29,5.83,168.99,9
+2023-08-29,Customer_024,Drinks,35,36.16,1265.46,9
+2023-08-29,Customer_024,Sauces,41,19.57,802.45,9
+2023-08-29,Customer_024,Frozen Items,7,38.62,270.33,9
+2023-08-29,Customer_025,Chicken Dips,43,16.3,700.84,9
+2023-08-29,Customer_025,Cheese Dips,41,10.89,446.65,9
+2023-08-29,Customer_025,Drinks,18,10.49,188.83,9
+2023-08-29,Customer_025,Sauces,3,7.02,21.07,9
+2023-08-29,Customer_025,Frozen Items,8,49.86,398.89,9
+2023-08-29,Customer_026,Chicken Dips,13,31.74,412.57,9
+2023-08-29,Customer_026,Cheese Dips,32,10.69,342.0,9
+2023-08-29,Customer_026,Drinks,22,5.62,123.55,9
+2023-08-29,Customer_026,Sauces,46,16.64,765.28,9
+2023-08-29,Customer_026,Frozen Items,29,26.72,774.94,9
+2023-08-29,Customer_027,Chicken Dips,8,29.67,237.33,9
+2023-08-29,Customer_027,Cheese Dips,18,33.5,603.06,9
+2023-08-29,Customer_027,Drinks,18,7.27,130.84,9
+2023-08-29,Customer_027,Sauces,25,30.38,759.41,9
+2023-08-29,Customer_027,Frozen Items,43,29.6,1272.86,9
+2023-08-29,Customer_028,Chicken Dips,16,32.04,512.66,9
+2023-08-29,Customer_028,Cheese Dips,32,46.28,1480.87,9
+2023-08-29,Customer_028,Drinks,43,11.45,492.25,9
+2023-08-29,Customer_028,Sauces,34,49.62,1686.92,9
+2023-08-29,Customer_028,Frozen Items,8,28.65,229.17,9
+2023-08-29,Customer_029,Chicken Dips,32,32.25,1031.89,9
+2023-08-29,Customer_029,Cheese Dips,36,42.69,1536.8,9
+2023-08-29,Customer_029,Drinks,25,47.57,1189.17,9
+2023-08-29,Customer_029,Sauces,40,16.41,656.54,9
+2023-08-29,Customer_029,Frozen Items,48,34.78,1669.56,9
+2023-08-29,Customer_030,Chicken Dips,21,10.75,225.75,9
+2023-08-29,Customer_030,Cheese Dips,48,5.73,275.09,9
+2023-08-29,Customer_030,Drinks,33,35.81,1181.67,9
+2023-08-29,Customer_030,Sauces,35,34.93,1222.46,9
+2023-08-29,Customer_030,Frozen Items,18,10.68,192.28,9
+2023-08-29,Customer_031,Chicken Dips,31,42.42,1314.97,9
+2023-08-29,Customer_031,Cheese Dips,7,19.32,135.25,9
+2023-08-29,Customer_031,Drinks,24,34.02,816.5,9
+2023-08-29,Customer_031,Sauces,27,5.61,151.57,9
+2023-08-29,Customer_031,Frozen Items,3,21.05,63.14,9
+2023-08-29,Customer_032,Chicken Dips,43,11.67,501.8,9
+2023-08-29,Customer_032,Cheese Dips,50,41.69,2084.37,9
+2023-08-29,Customer_032,Drinks,8,30.46,243.67,9
+2023-08-29,Customer_032,Sauces,35,29.89,1046.15,9
+2023-08-29,Customer_032,Frozen Items,35,22.28,779.87,9
+2023-08-29,Customer_033,Chicken Dips,44,32.32,1422.13,9
+2023-08-29,Customer_033,Cheese Dips,51,22.55,1149.82,9
+2023-08-29,Customer_033,Drinks,19,19.17,364.26,9
+2023-08-29,Customer_033,Sauces,35,8.65,302.64,9
+2023-08-29,Customer_033,Frozen Items,16,49.43,790.88,9
+2023-08-29,Customer_034,Chicken Dips,30,8.94,268.33,9
+2023-08-29,Customer_034,Cheese Dips,22,25.87,569.18,9
+2023-08-29,Customer_034,Drinks,41,19.32,792.27,9
+2023-08-29,Customer_034,Sauces,28,35.7,999.56,9
+2023-08-29,Customer_034,Frozen Items,1,38.23,38.23,9
+2023-08-29,Customer_035,Chicken Dips,30,31.03,930.96,9
+2023-08-29,Customer_035,Cheese Dips,15,36.53,547.91,9
+2023-08-29,Customer_035,Drinks,48,41.18,1976.85,9
+2023-08-29,Customer_035,Sauces,4,27.5,109.99,9
+2023-08-29,Customer_035,Frozen Items,43,9.16,393.99,9
+2023-08-29,Customer_036,Chicken Dips,13,17.8,231.46,9
+2023-08-29,Customer_036,Cheese Dips,10,27.14,271.42,9
+2023-08-29,Customer_036,Drinks,31,15.46,479.4,9
+2023-08-29,Customer_036,Sauces,15,10.65,159.75,9
+2023-08-29,Customer_036,Frozen Items,45,28.56,1285.22,9
+2023-08-29,Customer_037,Chicken Dips,30,31.35,940.51,9
+2023-08-29,Customer_037,Cheese Dips,45,7.57,340.48,9
+2023-08-29,Customer_037,Drinks,41,26.34,1079.83,9
+2023-08-29,Customer_037,Sauces,26,33.7,876.2,9
+2023-08-29,Customer_037,Frozen Items,16,17.23,275.69,9
+2023-08-29,Customer_038,Chicken Dips,36,16.35,588.75,9
+2023-08-29,Customer_038,Cheese Dips,36,34.38,1237.78,9
+2023-08-29,Customer_038,Drinks,23,48.97,1126.23,9
+2023-08-29,Customer_038,Sauces,47,31.24,1468.32,9
+2023-08-29,Customer_038,Frozen Items,16,45.21,723.42,9
+2023-08-29,Customer_039,Chicken Dips,44,33.84,1489.11,9
+2023-08-29,Customer_039,Cheese Dips,4,13.55,54.19,9
+2023-08-29,Customer_039,Drinks,11,39.67,436.37,9
+2023-08-29,Customer_039,Sauces,38,46.01,1748.39,9
+2023-08-29,Customer_039,Frozen Items,20,19.21,384.2,9
+2023-08-29,Customer_040,Chicken Dips,7,42.49,297.46,9
+2023-08-29,Customer_040,Cheese Dips,5,35.4,177.02,9
+2023-08-29,Customer_040,Drinks,23,18.83,432.99,9
+2023-08-29,Customer_040,Sauces,23,40.55,932.67,9
+2023-08-29,Customer_040,Frozen Items,32,48.62,1555.82,9
+2023-08-29,Customer_041,Chicken Dips,40,41.71,1668.38,9
+2023-08-29,Customer_041,Cheese Dips,34,8.45,287.39,9
+2023-08-29,Customer_041,Drinks,2,34.61,69.23,9
+2023-08-29,Customer_041,Sauces,18,9.79,176.13,9
+2023-08-29,Customer_041,Frozen Items,4,23.03,92.13,9
+2023-08-29,Customer_042,Chicken Dips,50,49.36,2468.06,9
+2023-08-29,Customer_042,Cheese Dips,30,22.43,672.82,9
+2023-08-29,Customer_042,Drinks,35,24.89,871.2,9
+2023-08-29,Customer_042,Sauces,8,22.86,182.9,9
+2023-08-29,Customer_042,Frozen Items,37,23.67,875.91,9
+2023-08-29,Customer_043,Chicken Dips,9,34.19,307.75,9
+2023-08-29,Customer_043,Cheese Dips,11,13.89,152.83,9
+2023-08-29,Customer_043,Drinks,25,26.48,662.09,9
+2023-08-29,Customer_043,Sauces,43,28.64,1231.38,9
+2023-08-29,Customer_043,Frozen Items,24,23.07,553.58,9
+2023-08-29,Customer_044,Chicken Dips,7,18.38,128.67,9
+2023-08-29,Customer_044,Cheese Dips,37,35.4,1309.91,9
+2023-08-29,Customer_044,Drinks,8,38.05,304.37,9
+2023-08-29,Customer_044,Sauces,26,7.64,198.52,9
+2023-08-29,Customer_044,Frozen Items,10,6.89,68.88,9
+2023-08-29,Customer_045,Chicken Dips,16,44.24,707.78,9
+2023-08-29,Customer_045,Cheese Dips,34,10.24,348.21,9
+2023-08-29,Customer_045,Drinks,15,41.14,617.03,9
+2023-08-29,Customer_045,Sauces,6,28.85,173.09,9
+2023-08-29,Customer_045,Frozen Items,23,22.83,525.18,9
+2023-08-29,Customer_046,Chicken Dips,30,11.82,354.45,9
+2023-08-29,Customer_046,Cheese Dips,5,32.65,163.24,9
+2023-08-29,Customer_046,Drinks,25,47.28,1182.01,9
+2023-08-29,Customer_046,Sauces,44,26.15,1150.43,9
+2023-08-29,Customer_046,Frozen Items,26,42.28,1099.27,9
+2023-08-29,Customer_047,Chicken Dips,26,33.35,867.21,9
+2023-08-29,Customer_047,Cheese Dips,4,17.47,69.87,9
+2023-08-29,Customer_047,Drinks,20,19.54,390.79,9
+2023-08-29,Customer_047,Sauces,23,12.97,298.35,9
+2023-08-29,Customer_047,Frozen Items,31,41.08,1273.35,9
+2023-08-29,Customer_048,Chicken Dips,8,28.23,225.86,9
+2023-08-29,Customer_048,Cheese Dips,44,5.47,240.78,9
+2023-08-29,Customer_048,Drinks,41,26.66,1092.96,9
+2023-08-29,Customer_048,Sauces,43,40.37,1735.77,9
+2023-08-29,Customer_048,Frozen Items,44,49.21,2165.39,9
+2023-08-29,Customer_049,Chicken Dips,19,15.2,288.82,9
+2023-08-29,Customer_049,Cheese Dips,38,33.98,1291.17,9
+2023-08-29,Customer_049,Drinks,3,10.72,32.16,9
+2023-08-29,Customer_049,Sauces,13,22.24,289.18,9
+2023-08-29,Customer_049,Frozen Items,26,42.59,1107.39,9
+2023-09-28,Customer_000,Chicken Dips,47,24.85,1168.03,10
+2023-09-28,Customer_000,Cheese Dips,29,16.9,490.14,10
+2023-09-28,Customer_000,Drinks,15,40.99,614.85,10
+2023-09-28,Customer_000,Sauces,47,14.82,696.44,10
+2023-09-28,Customer_000,Frozen Items,12,25.98,311.7,10
+2023-09-28,Customer_001,Chicken Dips,19,23.64,449.09,10
+2023-09-28,Customer_001,Cheese Dips,33,14.92,492.42,10
+2023-09-28,Customer_001,Drinks,18,5.95,107.03,10
+2023-09-28,Customer_001,Sauces,23,32.2,740.51,10
+2023-09-28,Customer_001,Frozen Items,15,42.68,640.14,10
+2023-09-28,Customer_002,Chicken Dips,12,33.14,397.68,10
+2023-09-28,Customer_002,Cheese Dips,21,14.1,296.17,10
+2023-09-28,Customer_002,Drinks,32,22.9,732.82,10
+2023-09-28,Customer_002,Sauces,28,17.18,480.98,10
+2023-09-28,Customer_002,Frozen Items,27,27.76,749.42,10
+2023-09-28,Customer_003,Chicken Dips,6,6.16,36.97,10
+2023-09-28,Customer_003,Cheese Dips,28,30.82,863.07,10
+2023-09-28,Customer_003,Drinks,3,44.51,133.53,10
+2023-09-28,Customer_003,Sauces,27,7.19,194.16,10
+2023-09-28,Customer_003,Frozen Items,49,6.98,342.17,10
+2023-09-28,Customer_004,Chicken Dips,37,45.62,1688.1,10
+2023-09-28,Customer_004,Cheese Dips,37,34.05,1259.88,10
+2023-09-28,Customer_004,Drinks,1,19.87,19.87,10
+2023-09-28,Customer_004,Sauces,27,18.35,495.38,10
+2023-09-28,Customer_004,Frozen Items,40,47.16,1886.47,10
+2023-09-28,Customer_005,Chicken Dips,16,10.55,168.76,10
+2023-09-28,Customer_005,Cheese Dips,24,7.66,183.83,10
+2023-09-28,Customer_005,Drinks,35,47.7,1669.64,10
+2023-09-28,Customer_005,Sauces,17,9.1,154.72,10
+2023-09-28,Customer_005,Frozen Items,20,12.64,252.89,10
+2023-09-28,Customer_006,Chicken Dips,34,39.47,1341.94,10
+2023-09-28,Customer_006,Cheese Dips,27,6.08,164.17,10
+2023-09-28,Customer_006,Drinks,13,49.48,643.3,10
+2023-09-28,Customer_006,Sauces,10,29.74,297.44,10
+2023-09-28,Customer_006,Frozen Items,40,22.69,907.66,10
+2023-09-28,Customer_007,Chicken Dips,5,13.06,65.28,10
+2023-09-28,Customer_007,Cheese Dips,27,29.61,799.52,10
+2023-09-28,Customer_007,Drinks,5,40.17,200.87,10
+2023-09-28,Customer_007,Sauces,15,34.14,512.03,10
+2023-09-28,Customer_007,Frozen Items,6,15.83,94.98,10
+2023-09-28,Customer_008,Chicken Dips,31,27.04,838.37,10
+2023-09-28,Customer_008,Cheese Dips,13,49.02,637.26,10
+2023-09-28,Customer_008,Drinks,7,13.76,96.35,10
+2023-09-28,Customer_008,Sauces,24,37.92,910.09,10
+2023-09-28,Customer_008,Frozen Items,9,41.19,370.69,10
+2023-09-28,Customer_009,Chicken Dips,8,48.07,384.59,10
+2023-09-28,Customer_009,Cheese Dips,27,11.3,305.08,10
+2023-09-28,Customer_009,Drinks,3,25.68,77.05,10
+2023-09-28,Customer_009,Sauces,24,23.12,554.96,10
+2023-09-28,Customer_009,Frozen Items,33,30.58,1009.3,10
+2023-09-28,Customer_010,Chicken Dips,11,11.08,121.93,10
+2023-09-28,Customer_010,Cheese Dips,45,22.82,1026.9,10
+2023-09-28,Customer_010,Drinks,14,12.14,170.0,10
+2023-09-28,Customer_010,Sauces,40,30.73,1229.22,10
+2023-09-28,Customer_010,Frozen Items,22,45.82,1007.97,10
+2023-09-28,Customer_011,Chicken Dips,24,23.41,561.81,10
+2023-09-28,Customer_011,Cheese Dips,40,20.99,839.79,10
+2023-09-28,Customer_011,Drinks,45,26.77,1204.7,10
+2023-09-28,Customer_011,Sauces,9,31.51,283.55,10
+2023-09-28,Customer_011,Frozen Items,2,30.9,61.8,10
+2023-09-28,Customer_012,Chicken Dips,5,34.52,172.58,10
+2023-09-28,Customer_012,Cheese Dips,47,29.91,1405.59,10
+2023-09-28,Customer_012,Drinks,4,8.11,32.45,10
+2023-09-28,Customer_012,Sauces,35,16.45,575.9,10
+2023-09-28,Customer_012,Frozen Items,23,40.11,922.52,10
+2023-09-28,Customer_013,Chicken Dips,28,36.47,1021.17,10
+2023-09-28,Customer_013,Cheese Dips,51,38.51,1964.17,10
+2023-09-28,Customer_013,Drinks,41,40.83,1674.07,10
+2023-09-28,Customer_013,Sauces,18,28.09,505.67,10
+2023-09-28,Customer_013,Frozen Items,35,10.99,384.76,10
+2023-09-28,Customer_014,Chicken Dips,11,7.74,85.16,10
+2023-09-28,Customer_014,Cheese Dips,32,19.36,619.42,10
+2023-09-28,Customer_014,Drinks,17,17.85,303.5,10
+2023-09-28,Customer_014,Sauces,10,19.34,193.41,10
+2023-09-28,Customer_014,Frozen Items,9,12.85,115.64,10
+2023-09-28,Customer_015,Chicken Dips,20,6.39,127.84,10
+2023-09-28,Customer_015,Cheese Dips,31,10.64,329.9,10
+2023-09-28,Customer_015,Drinks,15,13.83,207.5,10
+2023-09-28,Customer_015,Sauces,10,30.97,309.7,10
+2023-09-28,Customer_015,Frozen Items,42,33.21,1394.97,10
+2023-09-28,Customer_016,Chicken Dips,23,24.34,559.71,10
+2023-09-28,Customer_016,Cheese Dips,28,46.09,1290.43,10
+2023-09-28,Customer_016,Drinks,25,19.73,493.35,10
+2023-09-28,Customer_016,Sauces,24,17.1,410.3,10
+2023-09-28,Customer_016,Frozen Items,51,16.11,821.54,10
+2023-09-28,Customer_017,Chicken Dips,32,31.73,1015.43,10
+2023-09-28,Customer_017,Cheese Dips,25,32.69,817.35,10
+2023-09-28,Customer_017,Drinks,14,39.77,556.78,10
+2023-09-28,Customer_017,Sauces,43,17.75,763.16,10
+2023-09-28,Customer_017,Frozen Items,2,32.22,64.44,10
+2023-09-28,Customer_018,Chicken Dips,27,34.22,924.0,10
+2023-09-28,Customer_018,Cheese Dips,14,18.9,264.55,10
+2023-09-28,Customer_018,Drinks,17,46.97,798.56,10
+2023-09-28,Customer_018,Sauces,25,30.08,752.08,10
+2023-09-28,Customer_018,Frozen Items,4,25.63,102.53,10
+2023-09-28,Customer_019,Chicken Dips,46,41.35,1901.98,10
+2023-09-28,Customer_019,Cheese Dips,8,41.72,333.79,10
+2023-09-28,Customer_019,Drinks,26,49.86,1296.43,10
+2023-09-28,Customer_019,Sauces,19,14.38,273.18,10
+2023-09-28,Customer_019,Frozen Items,24,44.59,1070.13,10
+2023-09-28,Customer_020,Chicken Dips,15,11.19,167.9,10
+2023-09-28,Customer_020,Cheese Dips,36,45.65,1643.22,10
+2023-09-28,Customer_020,Drinks,43,43.66,1877.38,10
+2023-09-28,Customer_020,Sauces,39,23.73,925.54,10
+2023-09-28,Customer_020,Frozen Items,8,15.76,126.06,10
+2023-09-28,Customer_021,Chicken Dips,48,6.81,327.02,10
+2023-09-28,Customer_021,Cheese Dips,44,19.07,838.94,10
+2023-09-28,Customer_021,Drinks,47,46.93,2205.54,10
+2023-09-28,Customer_021,Sauces,33,48.95,1615.19,10
+2023-09-28,Customer_021,Frozen Items,12,8.77,105.21,10
+2023-09-28,Customer_022,Chicken Dips,17,40.19,683.15,10
+2023-09-28,Customer_022,Cheese Dips,13,11.81,153.55,10
+2023-09-28,Customer_022,Drinks,12,19.79,237.42,10
+2023-09-28,Customer_022,Sauces,39,10.88,424.41,10
+2023-09-28,Customer_022,Frozen Items,33,48.43,1598.34,10
+2023-09-28,Customer_023,Chicken Dips,31,30.88,957.21,10
+2023-09-28,Customer_023,Cheese Dips,32,37.68,1205.6,10
+2023-09-28,Customer_023,Drinks,38,19.05,723.84,10
+2023-09-28,Customer_023,Sauces,35,14.3,500.37,10
+2023-09-28,Customer_023,Frozen Items,46,38.53,1772.59,10
+2023-09-28,Customer_024,Chicken Dips,41,22.92,939.83,10
+2023-09-28,Customer_024,Cheese Dips,23,28.55,656.73,10
+2023-09-28,Customer_024,Drinks,33,42.13,1390.44,10
+2023-09-28,Customer_024,Sauces,42,19.57,821.85,10
+2023-09-28,Customer_024,Frozen Items,2,43.08,86.15,10
+2023-09-28,Customer_025,Chicken Dips,34,34.6,1176.31,10
+2023-09-28,Customer_025,Cheese Dips,39,21.95,856.07,10
+2023-09-28,Customer_025,Drinks,15,40.46,606.88,10
+2023-09-28,Customer_025,Sauces,7,9.91,69.34,10
+2023-09-28,Customer_025,Frozen Items,7,8.71,60.96,10
+2023-09-28,Customer_026,Chicken Dips,7,26.85,187.98,10
+2023-09-28,Customer_026,Cheese Dips,25,18.61,465.27,10
+2023-09-28,Customer_026,Drinks,19,43.58,827.93,10
+2023-09-28,Customer_026,Sauces,39,17.32,675.34,10
+2023-09-28,Customer_026,Frozen Items,31,36.06,1118.0,10
+2023-09-28,Customer_027,Chicken Dips,9,19.77,177.9,10
+2023-09-28,Customer_027,Cheese Dips,15,34.06,510.86,10
+2023-09-28,Customer_027,Drinks,19,18.77,356.67,10
+2023-09-28,Customer_027,Sauces,22,5.23,115.09,10
+2023-09-28,Customer_027,Frozen Items,29,19.8,574.11,10
+2023-09-28,Customer_028,Chicken Dips,19,15.6,296.46,10
+2023-09-28,Customer_028,Cheese Dips,38,44.21,1679.84,10
+2023-09-28,Customer_028,Drinks,43,43.63,1876.21,10
+2023-09-28,Customer_028,Sauces,39,49.4,1926.42,10
+2023-09-28,Customer_028,Frozen Items,10,35.5,354.98,10
+2023-09-28,Customer_029,Chicken Dips,32,33.12,1059.97,10
+2023-09-28,Customer_029,Cheese Dips,38,12.6,478.75,10
+2023-09-28,Customer_029,Drinks,29,43.69,1266.88,10
+2023-09-28,Customer_029,Sauces,38,26.4,1003.06,10
+2023-09-28,Customer_029,Frozen Items,49,8.97,439.38,10
+2023-09-28,Customer_030,Chicken Dips,20,12.57,251.45,10
+2023-09-28,Customer_030,Cheese Dips,51,29.7,1514.75,10
+2023-09-28,Customer_030,Drinks,29,23.08,669.34,10
+2023-09-28,Customer_030,Sauces,39,28.0,1092.0,10
+2023-09-28,Customer_030,Frozen Items,12,25.74,308.89,10
+2023-09-28,Customer_031,Chicken Dips,35,49.16,1720.46,10
+2023-09-28,Customer_031,Cheese Dips,8,36.92,295.38,10
+2023-09-28,Customer_031,Drinks,23,42.75,983.21,10
+2023-09-28,Customer_031,Sauces,27,18.69,504.65,10
+2023-09-28,Customer_031,Frozen Items,4,10.07,40.27,10
+2023-09-28,Customer_032,Chicken Dips,42,18.78,788.91,10
+2023-09-28,Customer_032,Cheese Dips,45,7.12,320.57,10
+2023-09-28,Customer_032,Drinks,10,20.74,207.41,10
+2023-09-28,Customer_032,Sauces,28,33.41,935.53,10
+2023-09-28,Customer_032,Frozen Items,34,36.28,1233.64,10
+2023-09-28,Customer_033,Chicken Dips,51,10.95,558.6,10
+2023-09-28,Customer_033,Cheese Dips,50,22.69,1134.52,10
+2023-09-28,Customer_033,Drinks,22,29.49,648.81,10
+2023-09-28,Customer_033,Sauces,29,7.53,218.29,10
+2023-09-28,Customer_033,Frozen Items,18,12.72,228.99,10
+2023-09-28,Customer_034,Chicken Dips,22,44.6,981.12,10
+2023-09-28,Customer_034,Cheese Dips,27,49.22,1329.03,10
+2023-09-28,Customer_034,Drinks,33,25.31,835.13,10
+2023-09-28,Customer_034,Sauces,30,23.68,710.45,10
+2023-09-28,Customer_034,Frozen Items,3,41.79,125.38,10
+2023-09-28,Customer_035,Chicken Dips,30,41.91,1257.34,10
+2023-09-28,Customer_035,Cheese Dips,21,35.31,741.5,10
+2023-09-28,Customer_035,Drinks,40,17.46,698.37,10
+2023-09-28,Customer_035,Sauces,8,38.85,310.76,10
+2023-09-28,Customer_035,Frozen Items,42,34.74,1458.91,10
+2023-09-28,Customer_036,Chicken Dips,10,19.02,190.21,10
+2023-09-28,Customer_036,Cheese Dips,15,24.59,368.8,10
+2023-09-28,Customer_036,Drinks,29,5.07,147.15,10
+2023-09-28,Customer_036,Sauces,10,7.46,74.63,10
+2023-09-28,Customer_036,Frozen Items,43,26.54,1141.29,10
+2023-09-28,Customer_037,Chicken Dips,34,5.01,170.35,10
+2023-09-28,Customer_037,Cheese Dips,34,17.66,600.53,10
+2023-09-28,Customer_037,Drinks,37,10.42,385.41,10
+2023-09-28,Customer_037,Sauces,16,46.8,748.74,10
+2023-09-28,Customer_037,Frozen Items,10,18.85,188.47,10
+2023-09-28,Customer_038,Chicken Dips,32,8.29,265.13,10
+2023-09-28,Customer_038,Cheese Dips,31,37.34,1157.61,10
+2023-09-28,Customer_038,Drinks,31,38.72,1200.38,10
+2023-09-28,Customer_038,Sauces,45,9.86,443.76,10
+2023-09-28,Customer_038,Frozen Items,12,7.42,89.07,10
+2023-09-28,Customer_039,Chicken Dips,47,17.35,815.58,10
+2023-09-28,Customer_039,Cheese Dips,1,22.63,22.63,10
+2023-09-28,Customer_039,Drinks,3,25.35,76.05,10
+2023-09-28,Customer_039,Sauces,36,24.99,899.58,10
+2023-09-28,Customer_039,Frozen Items,22,41.68,916.92,10
+2023-09-28,Customer_040,Chicken Dips,0,43.97,0.0,10
+2023-09-28,Customer_040,Cheese Dips,2,29.07,58.15,10
+2023-09-28,Customer_040,Drinks,20,26.75,534.91,10
+2023-09-28,Customer_040,Sauces,23,17.58,404.23,10
+2023-09-28,Customer_040,Frozen Items,34,49.65,1687.97,10
+2023-09-28,Customer_041,Chicken Dips,34,43.83,1490.27,10
+2023-09-28,Customer_041,Cheese Dips,36,29.06,1046.15,10
+2023-09-28,Customer_041,Drinks,8,5.31,42.51,10
+2023-09-28,Customer_041,Sauces,27,15.56,420.23,10
+2023-09-28,Customer_041,Frozen Items,3,5.82,17.47,10
+2023-09-28,Customer_042,Chicken Dips,46,42.24,1942.97,10
+2023-09-28,Customer_042,Cheese Dips,30,49.64,1489.05,10
+2023-09-28,Customer_042,Drinks,36,15.85,570.69,10
+2023-09-28,Customer_042,Sauces,12,29.19,350.3,10
+2023-09-28,Customer_042,Frozen Items,37,13.42,496.56,10
+2023-09-28,Customer_043,Chicken Dips,11,18.11,199.22,10
+2023-09-28,Customer_043,Cheese Dips,12,21.35,256.17,10
+2023-09-28,Customer_043,Drinks,21,48.99,1028.73,10
+2023-09-28,Customer_043,Sauces,39,19.86,774.42,10
+2023-09-28,Customer_043,Frozen Items,24,42.8,1027.2,10
+2023-09-28,Customer_044,Chicken Dips,5,18.39,91.97,10
+2023-09-28,Customer_044,Cheese Dips,33,19.16,632.22,10
+2023-09-28,Customer_044,Drinks,11,12.39,136.32,10
+2023-09-28,Customer_044,Sauces,28,10.51,294.35,10
+2023-09-28,Customer_044,Frozen Items,17,17.76,301.96,10
+2023-09-28,Customer_045,Chicken Dips,23,8.17,188.0,10
+2023-09-28,Customer_045,Cheese Dips,34,39.24,1334.16,10
+2023-09-28,Customer_045,Drinks,8,41.96,335.65,10
+2023-09-28,Customer_045,Sauces,10,8.5,85.04,10
+2023-09-28,Customer_045,Frozen Items,17,26.44,449.54,10
+2023-09-28,Customer_046,Chicken Dips,32,43.68,1397.89,10
+2023-09-28,Customer_046,Cheese Dips,7,5.6,39.17,10
+2023-09-28,Customer_046,Drinks,19,42.64,810.14,10
+2023-09-28,Customer_046,Sauces,35,41.88,1465.91,10
+2023-09-28,Customer_046,Frozen Items,24,49.14,1179.26,10
+2023-09-28,Customer_047,Chicken Dips,23,18.0,414.08,10
+2023-09-28,Customer_047,Cheese Dips,3,25.05,75.14,10
+2023-09-28,Customer_047,Drinks,14,13.74,192.39,10
+2023-09-28,Customer_047,Sauces,14,40.84,571.76,10
+2023-09-28,Customer_047,Frozen Items,29,12.01,348.28,10
+2023-09-28,Customer_048,Chicken Dips,10,23.07,230.67,10
+2023-09-28,Customer_048,Cheese Dips,42,21.98,923.22,10
+2023-09-28,Customer_048,Drinks,32,6.79,217.33,10
+2023-09-28,Customer_048,Sauces,48,14.45,693.38,10
+2023-09-28,Customer_048,Frozen Items,47,38.06,1788.91,10
+2023-09-28,Customer_049,Chicken Dips,16,22.65,362.4,10
+2023-09-28,Customer_049,Cheese Dips,34,27.67,940.64,10
+2023-09-28,Customer_049,Drinks,7,49.16,344.1,10
+2023-09-28,Customer_049,Sauces,12,26.52,318.21,10
+2023-09-28,Customer_049,Frozen Items,21,13.64,286.46,10
+2023-10-28,Customer_000,Chicken Dips,39,25.26,985.25,11
+2023-10-28,Customer_000,Cheese Dips,36,46.29,1666.59,11
+2023-10-28,Customer_000,Drinks,16,42.17,674.68,11
+2023-10-28,Customer_000,Sauces,43,46.58,2003.08,11
+2023-10-28,Customer_000,Frozen Items,15,20.07,300.98,11
+2023-10-28,Customer_001,Chicken Dips,14,21.02,294.25,11
+2023-10-28,Customer_001,Cheese Dips,25,36.0,899.91,11
+2023-10-28,Customer_001,Drinks,15,10.95,164.28,11
+2023-10-28,Customer_001,Sauces,16,34.6,553.59,11
+2023-10-28,Customer_001,Frozen Items,7,32.04,224.3,11
+2023-10-28,Customer_002,Chicken Dips,11,39.17,430.86,11
+2023-10-28,Customer_002,Cheese Dips,17,26.21,445.55,11
+2023-10-28,Customer_002,Drinks,33,9.94,328.15,11
+2023-10-28,Customer_002,Sauces,31,13.97,433.09,11
+2023-10-28,Customer_002,Frozen Items,22,30.91,680.03,11
+2023-10-28,Customer_003,Chicken Dips,11,37.64,414.02,11
+2023-10-28,Customer_003,Cheese Dips,25,22.41,560.16,11
+2023-10-28,Customer_003,Drinks,8,11.62,92.98,11
+2023-10-28,Customer_003,Sauces,30,29.48,884.36,11
+2023-10-28,Customer_003,Frozen Items,50,45.99,2299.36,11
+2023-10-28,Customer_004,Chicken Dips,30,22.88,686.32,11
+2023-10-28,Customer_004,Cheese Dips,44,18.85,829.2,11
+2023-10-28,Customer_004,Drinks,1,10.02,10.02,11
+2023-10-28,Customer_004,Sauces,21,48.46,1017.71,11
+2023-10-28,Customer_004,Frozen Items,39,37.16,1449.29,11
+2023-10-28,Customer_005,Chicken Dips,9,44.8,403.21,11
+2023-10-28,Customer_005,Cheese Dips,22,44.45,977.85,11
+2023-10-28,Customer_005,Drinks,40,46.24,1849.68,11
+2023-10-28,Customer_005,Sauces,18,45.06,811.09,11
+2023-10-28,Customer_005,Frozen Items,15,38.21,573.1,11
+2023-10-28,Customer_006,Chicken Dips,31,7.45,231.04,11
+2023-10-28,Customer_006,Cheese Dips,17,8.92,151.64,11
+2023-10-28,Customer_006,Drinks,16,20.4,326.34,11
+2023-10-28,Customer_006,Sauces,9,27.01,243.06,11
+2023-10-28,Customer_006,Frozen Items,23,29.91,687.93,11
+2023-10-28,Customer_007,Chicken Dips,1,19.05,19.05,11
+2023-10-28,Customer_007,Cheese Dips,26,43.18,1122.71,11
+2023-10-28,Customer_007,Drinks,4,40.61,162.43,11
+2023-10-28,Customer_007,Sauces,15,38.37,575.6,11
+2023-10-28,Customer_007,Frozen Items,8,22.78,182.22,11
+2023-10-28,Customer_008,Chicken Dips,30,7.81,234.38,11
+2023-10-28,Customer_008,Cheese Dips,16,25.89,414.23,11
+2023-10-28,Customer_008,Drinks,5,13.39,66.94,11
+2023-10-28,Customer_008,Sauces,24,10.08,241.87,11
+2023-10-28,Customer_008,Frozen Items,12,6.21,74.51,11
+2023-10-28,Customer_009,Chicken Dips,11,14.72,161.94,11
+2023-10-28,Customer_009,Cheese Dips,28,28.91,809.51,11
+2023-10-28,Customer_009,Drinks,10,48.07,480.71,11
+2023-10-28,Customer_009,Sauces,19,45.41,862.75,11
+2023-10-28,Customer_009,Frozen Items,27,36.83,994.34,11
+2023-10-28,Customer_010,Chicken Dips,13,35.63,463.19,11
+2023-10-28,Customer_010,Cheese Dips,52,27.99,1455.67,11
+2023-10-28,Customer_010,Drinks,10,7.42,74.2,11
+2023-10-28,Customer_010,Sauces,43,48.98,2106.04,11
+2023-10-28,Customer_010,Frozen Items,19,22.45,426.48,11
+2023-10-28,Customer_011,Chicken Dips,17,11.89,202.16,11
+2023-10-28,Customer_011,Cheese Dips,37,27.16,1004.78,11
+2023-10-28,Customer_011,Drinks,46,39.64,1823.38,11
+2023-10-28,Customer_011,Sauces,6,23.82,142.94,11
+2023-10-28,Customer_011,Frozen Items,3,20.37,61.12,11
+2023-10-28,Customer_012,Chicken Dips,10,27.38,273.76,11
+2023-10-28,Customer_012,Cheese Dips,44,10.37,456.37,11
+2023-10-28,Customer_012,Drinks,6,41.71,250.25,11
+2023-10-28,Customer_012,Sauces,32,22.71,726.84,11
+2023-10-28,Customer_012,Frozen Items,23,30.0,689.94,11
+2023-10-28,Customer_013,Chicken Dips,27,20.3,548.11,11
+2023-10-28,Customer_013,Cheese Dips,47,8.97,421.4,11
+2023-10-28,Customer_013,Drinks,39,43.14,1682.45,11
+2023-10-28,Customer_013,Sauces,11,12.45,136.92,11
+2023-10-28,Customer_013,Frozen Items,41,40.51,1660.75,11
+2023-10-28,Customer_014,Chicken Dips,13,13.84,179.94,11
+2023-10-28,Customer_014,Cheese Dips,19,38.66,734.55,11
+2023-10-28,Customer_014,Drinks,14,43.61,610.5,11
+2023-10-28,Customer_014,Sauces,8,18.78,150.26,11
+2023-10-28,Customer_014,Frozen Items,11,46.86,515.43,11
+2023-10-28,Customer_015,Chicken Dips,20,7.38,147.54,11
+2023-10-28,Customer_015,Cheese Dips,37,40.64,1503.5,11
+2023-10-28,Customer_015,Drinks,14,7.58,106.11,11
+2023-10-28,Customer_015,Sauces,18,22.09,397.59,11
+2023-10-28,Customer_015,Frozen Items,26,31.22,811.74,11
+2023-10-28,Customer_016,Chicken Dips,19,46.52,883.83,11
+2023-10-28,Customer_016,Cheese Dips,23,37.45,861.37,11
+2023-10-28,Customer_016,Drinks,30,13.64,409.23,11
+2023-10-28,Customer_016,Sauces,26,26.92,700.04,11
+2023-10-28,Customer_016,Frozen Items,52,32.11,1669.78,11
+2023-10-28,Customer_017,Chicken Dips,33,17.58,580.26,11
+2023-10-28,Customer_017,Cheese Dips,19,41.59,790.24,11
+2023-10-28,Customer_017,Drinks,12,22.35,268.2,11
+2023-10-28,Customer_017,Sauces,29,41.23,1195.68,11
+2023-10-28,Customer_017,Frozen Items,0,45.2,0.0,11
+2023-10-28,Customer_018,Chicken Dips,30,27.61,828.2,11
+2023-10-28,Customer_018,Cheese Dips,6,37.61,225.67,11
+2023-10-28,Customer_018,Drinks,13,6.65,86.48,11
+2023-10-28,Customer_018,Sauces,28,20.13,563.77,11
+2023-10-28,Customer_018,Frozen Items,6,6.84,41.05,11
+2023-10-28,Customer_019,Chicken Dips,48,29.88,1434.08,11
+2023-10-28,Customer_019,Cheese Dips,8,7.84,62.72,11
+2023-10-28,Customer_019,Drinks,25,8.84,221.08,11
+2023-10-28,Customer_019,Sauces,17,20.18,343.01,11
+2023-10-28,Customer_019,Frozen Items,21,32.64,685.41,11
+2023-10-28,Customer_020,Chicken Dips,13,26.76,347.85,11
+2023-10-28,Customer_020,Cheese Dips,35,8.37,292.96,11
+2023-10-28,Customer_020,Drinks,42,25.56,1073.39,11
+2023-10-28,Customer_020,Sauces,41,13.77,564.7,11
+2023-10-28,Customer_020,Frozen Items,12,39.59,475.12,11
+2023-10-28,Customer_021,Chicken Dips,50,30.96,1547.82,11
+2023-10-28,Customer_021,Cheese Dips,44,6.64,292.19,11
+2023-10-28,Customer_021,Drinks,43,24.12,1037.29,11
+2023-10-28,Customer_021,Sauces,33,10.31,340.19,11
+2023-10-28,Customer_021,Frozen Items,12,24.71,296.47,11
+2023-10-28,Customer_022,Chicken Dips,12,16.29,195.48,11
+2023-10-28,Customer_022,Cheese Dips,7,22.7,158.88,11
+2023-10-28,Customer_022,Drinks,14,25.21,352.92,11
+2023-10-28,Customer_022,Sauces,34,20.58,699.68,11
+2023-10-28,Customer_022,Frozen Items,33,19.96,658.65,11
+2023-10-28,Customer_023,Chicken Dips,29,32.77,950.47,11
+2023-10-28,Customer_023,Cheese Dips,27,9.48,255.89,11
+2023-10-28,Customer_023,Drinks,39,49.7,1938.18,11
+2023-10-28,Customer_023,Sauces,35,48.65,1702.87,11
+2023-10-28,Customer_023,Frozen Items,46,28.25,1299.42,11
+2023-10-28,Customer_024,Chicken Dips,46,28.27,1300.62,11
+2023-10-28,Customer_024,Cheese Dips,30,33.38,1001.54,11
+2023-10-28,Customer_024,Drinks,30,18.05,541.56,11
+2023-10-28,Customer_024,Sauces,43,39.1,1681.3,11
+2023-10-28,Customer_024,Frozen Items,5,12.64,63.2,11
+2023-10-28,Customer_025,Chicken Dips,41,23.86,978.31,11
+2023-10-28,Customer_025,Cheese Dips,44,26.85,1181.56,11
+2023-10-28,Customer_025,Drinks,21,29.63,622.22,11
+2023-10-28,Customer_025,Sauces,11,29.59,325.47,11
+2023-10-28,Customer_025,Frozen Items,2,20.45,40.89,11
+2023-10-28,Customer_026,Chicken Dips,13,28.19,366.45,11
+2023-10-28,Customer_026,Cheese Dips,34,28.16,957.56,11
+2023-10-28,Customer_026,Drinks,14,5.72,80.1,11
+2023-10-28,Customer_026,Sauces,39,21.96,856.61,11
+2023-10-28,Customer_026,Frozen Items,31,36.27,1124.41,11
+2023-10-28,Customer_027,Chicken Dips,8,43.29,346.34,11
+2023-10-28,Customer_027,Cheese Dips,12,39.49,473.83,11
+2023-10-28,Customer_027,Drinks,11,13.64,150.02,11
+2023-10-28,Customer_027,Sauces,17,10.91,185.44,11
+2023-10-28,Customer_027,Frozen Items,23,26.43,607.99,11
+2023-10-28,Customer_028,Chicken Dips,18,39.22,705.92,11
+2023-10-28,Customer_028,Cheese Dips,33,18.54,611.93,11
+2023-10-28,Customer_028,Drinks,41,39.04,1600.65,11
+2023-10-28,Customer_028,Sauces,31,14.41,446.61,11
+2023-10-28,Customer_028,Frozen Items,12,47.49,569.87,11
+2023-10-28,Customer_029,Chicken Dips,35,19.68,688.72,11
+2023-10-28,Customer_029,Cheese Dips,36,49.31,1775.14,11
+2023-10-28,Customer_029,Drinks,29,14.27,413.84,11
+2023-10-28,Customer_029,Sauces,41,42.74,1752.23,11
+2023-10-28,Customer_029,Frozen Items,48,19.31,926.67,11
+2023-10-28,Customer_030,Chicken Dips,23,41.75,960.24,11
+2023-10-28,Customer_030,Cheese Dips,42,8.9,373.88,11
+2023-10-28,Customer_030,Drinks,32,46.1,1475.05,11
+2023-10-28,Customer_030,Sauces,40,32.95,1318.14,11
+2023-10-28,Customer_030,Frozen Items,14,11.02,154.23,11
+2023-10-28,Customer_031,Chicken Dips,32,38.81,1242.05,11
+2023-10-28,Customer_031,Cheese Dips,15,26.97,404.48,11
+2023-10-28,Customer_031,Drinks,30,21.35,640.6,11
+2023-10-28,Customer_031,Sauces,36,24.29,874.4,11
+2023-10-28,Customer_031,Frozen Items,5,19.95,99.74,11
+2023-10-28,Customer_032,Chicken Dips,48,33.24,1595.33,11
+2023-10-28,Customer_032,Cheese Dips,48,46.82,2247.51,11
+2023-10-28,Customer_032,Drinks,14,6.46,90.44,11
+2023-10-28,Customer_032,Sauces,32,18.96,606.84,11
+2023-10-28,Customer_032,Frozen Items,29,15.9,461.15,11
+2023-10-28,Customer_033,Chicken Dips,52,18.7,972.51,11
+2023-10-28,Customer_033,Cheese Dips,46,46.33,2131.34,11
+2023-10-28,Customer_033,Drinks,26,20.25,526.41,11
+2023-10-28,Customer_033,Sauces,35,21.97,769.09,11
+2023-10-28,Customer_033,Frozen Items,13,33.3,432.89,11
+2023-10-28,Customer_034,Chicken Dips,19,13.13,249.46,11
+2023-10-28,Customer_034,Cheese Dips,17,34.41,584.99,11
+2023-10-28,Customer_034,Drinks,23,22.72,522.54,11
+2023-10-28,Customer_034,Sauces,31,15.91,493.35,11
+2023-10-28,Customer_034,Frozen Items,4,15.37,61.47,11
+2023-10-28,Customer_035,Chicken Dips,27,26.34,711.29,11
+2023-10-28,Customer_035,Cheese Dips,18,34.87,627.63,11
+2023-10-28,Customer_035,Drinks,40,23.0,919.97,11
+2023-10-28,Customer_035,Sauces,9,31.25,281.24,11
+2023-10-28,Customer_035,Frozen Items,47,35.33,1660.59,11
+2023-10-28,Customer_036,Chicken Dips,14,31.9,446.62,11
+2023-10-28,Customer_036,Cheese Dips,12,40.8,489.66,11
+2023-10-28,Customer_036,Drinks,29,36.55,1059.93,11
+2023-10-28,Customer_036,Sauces,16,31.34,501.41,11
+2023-10-28,Customer_036,Frozen Items,42,5.33,223.9,11
+2023-10-28,Customer_037,Chicken Dips,30,40.88,1226.48,11
+2023-10-28,Customer_037,Cheese Dips,34,28.15,957.17,11
+2023-10-28,Customer_037,Drinks,26,37.28,969.2,11
+2023-10-28,Customer_037,Sauces,18,43.9,790.14,11
+2023-10-28,Customer_037,Frozen Items,9,18.27,164.45,11
+2023-10-28,Customer_038,Chicken Dips,34,39.06,1328.1,11
+2023-10-28,Customer_038,Cheese Dips,31,8.75,271.1,11
+2023-10-28,Customer_038,Drinks,31,49.86,1545.55,11
+2023-10-28,Customer_038,Sauces,40,10.0,400.07,11
+2023-10-28,Customer_038,Frozen Items,15,23.77,356.59,11
+2023-10-28,Customer_039,Chicken Dips,47,42.19,1982.97,11
+2023-10-28,Customer_039,Cheese Dips,5,7.8,39.0,11
+2023-10-28,Customer_039,Drinks,8,48.73,389.86,11
+2023-10-28,Customer_039,Sauces,40,23.08,923.05,11
+2023-10-28,Customer_039,Frozen Items,16,26.12,417.97,11
+2023-10-28,Customer_040,Chicken Dips,2,13.67,27.34,11
+2023-10-28,Customer_040,Cheese Dips,2,40.1,80.2,11
+2023-10-28,Customer_040,Drinks,26,8.39,218.1,11
+2023-10-28,Customer_040,Sauces,13,5.32,69.18,11
+2023-10-28,Customer_040,Frozen Items,32,7.36,235.57,11
+2023-10-28,Customer_041,Chicken Dips,40,25.72,1028.64,11
+2023-10-28,Customer_041,Cheese Dips,37,20.83,770.89,11
+2023-10-28,Customer_041,Drinks,2,28.47,56.94,11
+2023-10-28,Customer_041,Sauces,18,37.42,673.57,11
+2023-10-28,Customer_041,Frozen Items,7,33.62,235.31,11
+2023-10-28,Customer_042,Chicken Dips,47,8.56,402.54,11
+2023-10-28,Customer_042,Cheese Dips,25,39.85,996.3,11
+2023-10-28,Customer_042,Drinks,39,13.5,526.33,11
+2023-10-28,Customer_042,Sauces,8,32.27,258.12,11
+2023-10-28,Customer_042,Frozen Items,36,25.57,920.44,11
+2023-10-28,Customer_043,Chicken Dips,5,40.26,201.29,11
+2023-10-28,Customer_043,Cheese Dips,10,10.04,100.37,11
+2023-10-28,Customer_043,Drinks,23,45.2,1039.57,11
+2023-10-28,Customer_043,Sauces,37,49.4,1827.83,11
+2023-10-28,Customer_043,Frozen Items,32,27.93,893.91,11
+2023-10-28,Customer_044,Chicken Dips,12,45.23,542.72,11
+2023-10-28,Customer_044,Cheese Dips,42,26.93,1131.2,11
+2023-10-28,Customer_044,Drinks,12,46.89,562.74,11
+2023-10-28,Customer_044,Sauces,24,25.38,609.05,11
+2023-10-28,Customer_044,Frozen Items,15,45.07,676.05,11
+2023-10-28,Customer_045,Chicken Dips,19,11.43,217.11,11
+2023-10-28,Customer_045,Cheese Dips,33,19.59,646.63,11
+2023-10-28,Customer_045,Drinks,16,17.56,280.89,11
+2023-10-28,Customer_045,Sauces,5,49.95,249.73,11
+2023-10-28,Customer_045,Frozen Items,17,41.93,712.75,11
+2023-10-28,Customer_046,Chicken Dips,30,8.72,261.47,11
+2023-10-28,Customer_046,Cheese Dips,4,37.85,151.4,11
+2023-10-28,Customer_046,Drinks,24,7.88,189.01,11
+2023-10-28,Customer_046,Sauces,38,19.24,731.14,11
+2023-10-28,Customer_046,Frozen Items,19,18.64,354.25,11
+2023-10-28,Customer_047,Chicken Dips,18,22.68,408.26,11
+2023-10-28,Customer_047,Cheese Dips,3,45.93,137.8,11
+2023-10-28,Customer_047,Drinks,11,47.19,519.13,11
+2023-10-28,Customer_047,Sauces,20,12.27,245.3,11
+2023-10-28,Customer_047,Frozen Items,21,40.47,849.85,11
+2023-10-28,Customer_048,Chicken Dips,7,25.25,176.73,11
+2023-10-28,Customer_048,Cheese Dips,43,38.69,1663.73,11
+2023-10-28,Customer_048,Drinks,36,49.79,1792.58,11
+2023-10-28,Customer_048,Sauces,43,48.01,2064.56,11
+2023-10-28,Customer_048,Frozen Items,44,29.0,1275.98,11
+2023-10-28,Customer_049,Chicken Dips,15,7.51,112.6,11
+2023-10-28,Customer_049,Cheese Dips,26,27.42,713.05,11
+2023-10-28,Customer_049,Drinks,5,17.22,86.12,11
+2023-10-28,Customer_049,Sauces,10,28.18,281.83,11
+2023-10-28,Customer_049,Frozen Items,21,11.0,230.99,11
+2023-11-27,Customer_000,Chicken Dips,45,41.77,1879.81,12
+2023-11-27,Customer_000,Cheese Dips,34,22.3,758.31,12
+2023-11-27,Customer_000,Drinks,22,40.18,883.96,12
+2023-11-27,Customer_000,Sauces,49,20.11,985.53,12
+2023-11-27,Customer_000,Frozen Items,9,30.94,278.48,12
+2023-11-27,Customer_001,Chicken Dips,13,36.75,477.71,12
+2023-11-27,Customer_001,Cheese Dips,28,27.7,775.67,12
+2023-11-27,Customer_001,Drinks,13,25.05,325.63,12
+2023-11-27,Customer_001,Sauces,11,44.26,486.9,12
+2023-11-27,Customer_001,Frozen Items,4,31.24,124.96,12
+2023-11-27,Customer_002,Chicken Dips,6,9.16,54.96,12
+2023-11-27,Customer_002,Cheese Dips,18,31.15,560.78,12
+2023-11-27,Customer_002,Drinks,28,48.5,1358.09,12
+2023-11-27,Customer_002,Sauces,22,28.13,618.82,12
+2023-11-27,Customer_002,Frozen Items,11,19.53,214.88,12
+2023-11-27,Customer_003,Chicken Dips,3,28.67,86.02,12
+2023-11-27,Customer_003,Cheese Dips,26,17.0,442.12,12
+2023-11-27,Customer_003,Drinks,4,15.36,61.46,12
+2023-11-27,Customer_003,Sauces,29,7.22,209.33,12
+2023-11-27,Customer_003,Frozen Items,50,11.25,562.68,12
+2023-11-27,Customer_004,Chicken Dips,35,19.2,672.12,12
+2023-11-27,Customer_004,Cheese Dips,46,19.43,893.92,12
+2023-11-27,Customer_004,Drinks,2,5.31,10.61,12
+2023-11-27,Customer_004,Sauces,26,23.5,611.0,12
+2023-11-27,Customer_004,Frozen Items,41,28.51,1169.01,12
+2023-11-27,Customer_005,Chicken Dips,8,23.23,185.84,12
+2023-11-27,Customer_005,Cheese Dips,13,32.33,420.28,12
+2023-11-27,Customer_005,Drinks,27,5.35,144.44,12
+2023-11-27,Customer_005,Sauces,13,38.28,497.65,12
+2023-11-27,Customer_005,Frozen Items,11,6.37,70.03,12
+2023-11-27,Customer_006,Chicken Dips,24,18.94,454.44,12
+2023-11-27,Customer_006,Cheese Dips,20,47.9,957.98,12
+2023-11-27,Customer_006,Drinks,12,26.76,321.12,12
+2023-11-27,Customer_006,Sauces,7,29.52,206.61,12
+2023-11-27,Customer_006,Frozen Items,33,37.19,1227.32,12
+2023-11-27,Customer_007,Chicken Dips,3,23.5,70.5,12
+2023-11-27,Customer_007,Cheese Dips,34,27.91,948.98,12
+2023-11-27,Customer_007,Drinks,6,48.94,293.64,12
+2023-11-27,Customer_007,Sauces,9,15.87,142.87,12
+2023-11-27,Customer_007,Frozen Items,7,21.14,147.98,12
+2023-11-27,Customer_008,Chicken Dips,25,40.0,999.94,12
+2023-11-27,Customer_008,Cheese Dips,9,5.57,50.1,12
+2023-11-27,Customer_008,Drinks,3,19.08,57.23,12
+2023-11-27,Customer_008,Sauces,13,49.68,645.87,12
+2023-11-27,Customer_008,Frozen Items,10,12.92,129.21,12
+2023-11-27,Customer_009,Chicken Dips,17,24.99,424.8,12
+2023-11-27,Customer_009,Cheese Dips,31,43.8,1357.78,12
+2023-11-27,Customer_009,Drinks,10,49.28,492.76,12
+2023-11-27,Customer_009,Sauces,23,36.18,832.17,12
+2023-11-27,Customer_009,Frozen Items,33,7.37,243.07,12
+2023-11-27,Customer_010,Chicken Dips,14,34.8,487.26,12
+2023-11-27,Customer_010,Cheese Dips,50,25.61,1280.42,12
+2023-11-27,Customer_010,Drinks,15,38.83,582.46,12
+2023-11-27,Customer_010,Sauces,36,26.35,948.58,12
+2023-11-27,Customer_010,Frozen Items,17,28.32,481.48,12
+2023-11-27,Customer_011,Chicken Dips,22,12.84,282.42,12
+2023-11-27,Customer_011,Cheese Dips,44,33.43,1470.81,12
+2023-11-27,Customer_011,Drinks,40,25.01,1000.33,12
+2023-11-27,Customer_011,Sauces,9,18.34,165.06,12
+2023-11-27,Customer_011,Frozen Items,6,13.18,79.08,12
+2023-11-27,Customer_012,Chicken Dips,8,19.53,156.21,12
+2023-11-27,Customer_012,Cheese Dips,42,25.08,1053.26,12
+2023-11-27,Customer_012,Drinks,9,18.41,165.67,12
+2023-11-27,Customer_012,Sauces,33,36.84,1215.82,12
+2023-11-27,Customer_012,Frozen Items,22,18.58,408.78,12
+2023-11-27,Customer_013,Chicken Dips,30,33.28,998.35,12
+2023-11-27,Customer_013,Cheese Dips,43,42.54,1829.42,12
+2023-11-27,Customer_013,Drinks,37,39.41,1458.35,12
+2023-11-27,Customer_013,Sauces,9,25.63,230.64,12
+2023-11-27,Customer_013,Frozen Items,39,6.55,255.33,12
+2023-11-27,Customer_014,Chicken Dips,13,43.98,571.72,12
+2023-11-27,Customer_014,Cheese Dips,20,29.54,590.89,12
+2023-11-27,Customer_014,Drinks,13,49.96,649.44,12
+2023-11-27,Customer_014,Sauces,9,9.69,87.25,12
+2023-11-27,Customer_014,Frozen Items,8,28.59,228.71,12
+2023-11-27,Customer_015,Chicken Dips,19,45.98,873.62,12
+2023-11-27,Customer_015,Cheese Dips,30,38.4,1152.1,12
+2023-11-27,Customer_015,Drinks,14,14.89,208.51,12
+2023-11-27,Customer_015,Sauces,14,16.7,233.83,12
+2023-11-27,Customer_015,Frozen Items,29,41.95,1216.59,12
+2023-11-27,Customer_016,Chicken Dips,21,42.57,894.05,12
+2023-11-27,Customer_016,Cheese Dips,32,27.81,890.08,12
+2023-11-27,Customer_016,Drinks,27,38.12,1029.14,12
+2023-11-27,Customer_016,Sauces,29,33.76,979.04,12
+2023-11-27,Customer_016,Frozen Items,46,24.65,1134.09,12
+2023-11-27,Customer_017,Chicken Dips,18,32.13,578.34,12
+2023-11-27,Customer_017,Cheese Dips,10,8.37,83.73,12
+2023-11-27,Customer_017,Drinks,5,48.85,244.25,12
+2023-11-27,Customer_017,Sauces,33,41.98,1385.43,12
+2023-11-27,Customer_017,Frozen Items,0,28.14,0.0,12
+2023-11-27,Customer_018,Chicken Dips,26,34.26,890.72,12
+2023-11-27,Customer_018,Cheese Dips,12,39.55,474.65,12
+2023-11-27,Customer_018,Drinks,13,31.48,409.19,12
+2023-11-27,Customer_018,Sauces,25,9.37,234.15,12
+2023-11-27,Customer_018,Frozen Items,9,7.48,67.32,12
+2023-11-27,Customer_019,Chicken Dips,44,25.86,1137.97,12
+2023-11-27,Customer_019,Cheese Dips,12,46.78,561.42,12
+2023-11-27,Customer_019,Drinks,32,17.38,556.24,12
+2023-11-27,Customer_019,Sauces,13,28.64,372.31,12
+2023-11-27,Customer_019,Frozen Items,16,20.22,323.53,12
+2023-11-27,Customer_020,Chicken Dips,7,49.15,344.03,12
+2023-11-27,Customer_020,Cheese Dips,38,20.99,797.54,12
+2023-11-27,Customer_020,Drinks,38,34.8,1322.42,12
+2023-11-27,Customer_020,Sauces,37,18.81,696.04,12
+2023-11-27,Customer_020,Frozen Items,13,19.21,249.67,12
+2023-11-27,Customer_021,Chicken Dips,41,5.54,226.99,12
+2023-11-27,Customer_021,Cheese Dips,40,44.14,1765.45,12
+2023-11-27,Customer_021,Drinks,47,49.24,2314.18,12
+2023-11-27,Customer_021,Sauces,31,44.12,1367.75,12
+2023-11-27,Customer_021,Frozen Items,11,27.55,303.01,12
+2023-11-27,Customer_022,Chicken Dips,13,42.75,555.72,12
+2023-11-27,Customer_022,Cheese Dips,14,15.94,223.2,12
+2023-11-27,Customer_022,Drinks,15,35.22,528.37,12
+2023-11-27,Customer_022,Sauces,38,9.58,364.21,12
+2023-11-27,Customer_022,Frozen Items,34,33.4,1135.51,12
+2023-11-27,Customer_023,Chicken Dips,26,39.2,1019.24,12
+2023-11-27,Customer_023,Cheese Dips,26,28.13,731.41,12
+2023-11-27,Customer_023,Drinks,37,20.41,755.09,12
+2023-11-27,Customer_023,Sauces,42,9.11,382.66,12
+2023-11-27,Customer_023,Frozen Items,52,38.89,2022.3,12
+2023-11-27,Customer_024,Chicken Dips,44,13.4,589.45,12
+2023-11-27,Customer_024,Cheese Dips,24,13.52,324.6,12
+2023-11-27,Customer_024,Drinks,30,7.57,226.95,12
+2023-11-27,Customer_024,Sauces,40,22.85,913.86,12
+2023-11-27,Customer_024,Frozen Items,5,7.21,36.03,12
+2023-11-27,Customer_025,Chicken Dips,39,14.13,551.01,12
+2023-11-27,Customer_025,Cheese Dips,40,19.7,788.13,12
+2023-11-27,Customer_025,Drinks,21,17.78,373.44,12
+2023-11-27,Customer_025,Sauces,9,48.5,436.46,12
+2023-11-27,Customer_025,Frozen Items,2,16.72,33.44,12
+2023-11-27,Customer_026,Chicken Dips,11,38.38,422.13,12
+2023-11-27,Customer_026,Cheese Dips,29,45.19,1310.51,12
+2023-11-27,Customer_026,Drinks,22,20.86,458.96,12
+2023-11-27,Customer_026,Sauces,47,10.84,509.65,12
+2023-11-27,Customer_026,Frozen Items,34,39.17,1331.64,12
+2023-11-27,Customer_027,Chicken Dips,5,28.08,140.39,12
+2023-11-27,Customer_027,Cheese Dips,15,41.58,623.67,12
+2023-11-27,Customer_027,Drinks,11,40.17,441.82,12
+2023-11-27,Customer_027,Sauces,16,41.41,662.62,12
+2023-11-27,Customer_027,Frozen Items,21,43.29,909.06,12
+2023-11-27,Customer_028,Chicken Dips,15,33.82,507.3,12
+2023-11-27,Customer_028,Cheese Dips,31,24.44,757.63,12
+2023-11-27,Customer_028,Drinks,42,6.5,273.17,12
+2023-11-27,Customer_028,Sauces,39,12.49,487.21,12
+2023-11-27,Customer_028,Frozen Items,9,12.92,116.24,12
+2023-11-27,Customer_029,Chicken Dips,34,32.96,1120.48,12
+2023-11-27,Customer_029,Cheese Dips,45,26.76,1204.24,12
+2023-11-27,Customer_029,Drinks,29,11.49,333.23,12
+2023-11-27,Customer_029,Sauces,40,48.92,1956.95,12
+2023-11-27,Customer_029,Frozen Items,47,46.03,2163.43,12
+2023-11-27,Customer_030,Chicken Dips,14,16.4,229.63,12
+2023-11-27,Customer_030,Cheese Dips,50,20.78,1039.25,12
+2023-11-27,Customer_030,Drinks,28,38.97,1091.08,12
+2023-11-27,Customer_030,Sauces,37,46.02,1702.87,12
+2023-11-27,Customer_030,Frozen Items,16,23.25,371.94,12
+2023-11-27,Customer_031,Chicken Dips,40,5.1,204.18,12
+2023-11-27,Customer_031,Cheese Dips,7,18.27,127.87,12
+2023-11-27,Customer_031,Drinks,30,7.5,224.85,12
+2023-11-27,Customer_031,Sauces,33,16.35,539.7,12
+2023-11-27,Customer_031,Frozen Items,3,16.65,49.96,12
+2023-11-27,Customer_032,Chicken Dips,41,45.31,1857.78,12
+2023-11-27,Customer_032,Cheese Dips,48,47.63,2286.17,12
+2023-11-27,Customer_032,Drinks,6,45.81,274.89,12
+2023-11-27,Customer_032,Sauces,33,15.04,496.28,12
+2023-11-27,Customer_032,Frozen Items,30,25.38,761.39,12
+2023-11-27,Customer_033,Chicken Dips,46,13.56,623.77,12
+2023-11-27,Customer_033,Cheese Dips,43,26.11,1122.63,12
+2023-11-27,Customer_033,Drinks,21,18.67,392.03,12
+2023-11-27,Customer_033,Sauces,34,20.11,683.59,12
+2023-11-27,Customer_033,Frozen Items,16,9.71,155.36,12
+2023-11-27,Customer_034,Chicken Dips,19,9.83,186.68,12
+2023-11-27,Customer_034,Cheese Dips,18,33.95,611.18,12
+2023-11-27,Customer_034,Drinks,17,29.52,501.91,12
+2023-11-27,Customer_034,Sauces,13,41.97,545.56,12
+2023-11-27,Customer_034,Frozen Items,0,21.47,0.0,12
+2023-11-27,Customer_035,Chicken Dips,27,35.47,957.71,12
+2023-11-27,Customer_035,Cheese Dips,18,5.8,104.31,12
+2023-11-27,Customer_035,Drinks,45,12.75,573.7,12
+2023-11-27,Customer_035,Sauces,2,45.09,90.19,12
+2023-11-27,Customer_035,Frozen Items,40,42.46,1698.3,12
+2023-11-27,Customer_036,Chicken Dips,5,12.36,61.81,12
+2023-11-27,Customer_036,Cheese Dips,10,5.31,53.08,12
+2023-11-27,Customer_036,Drinks,26,49.35,1283.15,12
+2023-11-27,Customer_036,Sauces,14,10.93,153.04,12
+2023-11-27,Customer_036,Frozen Items,38,40.94,1555.53,12
+2023-11-27,Customer_037,Chicken Dips,22,43.57,958.53,12
+2023-11-27,Customer_037,Cheese Dips,25,33.38,834.46,12
+2023-11-27,Customer_037,Drinks,32,8.52,272.75,12
+2023-11-27,Customer_037,Sauces,12,47.13,565.54,12
+2023-11-27,Customer_037,Frozen Items,8,47.88,383.02,12
+2023-11-27,Customer_038,Chicken Dips,40,38.18,1527.38,12
+2023-11-27,Customer_038,Cheese Dips,31,26.33,816.34,12
+2023-11-27,Customer_038,Drinks,24,17.06,409.44,12
+2023-11-27,Customer_038,Sauces,48,5.17,248.0,12
+2023-11-27,Customer_038,Frozen Items,12,37.45,449.37,12
+2023-11-27,Customer_039,Chicken Dips,43,37.37,1607.02,12
+2023-11-27,Customer_039,Cheese Dips,4,33.2,132.82,12
+2023-11-27,Customer_039,Drinks,10,9.3,93.0,12
+2023-11-27,Customer_039,Sauces,42,15.58,654.21,12
+2023-11-27,Customer_039,Frozen Items,18,23.23,418.21,12
+2023-11-27,Customer_040,Chicken Dips,7,5.76,40.33,12
+2023-11-27,Customer_040,Cheese Dips,0,12.98,0.0,12
+2023-11-27,Customer_040,Drinks,15,8.46,126.84,12
+2023-11-27,Customer_040,Sauces,13,48.45,629.79,12
+2023-11-27,Customer_040,Frozen Items,29,39.65,1149.88,12
+2023-11-27,Customer_041,Chicken Dips,35,11.11,388.8,12
+2023-11-27,Customer_041,Cheese Dips,40,7.78,311.17,12
+2023-11-27,Customer_041,Drinks,0,18.47,0.0,12
+2023-11-27,Customer_041,Sauces,19,17.23,327.32,12
+2023-11-27,Customer_041,Frozen Items,3,14.17,42.51,12
+2023-11-27,Customer_042,Chicken Dips,51,20.4,1040.41,12
+2023-11-27,Customer_042,Cheese Dips,27,33.34,900.07,12
+2023-11-27,Customer_042,Drinks,39,36.9,1439.23,12
+2023-11-27,Customer_042,Sauces,11,49.38,543.16,12
+2023-11-27,Customer_042,Frozen Items,37,7.45,275.49,12
+2023-11-27,Customer_043,Chicken Dips,4,8.15,32.61,12
+2023-11-27,Customer_043,Cheese Dips,18,34.61,622.94,12
+2023-11-27,Customer_043,Drinks,17,15.97,271.44,12
+2023-11-27,Customer_043,Sauces,41,25.06,1027.66,12
+2023-11-27,Customer_043,Frozen Items,32,37.93,1213.9,12
+2023-11-27,Customer_044,Chicken Dips,12,38.88,466.54,12
+2023-11-27,Customer_044,Cheese Dips,39,10.75,419.31,12
+2023-11-27,Customer_044,Drinks,10,29.07,290.66,12
+2023-11-27,Customer_044,Sauces,23,26.35,606.14,12
+2023-11-27,Customer_044,Frozen Items,17,24.44,415.53,12
+2023-11-27,Customer_045,Chicken Dips,24,45.1,1082.3,12
+2023-11-27,Customer_045,Cheese Dips,32,37.17,1189.53,12
+2023-11-27,Customer_045,Drinks,14,45.96,643.44,12
+2023-11-27,Customer_045,Sauces,6,11.49,68.96,12
+2023-11-27,Customer_045,Frozen Items,22,6.3,138.51,12
+2023-11-27,Customer_046,Chicken Dips,33,17.47,576.56,12
+2023-11-27,Customer_046,Cheese Dips,3,20.54,61.61,12
+2023-11-27,Customer_046,Drinks,26,44.69,1161.91,12
+2023-11-27,Customer_046,Sauces,43,13.66,587.19,12
+2023-11-27,Customer_046,Frozen Items,25,43.87,1096.76,12
+2023-11-27,Customer_047,Chicken Dips,18,5.86,105.47,12
+2023-11-27,Customer_047,Cheese Dips,3,5.9,17.7,12
+2023-11-27,Customer_047,Drinks,15,28.63,429.48,12
+2023-11-27,Customer_047,Sauces,15,24.02,360.31,12
+2023-11-27,Customer_047,Frozen Items,27,44.51,1201.74,12
+2023-11-27,Customer_048,Chicken Dips,6,15.49,92.92,12
+2023-11-27,Customer_048,Cheese Dips,46,22.23,1022.61,12
+2023-11-27,Customer_048,Drinks,39,15.65,610.44,12
+2023-11-27,Customer_048,Sauces,43,42.35,1820.93,12
+2023-11-27,Customer_048,Frozen Items,47,31.89,1498.99,12
+2023-11-27,Customer_049,Chicken Dips,9,7.38,66.43,12
+2023-11-27,Customer_049,Cheese Dips,27,33.21,896.57,12
+2023-11-27,Customer_049,Drinks,3,24.87,74.6,12
+2023-11-27,Customer_049,Sauces,5,46.25,231.27,12
+2023-11-27,Customer_049,Frozen Items,16,37.34,597.46,12

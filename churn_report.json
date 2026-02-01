@@ -1,0 +1,143 @@
+{
+  "generated_at": "2026-02-01T01:26:23.317391",
+  "summary": {
+    "total_customers": 50,
+    "high_risk_count": 5,
+    "medium_risk_count": 6,
+    "avg_risk_score": 17.198600000000003
+  },
+  "high_risk_customers": [
+    {
+      "customer_id": "Customer_002",
+      "avg_spending": 4224.304166666667,
+      "spending_trend": -231.75968531468567,
+      "spending_volatility": 1244.5861474231663,
+      "recent_vs_historical_pct": -45.580785104373724,
+      "zero_spending_months": 0,
+      "total_months": 12,
+      "latest_spending": 2807.5299999999997,
+      "first_spending": 4418.16,
+      "churn_risk_score": 100.0,
+      "trend_risk": 2.206639899283291,
+      "decline_risk": 1.810163510136953,
+      "inactivity_risk": 0.0,
+      "volatility_risk": 2.004620370037719,
+      "risk_level": "High Risk"
+    },
+    {
+      "customer_id": "Customer_006",
+      "avg_spending": 4225.650000000001,
+      "spending_trend": -219.82426573426574,
+      "spending_volatility": 1180.1691714326382,
+      "recent_vs_historical_pct": -42.43900983226103,
+      "zero_spending_months": 0,
+      "total_months": 12,
+      "latest_spending": 3167.4700000000003,
+      "first_spending": 4365.25,
+      "churn_risk_score": 91.35,
+      "trend_risk": 2.062821048274318,
+      "decline_risk": 1.6495227848514304,
+      "inactivity_risk": 0.0,
+      "volatility_risk": 1.681223725849147,
+      "risk_level": "High Risk"
+    },
+    {
+      "customer_id": "Customer_001",
+      "avg_spending": 3346.4650000000006,
+      "spending_trend": -199.56860139860146,
+      "spending_volatility": 1048.4397355078006,
+      "recent_vs_historical_pct": -39.30543346206652,
+      "zero_spending_months": 0,
+      "total_months": 12,
+      "latest_spending": 2190.87,
+      "first_spending": 4843.21,
+      "churn_risk_score": 78.43,
+      "trend_risk": 1.8187453078656863,
+      "decline_risk": 1.4893012740025267,
+      "inactivity_risk": 0.0,
+      "volatility_risk": 1.019894055154731,
+      "risk_level": "High Risk"
+    },
+    {
+      "customer_id": "Customer_027",
+      "avg_spending": 3080.2916666666665,
+      "spending_trend": -224.20000000000005,
+      "spending_volatility": 971.34658144277,
+      "recent_vs_historical_pct": -38.636934470784965,
+      "zero_spending_months": 0,
+      "total_months": 12,
+      "latest_spending": 2777.56,
+      "first_spending": 4780.09,
+      "churn_risk_score": 77.8,
+      "trend_risk": 2.1155475628453586,
+      "decline_risk": 1.4551205470214097,
+      "inactivity_risk": 0.0,
+      "volatility_risk": 0.0,
+      "risk_level": "High Risk"
+    },
+    {
+      "customer_id": "Customer_005",
+      "avg_spending": 3776.3350000000005,
+      "spending_trend": -188.7541958041958,
+      "spending_volatility": 1260.2563466777965,
+      "recent_vs_historical_pct": -32.09776741037623,
+      "zero_spending_months": 0,
+      "total_months": 12,
+      "latest_spending": 1318.24,
+      "first_spending": 4941.17,
+      "churn_risk_score": 74.18,
+      "trend_risk": 1.6884343978509329,
+      "decline_risk": 1.1207692811395324,
+      "inactivity_risk": 0.0,
+      "volatility_risk": 2.0832904686381073,
+      "risk_level": "High Risk"
+    }
+  ],
+  "retention_strategies": [
+    {
+      "customer_id": "Customer_002",
+      "risk_level": "High Risk",
+      "risk_score": 100.0,
+      "products_at_risk": "Chicken Dips, Cheese Dips, Sauces, Frozen Items",
+      "recommended_discount_pct": 15,
+      "action": "Proactive outreach with 15% discount on lost products",
+      "priority": "URGENT"
+    },
+    {
+      "customer_id": "Customer_006",
+      "risk_level": "High Risk",
+      "risk_score": 91.35,
+      "products_at_risk": "Chicken Dips, Cheese Dips, Drinks, Sauces, Frozen Items",
+      "recommended_discount_pct": 15,
+      "action": "Proactive outreach with 15% discount on lost products",
+      "priority": "URGENT"
+    },
+    {
+      "customer_id": "Customer_001",
+      "risk_level": "High Risk",
+      "risk_score": 78.43,
+      "products_at_risk": "Chicken Dips, Cheese Dips, Drinks, Sauces, Frozen Items",
+      "recommended_discount_pct": 15,
+      "action": "Proactive outreach with 15% discount on lost products",
+      "priority": "URGENT"
+    },
+    {
+      "customer_id": "Customer_027",
+      "risk_level": "High Risk",
+      "risk_score": 77.8,
+      "products_at_risk": "Chicken Dips, Cheese Dips, Drinks, Sauces, Frozen Items",
+      "recommended_discount_pct": 15,
+      "action": "Proactive outreach with 15% discount on lost products",
+      "priority": "URGENT"
+    },
+    {
+      "customer_id": "Customer_005",
+      "risk_level": "High Risk",
+      "risk_score": 74.18,
+      "products_at_risk": "Chicken Dips, Cheese Dips, Drinks, Sauces, Frozen Items",
+      "recommended_discount_pct": 12,
+      "action": "Proactive outreach with 12% discount on lost products",
+      "priority": "URGENT"
+    }
+  ]
+}
