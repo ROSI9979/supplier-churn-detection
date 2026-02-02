@@ -21,6 +21,8 @@ st.markdown("""
 try:
     with open('churn_report.json') as f:
         data = json.load(f)
+    with open('real_food_supplier_data.json') as f:
+        customers_data = json.load(f)
 except:
     st.error("Error loading data")
     st.stop()
@@ -120,7 +122,7 @@ with tab1:
                 with col3:
                     st.markdown(f"<p style='margin: 0; font-size: 0.9rem; color: #666;'>Revenue at Risk</p><h3 style='margin: 0; color: #dc2626;'>£{row.get('clv', 0):,.0f}</h3>", unsafe_allow_html=True)
                 
-                with st.expander("📋 View Details"):
+                with st.expander("📋 View Full Details & Products"):
                     det_col1, det_col2, det_col3, det_col4, det_col5 = st.columns(5)
                     with det_col1:
                         st.metric("⏰ Churn In", f"{row.get('days_until_churn', '?')} days")
@@ -134,13 +136,48 @@ with tab1:
                         st.metric("📈 ROI", f"{row.get('retention_roi', 0):,.0f}%")
                     
                     st.divider()
+                    
+                    # PRODUCTS AT RISK
+                    st.write("**📦 Products at Risk of Being Lost:**")
+                    
+                    # Find customer in original data to get actual products
+                    customer_id = row['customer_id']
+                    customer_products = []
+                    
+                    for cust in customers_data:
+                        if cust['customer_id'] == customer_id:
+                            # Get products from transactions
+                            all_products = set()
+                            for trans in cust.get('transactions', []):
+                                if 'products_ordered' in trans:
+                                    all_products.update(trans['products_ordered'])
+                            customer_products = list(all_products) if all_products else ['Cheese Dips', 'Chicken Dips', 'Drinks', 'Sauces', 'Frozen Items']
+                            break
+                    
+                    if not customer_products:
+                        customer_products = ['Cheese Dips', 'Chicken Dips', 'Drinks', 'Sauces', 'Frozen Items']
+                    
+                    # Display products as badges
+                    product_cols = st.columns(len(customer_products))
+                    for idx_p, (col_p, product) in enumerate(zip(product_cols, customer_products)):
+                        with col_p:
+                            st.markdown(f"""
+                            <div style='background: #dbeafe; padding: 1rem; border-radius: 8px; text-align: center; border-left: 4px solid #3b82f6;'>
+                                <p style='margin: 0; font-size: 0.9rem;'>📦 {product}</p>
+                                <p style='margin: 0.5rem 0; font-weight: bold; color: #dc2626;'>AT RISK</p>
+                                <p style='margin: 0; font-size: 0.8rem; color: #666;'>Annual: £{int(row.get('avg_spending', 0) / len(customer_products)):,}</p>
+                            </div>
+                            """, unsafe_allow_html=True)
+                    
+                    st.divider()
+                    
                     col_a, col_b = st.columns(2)
                     with col_a:
                         st.write("**Customer Info**")
-                        st.info(f"📅 Churn Date: {row.get('predicted_churn_date', 'N/A')}\n📊 Trend: {row.get('spending_trend', 0):.1f}%\n💼 Type: {row.get('business_type', 'N/A')}")
+                        st.info(f"📅 Churn Date: {row.get('predicted_churn_date', 'N/A')}\n📊 Trend: {row.get('spending_trend', 0):.1f}%\n💼 Type: {row.get('business_type', 'N/A')}\n📍 Region: {row.get('region', 'N/A')}")
                     with col_b:
                         st.write("**Retention Plan**")
-                        st.success(f"💰 Discount: {row.get('recommended_discount_pct', 0)}%\n🎯 Action: {row.get('action', 'Monitor')}\n✅ Expected: Save customer")
+                        st.success(f"💰 Discount: {row.get('recommended_discount_pct', 0)}%\n🎯 Action: {row.get('action', 'Monitor')}\n📦 Save {len(customer_products)} products\n✅ Expected: Retain customer")
                 
                 st.divider()
     else:
@@ -182,32 +219,51 @@ with tab2:
             st.plotly_chart(fig4, use_container_width=True)
 
 with tab3:
-    st.subheader("📦 Product-Level Analysis")
+    st.subheader("📦 Product-Level Risk Analysis")
     
-    products = st.multiselect(
-        "Select Products:",
-        ['Cheese Dips', 'Chicken Dips', 'Drinks', 'Sauces', 'Frozen Items'],
-        default=['Cheese Dips', 'Chicken Dips', 'Drinks', 'Sauces', 'Frozen Items']
-    )
+    # Aggregate products across all at-risk customers
+    all_products_at_risk = {}
     
-    if products:
+    for _, customer in filtered_df.iterrows():
+        customer_id = customer['customer_id']
+        for cust in customers_data:
+            if cust['customer_id'] == customer_id:
+                for trans in cust.get('transactions', []):
+                    if 'products_ordered' in trans:
+                        for product in trans['products_ordered']:
+                            if product not in all_products_at_risk:
+                                all_products_at_risk[product] = {'count': 0, 'revenue': 0}
+                            all_products_at_risk[product]['count'] += 1
+                            all_products_at_risk[product]['revenue'] += customer.get('avg_spending', 0) / 5
+    
+    if all_products_at_risk:
+        product_df = pd.DataFrame([
+            {'Product': prod, 'Customers': data['count'], 'Revenue': data['revenue']}
+            for prod, data in all_products_at_risk.items()
+        ])
+        
         col1, col2, col3 = st.columns(3)
         with col1:
-            st.metric("🛒 Products", len(products))
+            st.metric("📦 Products at Risk", len(product_df))
         with col2:
-            st.metric("👥 Customers", len(filtered_df))
+            st.metric("👥 Customer Impact", len(filtered_df))
         with col3:
-            st.metric("💰 Total Risk", f"£{filtered_df['clv'].sum():,.0f}")
+            st.metric("💰 Revenue Impact", f"£{product_df['Revenue'].sum():,.0f}")
         
         st.divider()
-        st.write("**Products by Risk Exposure**")
-        product_df = pd.DataFrame({
-            'Product': products,
-            'Risk': [len(filtered_df)] * len(products),
-            'Revenue': [filtered_df['clv'].sum() / len(products)] * len(products)
-        })
-        fig = px.bar(product_df, x='Product', y='Revenue', color='Risk', color_continuous_scale='Blues')
-        st.plotly_chart(fig, use_container_width=True)
+        
+        st.write("**Products Ranked by Risk Exposure**")
+        product_df_sorted = product_df.sort_values('Revenue', ascending=False)
+        
+        for idx, row_p in product_df_sorted.iterrows():
+            col_a, col_b, col_c = st.columns([1, 3, 1])
+            with col_a:
+                st.markdown(f"<div style='background: #fecaca; padding: 1rem; border-radius: 8px; text-align: center;'><h3 style='margin: 0;'>{row_p['Customers']:.0f}</h3><p style='margin: 0; font-size: 0.8rem;'>Customers</p></div>", unsafe_allow_html=True)
+            with col_b:
+                st.markdown(f"<h4 style='margin: 0;'>📦 {row_p['Product']}</h4><p style='margin: 0.5rem 0; color: #666;'>At risk from {row_p['Customers']:.0f} customers</p>", unsafe_allow_html=True)
+            with col_c:
+                st.markdown(f"<div style='background: #dcfce7; padding: 1rem; border-radius: 8px; text-align: center;'><h3 style='margin: 0; color: #dc2626;'>£{row_p['Revenue']:,.0f}</h3><p style='margin: 0; font-size: 0.8rem;'>Revenue</p></div>", unsafe_allow_html=True)
+            st.divider()
 
 with tab4:
     st.subheader("💡 Retention Strategies")
@@ -232,7 +288,7 @@ with tab5:
     
     with col1:
         st.write("**About This System**")
-        st.info("🎯 AI-Powered Churn Detection\n\n✅ Real-time risk scoring\n✅ Churn date prediction\n✅ CLV calculation\n✅ ROI-based strategies")
+        st.info("🎯 AI-Powered Churn Detection\n\n✅ Real-time risk scoring\n✅ Churn date prediction\n✅ CLV calculation\n✅ ROI-based strategies\n✅ Product-level analysis")
     
     with col2:
         st.write("**Performance**")
