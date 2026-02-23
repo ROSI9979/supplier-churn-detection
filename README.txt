@@ -282,9 +282,3 @@ For architecture:
 
 ═════════════════════════════════════════════════════════════════════════════
 
-              You've built something genuinely impressive! 🎉
-           This is professional-grade data engineering work.
-
-                         Good luck! 🚀
-
-═════════════════════════════════════════════════════════════════════════════
